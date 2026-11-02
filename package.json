@@ -1,0 +1,27 @@
+{
+  "name": "product-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "extract-data": "node dist/index.js --config config/default.json --sku",
+    "gen-at-a-glance": "node dist/index.js --config config/default.json --at-a-glance",
+    "gen-brochure": "node dist/index.js --config config/default.json --data",
+    "gen-departure": "node dist/index.js --config config/default.json --departure"
+  },
+  "dependencies": {
+    "@cursor/sdk": "^1.0.32",
+    "@xmldom/xmldom": "^0.9.12",
+    "jszip": "^3.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "partner_url": [
+    {"SKU": "ABCDEFG1111", "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm"},
+    {"SKU": "ABCDEFG2222", "url": "https://agents.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677"},
+    {"SKU": "ABCDEFG3333", "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"},
+    {"SKU": "ABCDEFG4444", "url": "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8"},
+    {"SKU": "ABCDEFG5555", "url": "https://www.taswalkingco.com.au/bay-of-fires-lodge-walk/signature/"}
+  ],
+  "cursor": {
+    "modelId": "claude-opus-5-5"
+  },
+  "browser": {
+    "timeoutMs": 30000
+  },
+  "output": {
+    "partner_data_path": "output/partner-data/",
+    "partner_product_path": "output/partner-product/"
+  },
+  "template": {
+    "partner_product_template": "template/ABCDEFG1111-template.docx"
+  },
+  "prompts": {
+    "product_generation_prompt": "requirement/requirements-customer-content.md",
+    "product_data_extraction_prompt": "requirement/requirements-data-extraction.md",
+    "at_a_glance_prompt": "requirement/requirements-At-A-Glance.md",
+    "departure_inventory_prompt": "requirement/requirements-departure-inventory.md"
+  }
+}
