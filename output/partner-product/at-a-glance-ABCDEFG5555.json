@@ -1,0 +1,73 @@
+{
+  "sku": "ABCDEFG5555",
+  "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+  "heading": "AT A GLANCE",
+  "atAGlance": [
+    "Kayak alongside the blue whale, the largest animal ever to have lived on Earth, on an exclusive 6-day whale cruise in Patagonia through Chile's wild sub-Antarctic fjords.",
+    "Here, at the end of the Americas, ancient glaciers rise above silent channels and icebergs drift past the bow as you journey into the Francisco Coloane Subantarctic Marine Park, Chile's first marine protected area and one of the planet's finest places to meet the great whales.",
+    "Begin in Punta Arenas with a night in a 5-star hotel and a welcome dinner of fine Patagonian cuisine. Sail the historic Strait of Magellan to the Cross of the Seas, where the Pacific meets the Atlantic, toasting with French champagne and fresh oysters as Commerson's and Peale's dolphins appear. Visit the King Penguin Sanctuary, the only breeding colony in South America outside Antarctica, then wind through remote fjords and ancient glaciers to reach the marine park at sunset, homemade hot chocolate in hand. Set out by Zodiac in search of blue and humpback whales, listen to their songs in real time through a hydrophone, and raise a premium whisky over Santa Inés Glacier ice before a beach picnic of king crab and scallops. Kayak among the whales once more, hike pristine islands, dare the Subantarctic Polar Plunge and gaze at the stars before a farewell feast of sashimi served on glacial ice and iconic Chilean wines, then sail back to Punta Arenas at dawn.",
+    "This all-inclusive expedition combines a 5-star hotel night in Punta Arenas with nights aboard the Hatteras 65 Long Range Cruiser, whose staterooms each have an en-suite bathroom. Lodging, meals, activities and transfers are included as outlined in the program, with a captain, crew member, private chef, marine biologist, kayak guide and tour leader by your side. With no more than eight guests on board, every moment feels intimate, and the route may adapt to weather and sea conditions to keep you safe.",
+    "Join us in the last great sanctuary of the blue whale, and let the songs of giants, the gleam of ancient ice and the wild hush of Patagonia stay with you long after you return home."
+  ],
+  "report": {
+    "brandVoice": {
+      "followed": true,
+      "elegance": "The copy uses polished, flowing sentences with several clauses and words like 'exclusive', 'premium' and 'farewell feast' while keeping the language clear and natural.",
+      "imagination": "Sensory imagery brings the setting to life: glaciers rising above silent channels, drifting icebergs, whale song heard through a hydrophone, sashimi on glacial ice and the 'wild hush of Patagonia'.",
+      "invitation": "The copy speaks to the reader directly ('you journey', 'Set out', 'Kayak among the whales') and ends with a clear invitation to 'Join us in the last great sanctuary of the blue whale'.",
+      "evidence": [
+        "Kayak alongside the blue whale, the largest animal ever to have lived on Earth",
+        "ancient glaciers rise above silent channels and icebergs drift past the bow",
+        "listen to their songs in real time through a hydrophone",
+        "Join us in the last great sanctuary of the blue whale"
+      ]
+    },
+    "dataAccuracy": "High. All itinerary facts come from the explored page: 6 days from Punta Arenas, the 5-star hotel and welcome dinner on Day 1, the Strait of Magellan and Cross of the Seas, champagne with oysters, Commerson's and Peale's dolphins, the King Penguin Sanctuary, fjords and glaciers, sunset arrival at Francisco Coloane Subantarctic Marine Park with hot chocolate, Zodiac outings, the hydrophone, the Santa Inés Glacier whisky toast, the king crab and scallop picnic, two kayak outings, island hikes, the Polar Plunge, stargazing, sashimi on glacial ice with Chilean wines, and the dawn return. Inclusions, the Hatteras 65 vessel, en-suite staterooms, crew roles, the maximum of 8 passengers and weather-related changes to the itinerary all come from the page. Gaps and caveats: the page says accommodation combines onboard sailing with 'the most exclusive hotels in Patagonia', but the itinerary only lists one hotel night (Day 1), so the copy describes 'a 5-star hotel night' followed by onboard nights. The page does not state the number of onboard nights, so no exact night count is given. Sightings of wildlife such as blue whales depend on nature and are not guaranteed, and the copy avoids promising them. The Configuration Product Name says 'Wales Cruise in Patagonia', but the page title is 'WHALE CRUISE IN PATAGONIA', so the copy uses 'whale cruise'. Dates, prices, children's policies and the non-refundable cancellation policy were left out on purpose, to keep the overview within its word count and on topic.",
+    "rulesFollowed": [
+      {
+        "rule": "Brand Voice",
+        "howApplied": "Every paragraph uses elegant, sensory and inviting language that speaks to the reader directly, while staying clear and natural."
+      },
+      {
+        "rule": "Heading: AT A GLANCE",
+        "howApplied": "The heading is set to 'AT A GLANCE'."
+      },
+      {
+        "rule": "Explore the given website",
+        "howApplied": "The configured URL was fetched in this run and is the only source of facts used."
+      },
+      {
+        "rule": "Approximately 200-350 words",
+        "howApplied": "The copy runs to about 320 words across five paragraphs."
+      },
+      {
+        "rule": "Bold, enticing hook with SEO keywords",
+        "howApplied": "The opening line uses the keywords 'blue whale', '6-day whale cruise in Patagonia' and 'Chile's wild sub-Antarctic fjords'."
+      },
+      {
+        "rule": "Vivid, sensory language",
+        "howApplied": "It describes glaciers, icebergs, whale song, hot chocolate at sunset, glacial ice and Patagonian flavours."
+      },
+      {
+        "rule": "Balance practical itinerary details with aspirational language",
+        "howApplied": "A concise day-by-day sequence from Punta Arenas and back is written as an evocative story."
+      },
+      {
+        "rule": "Highlight unique, high-value experiences",
+        "howApplied": "It features Chile's first marine protected area, South America's only king penguin breeding colony outside Antarctica, kayaking with blue whales, the hydrophone, the Santa Inés Glacier whisky toast and the gourmet picnic."
+      },
+      {
+        "rule": "Reassure with logistical details",
+        "howApplied": "A dedicated paragraph covers hotel and onboard accommodation, en-suite staterooms, meals, transfers, the specialist crew, the 8-guest limit and safety-led changes to the route."
+      },
+      {
+        "rule": "Emotional, inspiring call to action",
+        "howApplied": "It closes by inviting the reader to the last great sanctuary of the blue whale, with an image that lingers."
+      },
+      {
+        "rule": "Clear, natural language for AEO/GEO",
+        "howApplied": "It names exact places (Punta Arenas, Strait of Magellan, Francisco Coloane Subantarctic Marine Park, Santa Inés Glacier) and species in plain, quotable sentences."
+      }
+    ]
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "product": {
+    "sku": "ABCDEFG4444",
+    "travelPartner": "Viator",
+    "primaryProductUrl": "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+    "researchDate": "2026-10-11",
+    "overallStatus": "Incomplete"
+  },
+  "summary": {
+    "found": 0,
+    "partiallyFound": 0,
+    "notFound": 26,
+    "conflicting": 0,
+    "notApplicable": 3,
+    "total": 29
+  },
+  "fields": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The product page could not be retrieved, so the pricing basis (per person, per group, occupancy) is unknown. The specification says this may also need internal commercial data."
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The product page could not be retrieved. The URL slug mentions 'Gero' and 'Hida', but the URL is not product content, so the meeting point was not taken from it."
+    },
+    {
+      "fieldId": "SET-00",
+      "fieldName": "Settings",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading; no partner data required."
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Product page inaccessible. Left blank as the specification requires."
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Product page inaccessible. Left blank as the specification requires."
+    },
+    {
+      "fieldId": "SET-03",
+      "fieldName": "What to Carry",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Luggage and support arrangements could not be checked. No classification was assigned."
+    },
+    {
+      "fieldId": "SET-04",
+      "fieldName": "Trip Style",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Whether a guide is present could not be checked. No classification was assigned."
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No distance, elevation, terrain or fitness information could be retrieved."
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The URL slug suggests a half-day tour, which may mean no accommodation. That could not be checked, so the field was not marked Not applicable."
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Activities and themes could not be checked from partner content."
+    },
+    {
+      "fieldId": "SELL-01",
+      "fieldName": "Trip highlights",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No overview or highlights content could be retrieved."
+    },
+    {
+      "fieldId": "INC-01",
+      "fieldName": "WHAT'S INCLUDED",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Inclusions and exclusions could not be retrieved. No inclusions were inferred."
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The itinerary and day count could not be checked. One day of placeholders (Day 1) is included because the slug says 'Half-Day'; the actual day count is unconfirmed. Itinerary generation should be blocked."
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No itinerary content retrieved. No inferred title was generated because there are no facts to base it on."
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No route level, distance, duration or elevation data retrieved."
+    },
+    {
+      "fieldId": "ITI-1-03",
+      "fieldName": "Walking summary",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No walking information retrieved."
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No itinerary narrative retrieved."
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Overnight arrangements could not be checked. 'None' was not used because it is unconfirmed."
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Included meals could not be checked. 'None' was not used because it is unconfirmed."
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Supplier terms or cancellation wording could not be retrieved. An approved disclaimer is needed."
+    },
+    {
+      "fieldId": "META-00",
+      "fieldName": "Meta info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading; no partner data required."
+    },
+    {
+      "fieldId": "META-01",
+      "fieldName": "Meta Title",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Derived field. The product attributes it depends on (duration, destination, activity, guidance style) were not confirmed."
+    },
+    {
+      "fieldId": "META-02",
+      "fieldName": "Meta Description",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Derived field. Overview, highlights and itinerary were not available."
+    },
+    {
+      "fieldId": "MORE-00",
+      "fieldName": "more info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading; no partner data required."
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Meeting point, start time, end point and transport information could not be retrieved."
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No supplier weather notes retrieved. No external climate source is authorised."
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No activity level, distance or terrain information retrieved."
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The slug mentions 'E-Bike', but bike type, specifications, availability and minimum-age rules could not be checked from page content."
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "Fitness, accessibility, age, cancellation and other booking-critical information could not be retrieved."
+    }
+  ],
+  "issues": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Not found",
+      "issue": "Pricing basis unavailable because the product page could not be retrieved.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Not found",
+      "issue": "Meeting or start point unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Not found",
+      "issue": "Maximum group size unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "issue": "Minimum operating size unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-03",
+      "fieldName": "What to Carry",
+      "status": "Not found",
+      "issue": "Carrying and luggage arrangements unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-04",
+      "fieldName": "Trip Style",
+      "status": "Not found",
+      "issue": "Guide and support arrangements unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Not found",
+      "issue": "Difficulty evidence unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Not found",
+      "issue": "Unknown whether accommodation is part of the product; unconfirmed.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Not found",
+      "issue": "Activities and themes unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SELL-01",
+      "fieldName": "Trip highlights",
+      "status": "Not found",
+      "issue": "No overview or highlights content available.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "INC-01",
+      "fieldName": "WHAT'S INCLUDED",
+      "status": "Not found",
+      "issue": "Inclusions and exclusions unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Not found",
+      "issue": "Itinerary and day count unavailable; itinerary generation blocked.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Not found",
+      "issue": "No itinerary heading available.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "issue": "No route metrics available.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-1-03",
+      "fieldName": "Walking summary",
+      "status": "Not found",
+      "issue": "No walking information available.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Not found",
+      "issue": "No itinerary narrative available.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Not found",
+      "issue": "Overnight arrangements unconfirmed.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "issue": "Included meals unconfirmed.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Not found",
+      "issue": "No supplier terms or approved disclaimer available.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "META-01",
+      "fieldName": "Meta Title",
+      "status": "Not found",
+      "issue": "The product attributes it depends on are unconfirmed.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "META-02",
+      "fieldName": "Meta Description",
+      "status": "Not found",
+      "issue": "Overview, highlights and itinerary unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Not found",
+      "issue": "Meeting point, times and transport logistics unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Not found",
+      "issue": "No supplier climate notes retrieved; no external source authorised.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "An authorised external source"
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Not found",
+      "issue": "No activity level, distance or terrain data available.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Not found",
+      "issue": "Bike type, specifications and minimum-age rules unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Not found",
+      "issue": "Fitness, accessibility, cancellation and other booking-critical information unavailable.",
+      "sourcesChecked": [
+        "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+        "https://travelagents.viator.com/tours/d50832-73612P8",
+        "https://www.viator.com/Gero/d50832-ttd"
+      ],
+      "requiredAction": "Additional partner research"
+    }
+  ],
+  "sources": [
+    {
+      "pageTitle": "Half-Day Rural E-Bike Tour in Hida (Viator travel agent site; title taken from URL slug, not page content)",
+      "url": "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+      "informationExtracted": "None",
+      "accessNotes": "Primary configured URL. The fetch timed out on two attempts, so no content was retrieved."
+    },
+    {
+      "pageTitle": "Half-Day Rural E-Bike Tour in Hida (Viator public site; title taken from URL slug, not page content)",
+      "url": "https://www.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+      "informationExtracted": "None",
+      "accessNotes": "Same product on the same partner's public domain, tried as a fallback. The fetch timed out."
+    },
+    {
+      "pageTitle": "Half-Day Rural E-Bike Tour in Hida (Viator Australia locale; title taken from URL slug, not page content)",
+      "url": "https://www.viator.com/en-AU/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+      "informationExtracted": "None",
+      "accessNotes": "Locale fallback for the same product. The fetch timed out."
+    },
+    {
+      "pageTitle": "Viator travel agent product short URL",
+      "url": "https://travelagents.viator.com/tours/d50832-73612P8",
+      "informationExtracted": "None",
+      "accessNotes": "Short-form product URL fallback. The fetch timed out."
+    },
+    {
+      "pageTitle": "Things to do in Gero (Viator destination page)",
+      "url": "https://www.viator.com/Gero/d50832-ttd",
+      "informationExtracted": "None",
+      "accessNotes": "The page responded but returned no readable content, most likely because it is rendered client-side or blocks automated access."
+    }
+  ],
+  "confidence": {
+    "score": 0,
+    "rating": "Low",
+    "pointsEarned": 0,
+    "maximumPoints": 26,
+    "supportingFactors": "None. No partner content could be retrieved, so no product facts were confirmed. The three structural fields (SET-00, META-00, MORE-00) are excluded from the calculation as Not applicable.",
+    "missingOrConflicting": "All 26 applicable fields are missing. The most important gaps are the meeting point and start time, duration and itinerary, guide arrangement, inclusions, e-bike details and minimum age, group size, difficulty, and the pricing basis. The URL slug suggests a half-day guided rural e-bike tour around Gero in Hida, Gifu, Japan, but this was not confirmed from page content and was not used as a value.",
+    "accessLimitations": "Every Viator product URL tried (travel agent site, public site, Australian locale and short URL) timed out. The Gero destination page returned empty content, likely because of bot protection or client-side rendering. Third-party sources were not used because none were authorised. To fix this, retry from a browser session or get the supplier's product sheet, then re-run the extraction. Viator is the listing platform; the actual tour operator's name was not identified."
+  }
+}

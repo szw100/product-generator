@@ -1,0 +1,1036 @@
+{
+  "product": {
+    "sku": "ABCDEFG1111",
+    "travelPartner": "Headwater",
+    "primaryProductUrl": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+    "researchDate": "2026-10-11",
+    "overallStatus": "Complete with gaps"
+  },
+  "summary": {
+    "found": 22,
+    "partiallyFound": 11,
+    "notFound": 5,
+    "conflicting": 1,
+    "notApplicable": 8,
+    "total": 47
+  },
+  "fields": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Found",
+      "value": {
+        "pricingBasis": "Per person",
+        "occupancyBasis": "Based on two people sharing",
+        "flightsIncluded": false,
+        "fromPrice": "4 nights from £1599 excluding flights",
+        "singleSupplement": "Single supplement from £487"
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Price header and pricing note below departure price list"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier wording: 'These prices are per person, based on two people sharing, excluding flights. Single supplement from £487.' The field label 'Unite Name' is assumed to mean 'Unit Name'. A per-person price fits a single-hotel, twin/double-sharing basis."
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Partially found",
+      "value": {
+        "startVenue": "La Villa Eugene (La Villa Eugène)",
+        "street": "Avenue de Champagne (no street number published)",
+        "city": "Epernay",
+        "region": "Champagne",
+        "country": "France"
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 1: Arrival in Epernay; hotel details"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Day 1 is 'Arrival in Epernay' and says 'You stay at Villa Eugene'. The hotel description places it on Avenue de Champagne. The page gives no street number, postcode or formal meeting point. A 'bike fitting and briefing at the start of your holiday' is included, but its location is not stated."
+    },
+    {
+      "fieldId": "SET-00",
+      "fieldName": "Settings",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading; there is no partner data to extract."
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The product is self-guided and the page publishes no maximum group size. Leave blank, as the specification requires."
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The product page gives no minimum number of travellers. Pricing assumes two people sharing, and a single supplement suggests solo bookings are possible, but no minimum is stated. The booking-conditions page could not be read."
+    },
+    {
+      "fieldId": "SET-03",
+      "fieldName": "What to Carry",
+      "status": "Found",
+      "value": "Day Pack",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip type panel ('4 nights, single centre'); bike section ('rear pannier and phone holder')"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Analyst classification. The supplier says 'On single centre holidays you stay at one hotel', and every day after Day 1 is a loop route from Epernay, so riders carry only day items. Bikes come with a rear pannier. The generic self-guided text mentions 'moving your luggage from hotel to hotel', which does not apply to a single-centre stay."
+    },
+    {
+      "fieldId": "SET-04",
+      "fieldName": "Trip Style",
+      "status": "Found",
+      "value": "Self Guided",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip type panel ('Self-guided cycling'); Inclusions"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The supplier labels the product 'Self-guided cycling'. Included support is limited to a bike fitting and briefing at the start and a navigation app. No on-trip or emergency support service is stated on the product page, so 'Self Guided (with Support)' was not chosen. Supplier confirmation of emergency support could change this classification."
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Partially found",
+      "value": [
+        "Moderate"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip type panel ('Activity level: 4'); Terrain; Day 2–4 headings"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "Analyst classification. Supplier grade: 'Activity level: 4' on Headwater's own scale, whose definition could not be accessed. Daily distances are 43–47 km (26.7–29.2 mi). Terrain notes say 'some longer days in the saddle with steady climbs, making it best suited to cyclists with a good level of fitness and experience of regular cycling'. No elevation data is published. 'Moderate' is a provisional mapping."
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "value": {
+        "controlledCategories": null,
+        "evidence": [
+          {
+            "nights": "1–4",
+            "property": "La Villa Eugene, Epernay",
+            "officialRating": "5-star",
+            "style": "Luxury hotel; restored 19th-century Mercier family residence in a private park on Avenue de Champagne"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Inclusions ('4 nights in 5-star accommodation'); Highlights; hotel details"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The property facts are verified. The template's accommodation taxonomy was not supplied with the specification, so no controlled category was assigned."
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "value": {
+        "controlledCategories": null,
+        "evidence": [
+          "Cycling",
+          "Wine and Champagne (cellar visits, tastings, vineyards)",
+          "UNESCO-listed Champagne wine-growing area",
+          "Villages and heritage (Hautvillers abbey, Ay Gothic church, Montebello castle)",
+          "Luxury accommodation"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip Details; Highlights; Days 1–4"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The template's Interest taxonomy was not supplied, so the themes found are listed without controlled categories. Cellar visits and tastings are part of the optional Visit package, not included."
+    },
+    {
+      "fieldId": "SELL-01",
+      "fieldName": "Trip highlights",
+      "status": "Found",
+      "value": [
+        "Explore Epernay, capital of Champagne (supplier highlight)",
+        "Discover this worldwide known vineyard and its quaint wine villages (supplier highlight)",
+        "Relax in a refined and elegant 5* hotel in the prestigious Champagne Avenue (supplier highlight)",
+        "Single base at La Villa Eugène, the restored 19th-century Mercier family residence in a private park",
+        "Cycle through the UNESCO-listed Champagne wine-growing area",
+        "Hautvillers, village of Dom Perignon and his burial place in the abbey",
+        "Marne Valley route to Ay, Conde sur Marne and the Montebello castle at Mareuil sur Ay",
+        "Grand Cru villages of the Cote des Blancs: Avize, Cramant, Mesnil-sur-Oger",
+        "Daily themes: Blanc de Noirs, Pinot Meunier and Blanc de Blancs champagne"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Highlights; Trip Details; Days 1–4; hotel details"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The first three items are verbatim supplier highlights; the rest are summarised from the itinerary. Champagne house visits and tastings belong to the optional Visit package and are not presented as included."
+    },
+    {
+      "fieldId": "INC-01",
+      "fieldName": "WHAT’S INCLUDED",
+      "status": "Found",
+      "value": {
+        "included": [
+          "4 nights in 5-star accommodation",
+          "All breakfasts",
+          "Bike fitting and briefing at the start of your holiday",
+          "Navigation app",
+          "Bike hire included (Giant Argento RS4 or equivalent, with relevant essentials, rear pannier and phone holder)"
+        ],
+        "excluded": [
+          "Flights",
+          "Travel insurance"
+        ],
+        "optionalOrAdditionalCost": [
+          "Visit package (visit of champagne house in Hautvillers and tasting, visit of Moet et Chandon in Epernay and tasting, champagne tasting at Chateau de Boursault)",
+          "E-bike upgrade",
+          "Flights from London or any available regional airport (onward rail included with flight-inclusive packages)",
+          "Airport parking and airport hotels",
+          "Priority at Security and Fast Track",
+          "Airport lounge access",
+          "Priority boarding and extra leg-room seats",
+          "Business/club/first class fares",
+          "Extra hotel nights at La Villa Eugene"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Inclusions; Exclusions; Options; bike section; Terrain; Travel Details; Extending your holiday"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Lunches, dinners and tastings are not listed as included. The e-bike is described only as 'offered as an upgrade' and its price is not published. The page does not say whether luggage transfers are included; with one hotel for the whole stay, none appear to be needed."
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Partially found",
+      "value": {
+        "duration": "4 nights",
+        "publishedDays": 4,
+        "days": [
+          "Day 1: Arrival in Epernay",
+          "Day 2: Loop to Hautvillers",
+          "Day 3: Loop to Marne Valley",
+          "Day 4: Loop to Cote de Blanc Vineyards"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Itinerary Days 1–4"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The supplier publishes 4 itinerary days for a 4-night holiday. No departure day (presumably Day 5) is published, so the day count does not fully match the duration. Fields are given only for the published days."
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Found",
+      "value": "Day 1: Arrival in Epernay",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 1 heading"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Arrival day; the supplier publishes no cycling route or metrics."
+    },
+    {
+      "fieldId": "ITI-1-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "The narrative suggests walking down the Avenue de Champagne, but gives no distance, time or elevation."
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Arrive in Epernay, a town entirely surrounded by vines",
+        "Walk down the Avenue de Champagne, lined with mansion facades occupied by famous Champagne Houses",
+        "Epernay competes for the title 'Capital of Champagne'; miles of underground galleries hold millions of bottles",
+        "Cellar visits to the largest champagne houses are described as among the highlights of the tour (cellar visits and tastings are in the optional Visit package)",
+        "Overnight at Villa Eugene"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 1 narrative; Options"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The timing of the bike fitting and briefing is not stated in the Day 1 narrative."
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5-star)",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 1 ('You stay at Villa Eugene'); hotel details"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The page includes 'All breakfasts' on a bed-and-breakfast basis but does not map meals to days. No Day 1 meal is confirmed, and 'None' is not explicitly verified."
+    },
+    {
+      "fieldId": "ITI-2-01",
+      "fieldName": "DAY 2 title",
+      "status": "Found",
+      "value": "Day 2: Loop to Hautvillers (43km/26.7mi)",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 2 heading"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-2-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": [
+        {
+          "option": "Loop to Hautvillers",
+          "distance": "43 km / 26.7 mi",
+          "level": null,
+          "activityTime": null,
+          "elevationGainLoss": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 2 heading"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Only one route and distance are published. The generic single-centre text mentions 'a range of routes so you can mix and match levels', but no alternative routes, levels, times or elevation are given for this day."
+    },
+    {
+      "fieldId": "ITI-2-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking alternative is published."
+    },
+    {
+      "fieldId": "ITI-2-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Theme: 'Blanc de Noirs' champagne made only from black grapes (Pinot Noir and/or Pinot Meunier)",
+        "Cycle routes bordered with vineyards, with views over the undulating Marne Valley",
+        "Reach Hautvillers, Dom Perignon's village, where the legend of Champagne was born; Dom Perignon is buried in the abbey",
+        "Continue through wine villages such as Fleury la Riviere or Oeuilly",
+        "Return loop to Epernay"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 2 narrative"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The champagne house visit and tasting in Hautvillers is part of the optional Visit package, not included."
+    },
+    {
+      "fieldId": "ITI-2-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5-star)",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip type panel ('4 nights, single centre'); Inclusions; Day 1"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Single-centre stay of 4 nights at one hotel; Day 2 does not restate the hotel."
+    },
+    {
+      "fieldId": "ITI-2-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Inclusions ('All breakfasts'); trip panel ('Bed and breakfast')"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Breakfast follows the previous night's stay. Lunch and dinner are not included."
+    },
+    {
+      "fieldId": "ITI-3-01",
+      "fieldName": "DAY 3 title",
+      "status": "Found",
+      "value": "Day 3: Loop to Marne Valley (47km/29.2mi)",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 3 heading"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-3-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": [
+        {
+          "option": "Loop to Marne Valley",
+          "distance": "47 km / 29.2 mi",
+          "level": null,
+          "activityTime": null,
+          "elevationGainLoss": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 3 heading"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "One route only; no level, time or elevation is published."
+    },
+    {
+      "fieldId": "ITI-3-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking alternative is published."
+    },
+    {
+      "fieldId": "ITI-3-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Theme: Pinot Meunier, grown in the Marne Valley, which gives rosé champagnes their fruity flavour",
+        "Route follows the Marne River to Ay, with a high Gothic-style church and wood-frame houses, one reputed to have been Henri IV's fermenting room",
+        "Continue to Conde sur Marne and its Roman church",
+        "Montebello castle in Mareuil sur Ay and panoramic views",
+        "Return loop to Epernay"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 3 narrative"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-3-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5-star)",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip type panel ('4 nights, single centre'); Inclusions"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Single-centre stay."
+    },
+    {
+      "fieldId": "ITI-3-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Inclusions ('All breakfasts')"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Lunch and dinner are not included."
+    },
+    {
+      "fieldId": "ITI-4-01",
+      "fieldName": "DAY 4 title",
+      "status": "Found",
+      "value": "Day 4: Loop to Cote de Blanc Vineyards (43km/26.7mi)",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 4 heading"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The supplier heading says 'Cote de Blanc'; the narrative uses the standard 'Cote des Blancs'."
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": [
+        {
+          "option": "Loop to Cote de Blanc Vineyards",
+          "distance": "43 km / 26.7 mi",
+          "level": null,
+          "activityTime": null,
+          "elevationGainLoss": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 4 heading"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "One route only; no level, time or elevation is published."
+    },
+    {
+      "fieldId": "ITI-4-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking alternative is published."
+    },
+    {
+      "fieldId": "ITI-4-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Theme: 'Blanc de Blancs' champagne made only from Chardonnay",
+        "The Cote des Blancs and its chalky soil suit Chardonnay",
+        "Ride through classified Grand Cru villages and slopes producing Chardonnay grapes",
+        "Wine villages between vineyard and forest: Avize, Cramant, Mesnil-sur-Oger",
+        "Return loop to Epernay"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Day 4 narrative"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Champagne tasting at Chateau de Boursault is part of the optional Visit package; the page does not say which day it falls on."
+    },
+    {
+      "fieldId": "ITI-4-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5-star)",
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip type panel ('4 nights, single centre'); Inclusions"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Fourth and final included night."
+    },
+    {
+      "fieldId": "ITI-4-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Inclusions ('All breakfasts')"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Lunch and dinner are not included. Breakfast on the unpublished departure morning is not covered by this field."
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The product page has no itinerary variation disclaimer. The booking-conditions page exists but its content was too large to retrieve and could not be reviewed. An approved disclaimer is needed."
+    },
+    {
+      "fieldId": "META-00",
+      "fieldName": "Meta info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading."
+    },
+    {
+      "fieldId": "META-01",
+      "fieldName": "Meta Title",
+      "status": "Found",
+      "value": {
+        "productName": "Cycling Champagne in Luxury",
+        "duration": "4 nights",
+        "destination": "Champagne / Epernay, France",
+        "activity": "Cycling",
+        "guidanceStyle": "Self-guided",
+        "keyTerms": [
+          "Champagne cycling holiday",
+          "Epernay",
+          "5-star hotel",
+          "self-guided"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Page title; trip type panel; Inclusions"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Derived field: verified attributes supplied for the SEO title."
+    },
+    {
+      "fieldId": "META-02",
+      "fieldName": "Meta Description",
+      "status": "Found",
+      "value": {
+        "destination": "UNESCO-listed Champagne wine-growing area, based in Epernay, France",
+        "activity": "Self-guided cycling on loop routes of 43–47 km",
+        "duration": "4 nights, single centre",
+        "differentiators": [
+          "5-star La Villa Eugène on Avenue de Champagne",
+          "Bike hire and navigation app included",
+          "Daily champagne themes: Blanc de Noirs, Pinot Meunier, Blanc de Blancs"
+        ],
+        "experiences": [
+          "Hautvillers and Dom Perignon",
+          "Marne Valley villages",
+          "Cote des Blancs Grand Cru villages"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip Details; Highlights; Inclusions; Days 1–4"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Derived field. Tastings and cellar visits are optional and should not be described as included."
+    },
+    {
+      "fieldId": "MORE-00",
+      "fieldName": "more info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading."
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "value": {
+        "startPoint": "Epernay – La Villa Eugene",
+        "endPoint": "Epernay – La Villa Eugene",
+        "confirmedTransport": "If you choose a flight-inclusive package, you fly into your destination with onward rail included",
+        "flightBooking": "Headwater can book flights (ATOL licensed, ABTA bonded) from London or any available regional airport and will advise the most convenient airport",
+        "bookingCaution": "Flight prices fluctuate significantly and can change rapidly",
+        "arrivalDepartureTimes": null,
+        "nearestHubs": null
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Travel Details; Options; Day 1"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The page does not name an arrival airport, rail station, check-in time or recommended arrival/departure window. The end point is an analyst reading of the single-centre stay. Travel advice from outside Headwater's site would need an approved source."
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "The product page has no climate or season information. The departure price list shows only day numbers 12–30 at £1599, with no month or season, so the touring season can't be determined. An approved external source is required."
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Partially found",
+      "value": {
+        "supplierLevel": "Activity level: 4",
+        "dailyDistanceRange": "43–47 km / 26.7–29.2 mi",
+        "dailyDurationRange": null,
+        "maximumElevation": null,
+        "terrain": "Predominantly quiet country lanes, well-marked cycle paths and vineyard tracks linking small villages; some longer days in the saddle with steady climbs; best suited to cyclists with a good level of fitness and experience of regular cycling",
+        "eBikeOption": "E-bikes offered as an upgrade for a more leisurely experience"
+      },
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip type panel; Terrain; Day 2–4 headings"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Headwater's activity-level scale definition could not be found. No ride durations or elevation figures are published."
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Partially found",
+      "value": [
+        {
+          "type": "Hybrid/touring bike – Giant Argento RS4 or equivalent",
+          "status": "Included",
+          "specification": "Comes with the relevant essentials, rear pannier and phone holder; gears and tyres matched to the terrain",
+          "handlebars": null,
+          "minimumAge": null
+        },
+        {
+          "type": "E-bike",
+          "status": "Optional upgrade (price not published)",
+          "specification": null,
+          "handlebars": null,
+          "minimumAge": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Bike section ('Giant, Argento RS4 or equivalent'); Terrain"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Calling the Argento RS4 a hybrid/touring bike is an analyst classification; the supplier only names the model. No handlebar type, e-bike model, e-bike price or minimum age is published. Child helmet rules are covered under MORE-05."
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Conflicting",
+      "value": [
+        {
+          "topic": "Fitness and terrain",
+          "detail": "Some longer days with steady climbs; best suited to cyclists with a good level of fitness and experience of regular cycling"
+        },
+        {
+          "topic": "Helmet law",
+          "detail": "Conflicting statements on the same page: Trip Details says helmets are a legal requirement in France for children under 12; Terrain says cycling helmets are a legal requirement in France"
+        },
+        {
+          "topic": "Visibility",
+          "detail": "Riders of all bicycles and e-bikes must wear a high-visibility vest when cycling outside built-up areas at night or in poor visibility"
+        },
+        {
+          "topic": "Single occupancy",
+          "detail": "Single supplement from £487"
+        },
+        {
+          "topic": "Support style",
+          "detail": "Self-guided; bike fitting and briefing at the start; navigation app provided"
+        },
+        {
+          "topic": "Financial protection",
+          "detail": "Headwater holds a full ATOL licence and is ABTA bonded for flight-inclusive packages"
+        },
+        {
+          "topic": "Carbon footprint",
+          "detail": "8.0 kg CO2e per person, per night (excludes travel to and from the start)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+          "location": "Trip Details; Terrain; pricing note; Positive Impact; trip type panel"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Conflict: the helmet requirement is described as applying to children under 12 in one place and to all cyclists in another. No dietary handling, cultural etiquette or season information is published."
+    }
+  ],
+  "issues": [
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Partially found",
+      "issue": "Only the hotel name, Avenue de Champagne and Epernay are given; no street number, postcode or formal meeting point/time for the briefing.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Not found",
+      "issue": "No maximum group size is published for this self-guided product.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+        "https://www.headwater.com/booking-conditions.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "issue": "No minimum number of travellers is published; the booking-conditions content could not be read.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+        "https://www.headwater.com/booking-conditions.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Partially found",
+      "issue": "The supplier 'Activity level 4' cannot be mapped reliably without Headwater's scale definition or elevation data; 'Moderate' is provisional.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "issue": "The property is verified as a 5-star luxury hotel, but the template's accommodation taxonomy was not supplied, so no controlled value was assigned.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "issue": "The template's Interest taxonomy was not supplied; only evidence themes are listed.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Partially found",
+      "issue": "4 itinerary days are published for a 4-night holiday; no departure day is described.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "issue": "Day 1 meals are not stated; 'All breakfasts' is not mapped to days.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-2-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Only distance is published; no level, ride time, elevation or alternative routes, even though the generic single-centre text mentions a range of routes.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-3-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Only distance is published; no level, ride time, elevation or alternative routes.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Only distance is published; no level, ride time, elevation or alternative routes.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Not found",
+      "issue": "No itinerary variation disclaimer on the product page; the booking-conditions content could not be retrieved for review.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+        "https://www.headwater.com/booking-conditions.htm"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "issue": "No arrival airport or station, check-in/start time, or recommended arrival/departure windows are published.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Not found",
+      "issue": "No climate or touring-season information; the departure price list shows no months.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "An authorised external source"
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Partially found",
+      "issue": "No ride durations or elevation data; activity-level scale definition not found.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Partially found",
+      "issue": "No handlebar type, e-bike model or price, or minimum-age rules are published.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Conflicting",
+      "issue": "The helmet requirement is stated as applying to children under 12 (Trip Details) and to all cyclists (Terrain) on the same page.",
+      "sourcesChecked": [
+        "https://www.headwater.com/holidays/cycling/france/C04CH.htm"
+      ],
+      "requiredAction": "Conflict resolution"
+    }
+  ],
+  "sources": [
+    {
+      "pageTitle": "Cycling Champagne in Luxury | Headwater",
+      "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+      "informationExtracted": "PROD-01, PROD-02, SET-03 to SET-07, SELL-01, INC-01, ITI-00, ITI-1 to ITI-4, META-01, META-02, MORE-01, MORE-03, MORE-04, MORE-05",
+      "accessNotes": "The departure price list shows day numbers (12–30) without months. The map content was not returned as text. The trip-type panel is generic boilerplate and mentions moving luggage hotel to hotel, which does not apply to a single-centre stay."
+    },
+    {
+      "pageTitle": "Headwater booking conditions",
+      "url": "https://www.headwater.com/booking-conditions.htm",
+      "informationExtracted": "None (checked for SET-01, SET-02, ITI-99)",
+      "accessNotes": "The page exists, but its content was too large to retrieve in this session and was not reviewed."
+    },
+    {
+      "pageTitle": "Cycling Holidays and Walking Holidays in Europe | Headwater",
+      "url": "https://www.headwater.com/",
+      "informationExtracted": "Background only: Headwater calls itself a self-guided specialist and offers a GPS navigation app on most holidays; no product-specific fields",
+      "accessNotes": "No navigation links were returned, so FAQ and activity-level pages could not be found."
+    },
+    {
+      "pageTitle": "Headwater cycling holidays",
+      "url": "https://www.headwater.com/holidays/cycling/",
+      "informationExtracted": "None",
+      "accessNotes": "The page exists, but its content was too large to retrieve in this session and was not reviewed."
+    }
+  ],
+  "confidence": {
+    "score": 71,
+    "rating": "Medium",
+    "pointsEarned": 27.75,
+    "maximumPoints": 39,
+    "supportingFactors": "The primary product page gives clear, consistent pricing basis, inclusions, exclusions, options, a single 5-star hotel, bike model, terrain notes and four detailed daily narratives with distances. Duration, accommodation, meals and inclusions are consistent with each other.",
+    "missingOrConflicting": "Missing: group size limits, departure-day itinerary, Day 1 meals, itinerary variation disclaimer, weather and season, ride times and elevation, minimum age for bikes, and full arrival logistics. The template taxonomies for Accommodation Type and Interest were not supplied. The helmet-law statements conflict on the product page.",
+    "accessLimitations": "The booking-conditions and cycling listing pages could not be read because they were too large to retrieve. Likely FAQ, terms and activity-level URLs returned 404 errors, and no sitemap was available. No third-party sources were used."
+  }
+}

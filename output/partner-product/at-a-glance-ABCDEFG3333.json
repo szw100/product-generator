@@ -1,0 +1,73 @@
+{
+  "sku": "ABCDEFG3333",
+  "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+  "heading": "AT A GLANCE",
+  "atAGlance": [
+    "Cycle Spain's Canary Islands on a 6-day bike tour of Tenerife and La Gomera, where volcanic peaks, fragrant laurel forests and black-sand shores glow beneath some 300 sunny days a year.",
+    "Begin on La Gomera, one of the archipelago's oldest islands, rolling from Alajeró to the port capital of San Sebastián past deep volcanic ravines, terraced fields and palms. Learn the island's whistled language, try local pottery and cooking, and wheel through an ancient laurel forest alive with giant ferns and birdsong before dining at a clifftop parador that looks across the Atlantic to Tenerife. On day three, a quick ferry carries you to Tenerife for a leisurely winery lunch, rides through pine forests and almond groves, and a guided walk through San Cristóbal de La Laguna, a UNESCO-recognised city of colourful colonial mansions. Then take on Mount Teide, Spain's tallest peak, on the north-side route that pro cyclists use to train, and lunch near the top with views for miles. Discover Icod de los Vinos, with its 800-year-old dragon tree and Malvasia dessert wine, carve the serpentine switchbacks of Masca, and finish with a ride along Tenerife's wild, windswept northwest coast.",
+    "This package includes 5 nights' accommodation: two at the Parador de La Gomera, one at La Laguna Gran Hotel and two at Hacienda Del Conde, an adults-only Small Luxury Hotels of the World retreat with a two-tiered infinity pool and spa. All breakfasts, 5 lunches and 4 dinners are included, along with hotel and restaurant gratuities, luggage transfers, snacks between meals and private wine receptions on the first and last nights. Backroads Trip Leaders and local experts are with you throughout, and a titanium bike, Wahoo GPS, helmet and bike fitting are provided. With route options across activity levels 2 to 5, and morning shuttles that skip the steepest climbs, you are free to ride at your own pace.",
+    "Let the sun-warmed scent of pine, the taste of red volcanic wine and the thrill of a long, sweeping descent to the sea draw you to the Canary Islands, an adventure that, as locals say, brightens the eye and life."
+  ],
+  "report": {
+    "brandVoice": {
+      "followed": true,
+      "elegance": "The copy uses polished, flowing sentences with several clauses and refined but plain vocabulary such as 'retreat', 'serpentine' and 'windswept', without slipping into overly fancy language.",
+      "imagination": "Sensory and visual imagery brings both islands to life, including scent (pine), taste (volcanic wine, Malvasia), sound (birdsong, the whistled language) and landscape (black-sand shores, volcanic ravines, switchbacks).",
+      "invitation": "The reader is addressed directly with imperative verbs throughout ('Begin', 'Learn', 'take on', 'Discover', 'Let ... draw you'), and the copy closes with an emotional call to travel.",
+      "evidence": [
+        "volcanic peaks, fragrant laurel forests and black-sand shores",
+        "alive with giant ferns and birdsong",
+        "carve the serpentine switchbacks of Masca",
+        "Let the sun-warmed scent of pine, the taste of red volcanic wine",
+        "brightens the eye and life"
+      ]
+    },
+    "dataAccuracy": "The facts come from the fetched Backroads page: 6 days and 5 nights; the La Gomera start and Tenerife end; about 300 sunny days a year; the Alajeró to San Sebastián ride; the whistled language, pottery and cooking lessons; the laurel forest; the clifftop parador; the Day 3 ferry, winery lunch, pine forests, almond groves and La Laguna UNESCO walking tour; the north-side Teide route used by pros, with lunch near the top; Icod de los Vinos with its 800-year-old dragon tree and Malvasia wine; the Masca switchbacks; the final northwest coast ride; the hotel names and night counts; Hacienda Del Conde as an adults-only Small Luxury Hotels of the World property with a two-tiered infinity pool and spa; the listed inclusions; activity levels 2 to 5; and the morning shuttles. Gaps and judgement calls: the page gives two different heights for Mount Teide (12,188 ft and 12,198 ft), so the copy leaves the height out and says only that it is Spain's tallest peak. The page mentions Garajonay National Park and the laurel forest in the same section but does not clearly say the forest ride is inside the park, so the copy does not name the park. 'Birdsong' is a creative reading of the page's mention of birds such as the Island Canary. 'Sun-warmed scent of pine' and 'long, sweeping descent to the sea' are evocative phrases based on the page's fragrant pine forests and descents to the coast. The page states no guest-to-leader ratio and no number of support vans, so none is claimed. Prices (from $5,299 to $5,699 per person) and the 2027 season (Feb to May, Sep to Dec) are left out. Some departures are bike-only 'Unplugged' dates with e-bikes by request only, and the copy does not mention this.",
+    "rulesFollowed": [
+      {
+        "rule": "Brand Voice",
+        "howApplied": "Every paragraph uses luxurious, sensory and inviting language, flowing sentences with several clauses, and direct address to the reader."
+      },
+      {
+        "rule": "Heading AT A GLANCE",
+        "howApplied": "The heading is set to 'AT A GLANCE'."
+      },
+      {
+        "rule": "Explore the given website",
+        "howApplied": "All facts come from a live fetch of the configured Backroads URL. No local files were read."
+      },
+      {
+        "rule": "Approximately 200-350 words",
+        "howApplied": "The four paragraphs total roughly 340 words."
+      },
+      {
+        "rule": "Bold, enticing hook with SEO keywords",
+        "howApplied": "The opening sentence uses the keywords 'Spain's Canary Islands', '6-day bike tour', 'Tenerife' and 'La Gomera' alongside vivid imagery."
+      },
+      {
+        "rule": "Vivid, sensory language",
+        "howApplied": "It describes laurel forests, black-sand shores, volcanic ravines, pine scent, volcanic wine and switchbacks."
+      },
+      {
+        "rule": "Balance practical itinerary details with evocative language",
+        "howApplied": "The day-by-day paragraph moves in order from La Gomera, to the Day 3 ferry and La Laguna, to Teide, Icod, Masca and the final coastal ride, using descriptive verbs throughout."
+      },
+      {
+        "rule": "Highlight unique, high-value experiences",
+        "howApplied": "It covers the UNESCO-recognised La Laguna, the pro-favoured Mount Teide climb, the whistled language lesson, the 800-year-old dragon tree, Malvasia wine and a Small Luxury Hotels of the World stay."
+      },
+      {
+        "rule": "Reassure with logistical details",
+        "howApplied": "The inclusions paragraph lists the hotels and nights, meals, gratuities, luggage transfers, Trip Leaders, bike equipment, activity levels and shuttles."
+      },
+      {
+        "rule": "Close with an emotional, inspiring call to action",
+        "howApplied": "The final paragraph appeals to the senses and ends with the local saying that the islands brighten the eye and life."
+      },
+      {
+        "rule": "Clear, natural language for AEO/GEO",
+        "howApplied": "It uses plain, specific place names and clear facts (duration, islands, hotels, meals) that answer engines can extract easily."
+      }
+    ]
+  }
+}

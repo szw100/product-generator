@@ -1,0 +1,1270 @@
+{
+  "product": {
+    "sku": "ABCDEFG5555",
+    "travelPartner": "Antarctica South Pole",
+    "primaryProductUrl": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+    "researchDate": "2026-10-11",
+    "overallStatus": "Complete with gaps"
+  },
+  "summary": {
+    "found": 26,
+    "partiallyFound": 12,
+    "notFound": 4,
+    "conflicting": 2,
+    "notApplicable": 15,
+    "total": 59
+  },
+  "fields": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Conflicting",
+      "value": {
+        "productPageRates": [
+          {
+            "label": "1 Person Shared",
+            "priceAsPublished": "USD 5.900",
+            "priceNormalised": "USD 5,900",
+            "basis": "Shared room with one single bed."
+          },
+          {
+            "label": "1 Person Private",
+            "priceAsPublished": "USD 11.800",
+            "priceNormalised": "USD 11,800",
+            "basis": "Private room with one single bed."
+          },
+          {
+            "label": "2 People Private Cabin",
+            "priceAsPublished": "USD 11.800",
+            "priceNormalised": "USD 11,800",
+            "basis": "Private cabin with two single beds (Twin beds)."
+          },
+          {
+            "label": "2 People",
+            "priceAsPublished": "USD 23.500",
+            "priceNormalised": "USD 23,500",
+            "basis": "Private room with one double bed or two single beds."
+          },
+          {
+            "label": "3 People",
+            "priceAsPublished": "USD 17.700",
+            "priceNormalised": "USD 17,700",
+            "basis": "Triple cabin with a double bed and a single bunk bed"
+          },
+          {
+            "label": "(unlabelled, quadruple)",
+            "priceAsPublished": "USD 23.600",
+            "priceNormalised": "USD 23,600",
+            "basis": "Quadruple cabin one double bed more one bunk bed with two single beds"
+          },
+          {
+            "label": "(unlabelled)",
+            "priceAsPublished": "USD 29.500 / USD 35.400 / USD 41.300 / USD 47.200",
+            "priceNormalised": "USD 29,500 / USD 35,400 / USD 41,300 / USD 47,200",
+            "basis": "Cabins of your choice. Layout according to availability plus private bathroom"
+          }
+        ],
+        "homepageListingPrice": "From $ 20.000 USD",
+        "childrenPricing": [
+          "0 to 3 years: Free.",
+          "4 to 11 years: 30% discount on the corresponding rate.",
+          "Children share a room with parents/guardians."
+        ],
+        "currency": "USD"
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Rates & Accommodation Options; Children Policies; Booking & Cancellation Policies – Children's Policies"
+        },
+        {
+          "url": "https://antarcticasouthpole.com/",
+          "location": "Homepage product card 'WHALE CRUISE IN PATAGONIA'"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "Conflict: the product page lists rates from USD 5,900, but the homepage card for the same product name says 'From $ 20.000 USD' and '20 Days / 19 Nights'. The supplier does not state whether the rates are per person or per booking. The figures look like totals per party, because most are multiples of USD 5,900 (2 to 8 people at 11,800 to 47,200); this is an analyst reading only. Inconsistency within the page: '2 People' private room is USD 23,500, but '2 People Private Cabin' is USD 11,800. The rows from USD 29,500 to USD 47,200 have no occupancy label. The supplier writes thousands with a dot (USD 5.900). Payment terms: 50% deposit with the balance due 60 days before departure, and a 6% fee on credit card payments."
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Partially found",
+      "value": "Punta Arenas Airport, Punta Arenas, Chilean Patagonia, Chile (arrival point on Day 1, followed by a private transfer to an unnamed 5-star hotel)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 01 'Welcome to Patagonia'; Booking & Cancellation Policies – Responsibility (Chilean law)"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Start point is arrival at Punta Arenas Airport. The page does not give a street address, the hotel name, a meeting venue or the name of the embarkation port. Region (administrative) is not stated. Do not add street details."
+    },
+    {
+      "fieldId": "SET-00",
+      "fieldName": "Settings",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading only; no partner data required."
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Found",
+      "value": 8,
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "About the Vessel – Exclusivity On Board"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Verbatim: 'our expeditions are limited to a maximum of 8 passengers.' This counts guests only. The vessel is certified for up to 20 people offshore, which includes crew. The six-person crew (captain, crew member, private chef, marine biologist, kayak guide, tour leader) is separate. Listed 2027 availability per departure ranges from 5 to 8 spots."
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No minimum group size or guaranteed-departure rule is published. Leave blank."
+    },
+    {
+      "fieldId": "SET-03",
+      "fieldName": "What to Carry",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Program; About the Vessel"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The spec applies this field to walking and biking tours. This product is a vessel-based cruise: guests sleep on board and luggage stays in the cabin. The packing guide recommends a 'Small waterproof daypack & dry bag' for excursions, but that is gear advice, not a luggage-transfer arrangement."
+    },
+    {
+      "fieldId": "SET-04",
+      "fieldName": "Trip Style",
+      "status": "Found",
+      "value": "Guided",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "The Crew; All-Inclusive Expedition; Expedition Itinerary Days 02–05"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Classified by the analyst. Crew includes a Marine Biologist who 'Guides the exploration', a Kayak Guide, and a Tour Leader & Operations Manager. Prices include 'full expedition team support'. Day 5 includes 'guided hiking'."
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Partially found",
+      "value": {
+        "classification": null,
+        "supplierGrade": null,
+        "evidence": [
+          "Sea kayaking on Days 4 and 5 (Day 4 'inaugural paddle' follows a briefing)",
+          "Zodiac excursions and shore landings",
+          "Guided hiking on islands on Day 5",
+          "Optional-style Subantarctic Polar Plunge 'reserved for adventurous souls'",
+          "Seniors welcome 'whenever physical condition and health permit'; children accepted with adapted alternatives",
+          "Participants acknowledge 'a remote wilderness expedition with inherent risks'"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary Days 04–05; Booking & Cancellation Policies – Children's Policies, Seniors, Responsibility"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "No supplier grade, distances, durations, elevation or fitness requirement is published, so no controlled grade was assigned. Activity evidence is recorded for later classification."
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "value": {
+        "properties": [
+          {
+            "nights": "Night 1 (Day 1)",
+            "property": "Unnamed 5-star hotel, Punta Arenas",
+            "officialCategory": "5-star (supplier description)"
+          },
+          {
+            "nights": "Nights 2–5 (Days 2–5)",
+            "property": "Hatteras 65 Long Range Cruiser (expedition vessel)",
+            "officialCategory": null,
+            "style": "Private staterooms with en-suite bathroom on the first deck; cabin layout by booking (shared, private single, twin, double, triple, quadruple)"
+          }
+        ],
+        "taxonomyValues": null
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Program overview; Day 01; About the Vessel – Three Decks; Rates & Accommodation Options"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The template's accommodation taxonomy is not included in the supplied spec, so no controlled values were assigned. The overview mentions 'lodging in the most exclusive hotels in Patagonia' (plural), but the itinerary shows only one hotel night. The hotel is not named. The Day 2–4 itinerary entries do not say explicitly that guests sleep on board."
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "value": {
+        "taxonomyValues": null,
+        "sourceThemes": [
+          "Whale watching (blue, humpback, southern right whales)",
+          "Wildlife (king and gentoo penguins, dolphins, sea lions, leopard seals, elephant seals, seabirds)",
+          "Sea kayaking",
+          "Expedition cruising / sailing",
+          "Fjords and glaciers",
+          "Gastronomy and wine",
+          "Hiking",
+          "Stargazing",
+          "Marine science / hydroacoustics"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Overview; Expedition Itinerary Days 01–06"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The template's interest categories are not included in the supplied spec. The themes above come from the source and are not mapped to controlled values."
+    },
+    {
+      "fieldId": "SELL-01",
+      "fieldName": "Trip highlights",
+      "status": "Found",
+      "value": [
+        "Kayaking alongside blue whales in Francisco Coloane Subantarctic Marine Park, described as Chile's first marine protected area (over 67,000 hectares)",
+        "Listening to whale songs in real time with hydrophone/hydroacoustic equipment and professional headphones",
+        "Visit to the King Penguin Sanctuary, described as the only breeding colony in South America outside Antarctica (Tierra del Fuego)",
+        "Excursion to Santa Inés Glacier with a premium whisky toast over glacier ice",
+        "Sailing the Strait of Magellan to the Cross of the Seas, with a French champagne and fresh oyster toast",
+        "Maximum of 8 passengers on a Hatteras 65 Long Range Cruiser with en-suite staterooms",
+        "Specialist crew: captain, private chef, marine biologist, kayak guide and tour leader",
+        "Patagonian gourmet beach picnic (king crab, scallops, local cheeses, craft beers) and a farewell gastronomic experience with Chilean wine tasting",
+        "Stargazing with professional telescopes; optional-style Subantarctic Polar Plunge",
+        "First night in a 5-star hotel in Punta Arenas with welcome dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Overview; Expedition Itinerary; About the Vessel; The Crew; Francisco Coloane Subantarctic Marine Park; King Penguin"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Superlatives such as 'only breeding colony' and 'Chile's first marine protected area' are supplier claims and have not been independently verified. Wildlife sightings are not stated as guaranteed."
+    },
+    {
+      "fieldId": "INC-01",
+      "fieldName": "WHAT’S INCLUDED",
+      "status": "Found",
+      "value": {
+        "includedPerSupplierStatement": "All prices include lodging, meals, activities, transfers as outlined in the program, and full expedition team support.",
+        "includedPerProgram": [
+          "Private transfer from Punta Arenas Airport to 5-star hotel (Day 1)",
+          "1 night hotel accommodation (Day 1)",
+          "Welcome dinner (Day 1)",
+          "Transfer to embarkation port (Day 2)",
+          "Onboard accommodation and meals as listed per day (Days 2–6)",
+          "Welcome toast with French champagne and fresh oysters (Day 2)",
+          "Marine biologist lecture (Day 2)",
+          "King Penguin Sanctuary excursion (Day 3)",
+          "Zodiac excursions, hydrophone experience, Santa Inés Glacier excursion, whisky toast, gourmet picnic (Day 4)",
+          "Two sea kayaking outings (Days 4 and 5)",
+          "Guided island hiking, stargazing with telescopes, farewell gastronomic experience with Chilean wine tasting (Day 5)",
+          "Private transfer to Punta Arenas Airport or hotel (Day 6)",
+          "Full expedition team support"
+        ],
+        "notIncludedOrAdditionalCost": [
+          "Credit card processing fee of 6% on total booking amount",
+          "Travel insurance (sole responsibility of the passenger)",
+          "Personal clothing and equipment per packing guide"
+        ],
+        "notStated": [
+          "International/domestic flights",
+          "Gratuities",
+          "General beverages beyond the named tastings and toasts",
+          "Kayak protective clothing (e.g. drysuits)",
+          "Park entry fees"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "All-Inclusive Expedition; Expedition Itinerary 'Includes' lines; Booking & Cancellation Policies – Expedition Booking, Travel Insurance; Credit Card"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Program-specific items come from the supplier's statement that 'activities, transfers as outlined in the program' are included. Items under 'notStated' are not presented as included. Flights are not mentioned, though the pre-trip specialist meeting covers 'Domestic/international flight coordination'."
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Conflicting",
+      "value": {
+        "dayCount": 6,
+        "nightsImplied": 5,
+        "days": [
+          "Day 01 Welcome to Patagonia",
+          "Day 02 Sailing the Strait of Magellan: Where South America Begins",
+          "Day 03 King Penguins, Fjords & Ancient Glaciers",
+          "Day 04 Blue Whales & Santa Inés Glacier",
+          "Day 05 Kayaking Among Whales & Subantarctic Exploration",
+          "Day 06 Farewell to Patagonia"
+        ],
+        "departures2027": [
+          "January 11–16 (5 spots available)",
+          "January 25–30 (6 spots available)",
+          "February 8–13 (6 spots available)",
+          "February 22–27 (5 spots available)",
+          "March 8–13 (8 spots available)",
+          "March 22–27 (8 spots available)"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Overview ('For six days'); Expedition Itinerary; Expedition Dates (2027 Calendar)"
+        },
+        {
+          "url": "https://antarcticasouthpole.com/",
+          "location": "Homepage product card 'Chilean Southern Route | 20 Days / 19 Nights...'"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The product page is consistent with itself: the overview says 'For six days', there are six itinerary days, and every 2027 departure spans six calendar days. The homepage card for 'WHALE CRUISE IN PATAGONIA' says '20 Days / 19 Nights'. This may be a stale or different listing, but it must be resolved before publication. The six-day itinerary is complete."
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Found",
+      "value": "Day 01 – Welcome to Patagonia (arrival Punta Arenas)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 01"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier title is 'Welcome to Patagonia'; location added from the day's narrative."
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Arrival day with no route-based activity."
+    },
+    {
+      "fieldId": "ITI-1-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking activity on this day."
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Arrival at Punta Arenas Airport and private transfer to a 5-star hotel",
+        "Welcome session, team introduction and expedition briefing",
+        "Itinerary and technical equipment review",
+        "Welcome dinner featuring fine Patagonian cuisine"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 01"
+        }
+      ],
+      "confidence": "High",
+      "notes": "No arrival time specified."
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "value": "5-star hotel, Punta Arenas (property not named)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 01 ('Includes: Hotel accommodation & welcome dinner')"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Property name not published."
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 01 'Includes'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Welcome dinner included. No breakfast or lunch is listed for Day 1."
+    },
+    {
+      "fieldId": "ITI-2-01",
+      "fieldName": "DAY 2 title",
+      "status": "Found",
+      "value": "Day 02 – Sailing the Strait of Magellan: Where South America Begins",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 02"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier title, verbatim."
+    },
+    {
+      "fieldId": "ITI-2-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Sailing day with no route-based activity options."
+    },
+    {
+      "fieldId": "ITI-2-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking activity on this day."
+    },
+    {
+      "fieldId": "ITI-2-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Transfer to the embarkation port and set sail through the Strait of Magellan",
+        "Reach the Cross of the Seas, the convergence point of the Pacific and Atlantic Oceans",
+        "Welcome toast with French champagne paired with fresh oysters",
+        "First sightings of endemic marine wildlife: Commerson's dolphin and Peale's dolphin",
+        "Marine biologist lecture on whales and the Francisco Coloane Subantarctic Marine Park"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 02"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Embarkation port not named. Wildlife sightings depend on nature."
+    },
+    {
+      "fieldId": "ITI-2-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "value": "On board the Hatteras 65 Long Range Cruiser (en-suite stateroom, cabin type per booking)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Program overview; About the Vessel – First Deck; Day 02"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The day entry does not state an overnight location. The vessel is assumed from the cruise format, the onboard staterooms and the meals 'on board'. Needs confirmation."
+    },
+    {
+      "fieldId": "ITI-2-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 02 'Includes'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier: 'Breakfast, lunch & dinner on board'. Breakfast is listed although guests start the day at the hotel; the supplier wording is preserved as published."
+    },
+    {
+      "fieldId": "ITI-3-01",
+      "fieldName": "DAY 3 title",
+      "status": "Found",
+      "value": "Day 03 – King Penguins, Fjords & Ancient Glaciers",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 03"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier title, verbatim."
+    },
+    {
+      "fieldId": "ITI-3-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "Wildlife excursion and navigation day. No route options are described."
+    },
+    {
+      "fieldId": "ITI-3-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "The page does not say the penguin sanctuary excursion involves walking."
+    },
+    {
+      "fieldId": "ITI-3-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Excursion to the King Penguin Sanctuary, described as the only breeding colony in South America outside Antarctica",
+        "Encounter Gentoo penguin colonies and various subantarctic seabirds",
+        "Navigate through remote fjords, southern channels and ancestral glaciers",
+        "Sunset arrival at Francisco Coloane Subantarctic Marine Park",
+        "Homemade hot chocolate tasting with views of glaciers and icebergs"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 03; King Penguin section (locates the colony in Tierra del Fuego)"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The sanctuary's location in Tierra del Fuego comes from the separate King Penguin section of the same page."
+    },
+    {
+      "fieldId": "ITI-3-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "value": "On board the Hatteras 65 Long Range Cruiser (en-suite stateroom, cabin type per booking)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Program overview; About the Vessel – First Deck; Day 03"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The day entry does not state an overnight location. The vessel is assumed from the cruise format. Needs confirmation."
+    },
+    {
+      "fieldId": "ITI-3-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 03 'Includes'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier: 'Breakfast, lunch & dinner on board'."
+    },
+    {
+      "fieldId": "ITI-4-01",
+      "fieldName": "DAY 4 title",
+      "status": "Found",
+      "value": "Day 04 – Blue Whales & Santa Inés Glacier",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 04"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier title, verbatim."
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "The day includes a sea kayaking briefing, a first paddle and Zodiac excursions. No level, distance, duration or route options are published."
+    },
+    {
+      "fieldId": "ITI-4-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "No walking activity is described. The glacier excursion and beach picnic are not described as walks."
+    },
+    {
+      "fieldId": "ITI-4-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Explore Francisco Coloane Subantarctic Marine Park aboard Zodiacs for close-up cetacean viewing",
+        "Hydrophone acoustic experience: listen in real time to underwater whale songs using professional headphones",
+        "Excursion to Santa Inés Glacier",
+        "Toast with premium whisky over ancient ice extracted from the glacier",
+        "Sea kayaking briefing and inaugural paddle",
+        "Wildlife spotting: blue whales, humpbacks, elephant seals, southern right whales and dolphins",
+        "Patagonian Gourmet Picnic on a remote beach with glacier views: local cheeses, Patagonian craft beers, freshly caught king crab, scallops and regional delicacies"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 04; 'Patagonian Gourmet Picnic'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The picnic appears inside the Day 4 block. Wildlife listed is what may be spotted, not a guarantee."
+    },
+    {
+      "fieldId": "ITI-4-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "value": "On board the Hatteras 65 Long Range Cruiser (en-suite stateroom, cabin type per booking)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Program overview; About the Vessel – First Deck; Day 04"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The day entry does not state an overnight location. The vessel is assumed from the cruise format. Needs confirmation."
+    },
+    {
+      "fieldId": "ITI-4-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 04 'Includes'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier: 'Breakfast, lunch & dinner on board'. The beach picnic is part of the day's program."
+    },
+    {
+      "fieldId": "ITI-5-01",
+      "fieldName": "DAY 5 title",
+      "status": "Found",
+      "value": "Day 05 – Kayaking Among Whales & Subantarctic Exploration",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 05"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier title, verbatim."
+    },
+    {
+      "fieldId": "ITI-5-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "The second sea kayaking outing has no published level, distance, duration or route options."
+    },
+    {
+      "fieldId": "ITI-5-03",
+      "fieldName": "Walking summary",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Guided hiking on islands is included, but no distance, walking time or elevation is published."
+    },
+    {
+      "fieldId": "ITI-5-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Second sea kayaking expedition in the heart of the Marine Park",
+        "Landing and guided hiking on pristine islands to observe flora and birdlife",
+        "Subantarctic Polar Plunge: a challenge 'reserved for adventurous souls' in wild southern waters",
+        "Stargazing session with professional telescopes",
+        "Farewell Gastronomic Experience: fresh seafood sashimi served on glacial ice, steamed mussels with Chilean white wine, local gourmet tastings and a private tasting of iconic Chilean wines"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 05; 'Farewell Gastronomic Experience'; Packing Guide note (Day 5 farewell dinner); Children's Policies (Polar Plunge age restrictions)"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The Polar Plunge reads as voluntary, but the page does not say so explicitly. It may have age restrictions for children. Smart casual dress is optional for the Day 5 farewell dinner."
+    },
+    {
+      "fieldId": "ITI-5-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "value": "On board the Hatteras 65 Long Range Cruiser (en-suite stateroom, cabin type per booking)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "About the Vessel – First Deck; Day 05; Day 06 ('Dawn navigation back toward Punta Arenas')"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "No overnight location is stated. Day 6 begins with dawn navigation and breakfast on board, which supports an onboard night but does not state it explicitly."
+    },
+    {
+      "fieldId": "ITI-5-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 05 'Includes'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier: 'Breakfast, lunch & dinner on board'."
+    },
+    {
+      "fieldId": "ITI-6-01",
+      "fieldName": "DAY 6 title",
+      "status": "Found",
+      "value": "Day 06 – Farewell to Patagonia (return to Punta Arenas)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 06"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier title is 'Farewell to Patagonia'; destination added from the day's narrative."
+    },
+    {
+      "fieldId": "ITI-6-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Departure day."
+    },
+    {
+      "fieldId": "ITI-6-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Departure day."
+    },
+    {
+      "fieldId": "ITI-6-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Dawn navigation back toward Punta Arenas",
+        "Farewell breakfast on board featuring traditional Patagonian goods",
+        "Disembarkation and private transfer to Punta Arenas Airport or hotel"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 06"
+        }
+      ],
+      "confidence": "High",
+      "notes": "No disembarkation time stated."
+    },
+    {
+      "fieldId": "ITI-6-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "None (program ends after disembarkation and transfer)",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 06; Expedition Dates (six-day departures)"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The final day ends with a transfer to the airport or a hotel. No post-tour night is included. A hotel destination for the transfer does not mean a hotel stay is included."
+    },
+    {
+      "fieldId": "ITI-6-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Day 06 'Includes'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier: 'Breakfast on board'."
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Found",
+      "value": "Safety is our top priority. Due to remote environmental conditions, itineraries may be modified for weather, sea state, or Maritime Authority/CONAF instructions. Modifications do not entitle refunds and are made solely to guarantee participant safety.",
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Booking & Cancellation Policies – Program Modifications"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Supplier's exact wording. Internal approval as brochure legal copy is still required."
+    },
+    {
+      "fieldId": "META-00",
+      "fieldName": "Meta info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading only."
+    },
+    {
+      "fieldId": "META-01",
+      "fieldName": "Meta Title",
+      "status": "Found",
+      "value": {
+        "productName": "Whale Cruise in Patagonia",
+        "duration": "6 days (per product page)",
+        "destinations": [
+          "Punta Arenas",
+          "Strait of Magellan",
+          "Francisco Coloane Subantarctic Marine Park",
+          "Santa Inés Glacier",
+          "Chilean Patagonia"
+        ],
+        "activities": [
+          "Blue whale watching",
+          "Sea kayaking with whales",
+          "Expedition cruise",
+          "King penguin sanctuary"
+        ],
+        "guidanceStyle": "Guided",
+        "searchTerms": [
+          "blue whale",
+          "Patagonia whale cruise",
+          "kayaking with whales",
+          "Punta Arenas expedition"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Page title; Overview; Expedition Itinerary; The Crew"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Built from verified attributes. Duration depends on resolving the ITI-00 conflict (6 days on the product page versus 20 days / 19 nights on the homepage). Search terms are analyst-selected from source wording."
+    },
+    {
+      "fieldId": "META-02",
+      "fieldName": "Meta Description",
+      "status": "Found",
+      "value": {
+        "destination": "Chilean Patagonia – Strait of Magellan and Francisco Coloane Subantarctic Marine Park, from Punta Arenas",
+        "activity": "Small-ship expedition cruise with sea kayaking, Zodiac excursions and guided hiking",
+        "duration": "6 days",
+        "differentiators": [
+          "Kayaking alongside blue whales",
+          "Maximum 8 passengers",
+          "Hydrophone whale-song listening",
+          "King penguin sanctuary",
+          "Private chef and gourmet Patagonian cuisine",
+          "Marine biologist on board"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Overview; Expedition Itinerary; About the Vessel; The Crew"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Duration is subject to the ITI-00 conflict."
+    },
+    {
+      "fieldId": "MORE-00",
+      "fieldName": "more info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading only."
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "value": {
+        "start": "Arrival at Punta Arenas Airport on Day 1, with private transfer to a 5-star hotel",
+        "end": "Day 6 disembarkation near Punta Arenas, with private transfer to Punta Arenas Airport or hotel",
+        "startTime": null,
+        "endTime": null,
+        "preTripSupport": "1-on-1 meeting with a Patagonia specialist covering domestic/international flight coordination, gear, weather and physical preparation",
+        "documents": "Valid passport and required visas; travel insurance documentation"
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Itinerary – Days 01 and 06; Personalized Guidance; Documents & Essentials"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Missing: arrival and departure times, recommended flight windows, embarkation port name, and the hotel name. No external travel advice was added."
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Partially found",
+      "value": {
+        "season": "January–March 2027 departures (southern summer)",
+        "supplierConditionNotes": [
+          "Packing advice uses a layering system for cold, wet conditions",
+          "Ski goggles 'essential for Zodiacs in wind/snow'",
+          "Ship interior is 'warm and comfortable'",
+          "Sun hat 'optional for warmer days'; SPF 50+ sunscreen recommended",
+          "Itineraries may be modified for weather or sea state"
+        ],
+        "typicalTemperatures": null,
+        "precipitation": null
+      },
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "Expedition Dates; Expedition Packing Guide; Program Modifications"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "No temperature or precipitation data is published. Labelling the January–March departures as 'southern summer' is an analyst classification based on the dates. Climate figures would need an approved external source."
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "This is a cruise and kayaking product, not a cycling or walking tour."
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No bikes are involved. For reference, the vessel carries five double sea kayaks and a 12-person Zodiac tender (About the Vessel)."
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Partially found",
+      "value": [
+        {
+          "topic": "Group size and vessel",
+          "detail": "Maximum 8 passengers on a Hatteras 65 Long Range Cruiser (certified for up to 20 people offshore); en-suite staterooms; Zodiac tender (12-person capacity); five double sea kayaks."
+        },
+        {
+          "topic": "Single occupancy",
+          "detail": "1 Person Shared: shared room with one single bed (USD 5,900). 1 Person Private: private room with one single bed (USD 11,800)."
+        },
+        {
+          "topic": "Children",
+          "detail": "0–3 years free; 4–11 years 30% discount; children share a room with parents/guardians; high-risk activities such as the Polar Plunge may have age restrictions, with alternative experiences adapted."
+        },
+        {
+          "topic": "Seniors",
+          "detail": "Welcome whenever physical condition and health permit; the team will make necessary adjustments."
+        },
+        {
+          "topic": "Booking and payment",
+          "detail": "Confirm with 100% payment or 50% deposit; balance due no later than 60 days before departure; 6% credit card fee; Western Union for international guests; non-payment may lead to cancellation with payments non-refundable."
+        },
+        {
+          "topic": "Cancellation",
+          "detail": "Bookings are non-refundable; transfer to another date within the same season may be possible subject to availability and the organization's discretion, possibly with fees or fare differences."
+        },
+        {
+          "topic": "Required documentation",
+          "detail": "Boarding ticket and itinerary, equipment guide, medical history form, waiver and risk acceptance form (signed before departure)."
+        },
+        {
+          "topic": "Risk and responsibility",
+          "detail": "Remote wilderness expedition with inherent risks; participants follow guide instructions and participate at their own risk per Chilean law."
+        },
+        {
+          "topic": "Travel insurance",
+          "detail": "Strongly recommended (cancellation, medical, evacuation, lost luggage); sole responsibility of the passenger."
+        },
+        {
+          "topic": "Dress and packing",
+          "detail": "Casual wear on board; smart casual optional for Day 5 farewell dinner; mandatory layered waterproof gear for Zodiac, kayaking and shore landings; swimsuit for the polar dip."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+          "location": "About the Vessel; Rates & Accommodation Options; Children Policies; Booking & Cancellation Policies; Expedition Packing Guide"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Missing material topics: fitness or swimming requirements for kayaking, dietary handling, seasickness guidance beyond packing medication, and prior kayaking experience requirements."
+    }
+  ],
+  "issues": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Conflicting",
+      "issue": "Pricing basis (per person or per booking) is not stated. The product page shows from USD 5,900, but the homepage card shows 'From $ 20.000 USD'. Within the page, '2 People' private room (USD 23,500) is inconsistent with '2 People Private Cabin' (USD 11,800), and the USD 29,500–47,200 rows have no label.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+        "https://antarcticasouthpole.com/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Partially found",
+      "issue": "Only Punta Arenas Airport is given. The hotel name, its address and the embarkation port are not published.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "issue": "No minimum group size or departure guarantee is published.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Partially found",
+      "issue": "No supplier grade or activity metrics are published, so a controlled grade cannot be assigned from evidence.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "issue": "The hotel is not named, and the template taxonomy was not supplied for mapping. The overview mentions 'hotels' (plural), but the itinerary shows one hotel night.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "issue": "Themes were identified, but the template interest taxonomy was not supplied, so they could not be mapped to controlled values.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Conflicting",
+      "issue": "The product page shows a 6-day itinerary and 6-day departures, but the homepage card for the same product says '20 Days / 19 Nights'.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+        "https://antarcticasouthpole.com/"
+      ],
+      "requiredAction": "Conflict resolution"
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "issue": "The Day 1 5-star hotel in Punta Arenas is not named.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-2-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "issue": "The Day 2 entry does not state that guests sleep on board. This was assumed from the vessel format.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-3-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "issue": "The Day 3 entry does not state that guests sleep on board. This was assumed from the vessel format.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "issue": "No level, distance or duration is published for the Day 4 sea kayaking or Zodiac activities.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-4-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "issue": "The Day 4 entry does not state that guests sleep on board. This was assumed from the vessel format.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "issue": "No level, distance or duration is published for the Day 5 sea kayaking.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-03",
+      "fieldName": "Walking summary",
+      "status": "Not found",
+      "issue": "Guided island hiking is included, but no distance, time or elevation is published.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-05",
+      "fieldName": "Accommodation",
+      "status": "Partially found",
+      "issue": "The Day 5 entry does not state the overnight location. Guests sleeping on board is implied by the Day 6 dawn navigation.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "issue": "Missing arrival and departure times, recommended flight windows, embarkation port and hotel name.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+        "https://antarcticasouthpole.com/"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Partially found",
+      "issue": "No temperature or precipitation data is published. Only packing guidance and the departure season are available.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "An authorised external source"
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Partially found",
+      "issue": "No information on fitness, swimming or kayaking experience requirements, dietary handling, or seasickness guidance.",
+      "sourcesChecked": [
+        "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/"
+      ],
+      "requiredAction": "Supplier clarification"
+    }
+  ],
+  "sources": [
+    {
+      "pageTitle": "WHALE CRUISE IN PATAGONIA » Antarctica South Pole",
+      "url": "https://antarcticasouthpole.com/tour/whale-cruise-in-patagonia/",
+      "informationExtracted": "PROD-01, PROD-02, SET-01, SET-03 to SET-07, SELL-01, INC-01, ITI-00, ITI-1-01 to ITI-6-06, ITI-99, META-01, META-02, MORE-01, MORE-02, MORE-04, MORE-05",
+      "accessNotes": "Single long page with tabbed sections (Expedition Program, 2027 Calendar, Clothing, Life on Board, About the Vessel, The Crew, Rates and Reservations, Policies); all text content was readable. Photo gallery content not extractable as text. Some rate rows lack occupancy labels."
+    },
+    {
+      "pageTitle": "Home » Antarctica South Pole",
+      "url": "https://antarcticasouthpole.com/",
+      "informationExtracted": "Official supplier name (Antarctica South Pole); conflicting homepage product card (20 Days / 19 Nights, From $ 20.000 USD) used for PROD-01 and ITI-00",
+      "accessNotes": "The homepage card text is truncated ('Chilean Southern Route | 20 Days / 19 Nights...'), and the page does not show whether the card links to the same product."
+    }
+  ],
+  "confidence": {
+    "score": 74,
+    "rating": "Medium",
+    "pointsEarned": 32.5,
+    "maximumPoints": 44,
+    "supportingFactors": "The product page is detailed and consistent with itself. It gives a six-day itinerary with daily meals, named activities, 2027 departure dates, the maximum group size, crew roles, vessel specifications, an all-inclusive statement, and full booking, cancellation, children and program-modification policies.",
+    "missingOrConflicting": "Two conflicts: duration (six days on the product page versus 20 days / 19 nights on the homepage card) and pricing (from USD 5,900 versus 'From $ 20.000 USD'), plus an unclear per-person or per-booking basis. Missing: minimum group size, hotel name, embarkation port, arrival and departure times, kayaking and hiking metrics, supplier grading, climate data, fitness and dietary information, and explicit overnight-on-board statements for Days 2–5. The accommodation and interest taxonomies were not supplied, so those fields could not be mapped to controlled values.",
+    "accessLimitations": "No pages required authentication. Only the partner's own pages were used; no third-party sources were consulted. The homepage product card is truncated."
+  }
+}

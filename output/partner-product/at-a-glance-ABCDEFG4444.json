@@ -1,0 +1,64 @@
+{
+  "sku": "ABCDEFG4444",
+  "url": "https://travelagents.viator.com/tours/Gero/Half-Day-Rural-E-Bike-Tour-in-Hida/d50832-73612P8",
+  "heading": "AT A GLANCE",
+  "atAGlance": [
+    "Glide into the quiet heart of rural Japan on a half-day e-bike tour through Hida, where countryside lanes lead you far from the crowds and into a slower, gentler rhythm of life.",
+    "Set out from the Gero area and let your electric bike carry you easily into Hida's rural landscapes. You can take in the scenery at your own pace and feel the fresh mountain air as the road unfolds ahead. The e-bike's quiet assistance makes the ride approachable, so you can spend your energy on what matters most: the scenery, the stillness and the small moments of discovery that turn a ride into a memory. Over a single morning or afternoon, you'll see a side of Hida that is easily missed from a car or train window.",
+    "This is a compact, half-day experience built around electric bikes, so it fits easily into a stay in Gero or a wider journey through central Japan. Before you book, please check the full listing for exact details on the meeting point, start times, duration, inclusions, group size, guiding and any age or fitness requirements.",
+    "Come and find the Japan that lives beyond the guidebooks. Let Hida's countryside slow your pace, open your senses and send you home with the quiet glow of a journey well travelled."
+  ],
+  "report": {
+    "brandVoice": {
+      "followed": true,
+      "elegance": "The copy uses polished, flowing sentences and refined but plain wording (\"a slower, gentler rhythm of life\") and avoids overly ornate language.",
+      "imagination": "It paints sensory pictures of the ride and setting, such as fresh mountain air, stillness and the road unfolding ahead. This imagery is kept general because no specific product details could be confirmed.",
+      "invitation": "It speaks to the reader directly throughout (\"Glide into\", \"let your electric bike carry you\", \"Come and find\") and ends with a warm call to action.",
+      "evidence": [
+        "Glide into the quiet heart of rural Japan",
+        "a slower, gentler rhythm of life",
+        "feel the fresh mountain air as the road unfolds ahead",
+        "Come and find the Japan that lives beyond the guidebooks"
+      ]
+    },
+    "dataAccuracy": "Limited and needs human review before publishing. I fetched the configured travelagents.viator.com URL, plus the public www.viator.com and en-AU versions of the same product, and all three came back with no page content. That means no itinerary, route, inclusions, duration, pricing or operator details could be checked. The only facts used come from the configured product name and the URL path: it is a half-day tour, it uses e-bikes, it is rural, it is in Hida and it is listed under Gero. Phrases like \"fresh mountain air\" and \"countryside lanes\" are general descriptions of the Hida region, not confirmed details of this tour's route. Specific stops, meals, guides, accommodation and group size were left out on purpose rather than made up, and the third paragraph sends readers to the listing for those details. The copy is about 245 words. Rerun once the page content can be retrieved so it can include real highlights and inclusions.",
+    "rulesFollowed": [
+      {
+        "rule": "Brand Voice",
+        "howApplied": "Every paragraph uses elegant, sensory and inviting language that speaks to the reader directly, while staying clear and natural."
+      },
+      {
+        "rule": "Heading: AT A GLANCE",
+        "howApplied": "The heading is set to \"AT A GLANCE\"."
+      },
+      {
+        "rule": "Approximately 200-350 words",
+        "howApplied": "The copy is about 245 words across four paragraphs."
+      },
+      {
+        "rule": "Opens with a bold, enticing hook using SEO keywords",
+        "howApplied": "The first sentence includes the search terms \"half-day e-bike tour\", \"Hida\" and \"rural Japan\"."
+      },
+      {
+        "rule": "Vivid, sensory language",
+        "howApplied": "The copy refers to mountain air, stillness, countryside lanes and the road unfolding ahead."
+      },
+      {
+        "rule": "Balances practical details with aspirational language",
+        "howApplied": "Confirmed facts (half day, e-bike, Gero and Hida, rural setting) are woven into the descriptive storytelling."
+      },
+      {
+        "rule": "Reassures the reader with logistical details",
+        "howApplied": "Only partly met. The copy explains that the e-bike makes the ride easier and that the tour fits a short schedule, but it points readers to the listing for inclusions because none could be confirmed."
+      },
+      {
+        "rule": "Closes with an emotional, inspiring call to action",
+        "howApplied": "The final paragraph invites the reader to discover Hida's countryside and leave with \"the quiet glow of a journey well travelled\"."
+      },
+      {
+        "rule": "AEO/GEO-friendly clear and natural language",
+        "howApplied": "Clear statements about the tour format and location (half-day, e-bike, Gero, Hida) make it easy for search and answer engines to pull out the key facts."
+      }
+    ]
+  }
+}

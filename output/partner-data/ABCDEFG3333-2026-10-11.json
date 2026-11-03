@@ -1,0 +1,1723 @@
+{
+  "product": {
+    "sku": "ABCDEFG3333",
+    "travelPartner": "Backroads",
+    "primaryProductUrl": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+    "researchDate": "2026-10-11",
+    "overallStatus": "Complete with gaps"
+  },
+  "summary": {
+    "found": 13,
+    "partiallyFound": 36,
+    "notFound": 2,
+    "conflicting": 0,
+    "notApplicable": 8,
+    "total": 59
+  },
+  "fields": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Partially found",
+      "value": {
+        "pricingBasis": "Per person",
+        "publishedPrice": "From $5,299 - $5,699/person",
+        "occupancyBasis": null,
+        "sharingArrangement": null,
+        "relatedNotes": "The booking widget says 'Select Guests & Rooms' (up to 4 rooms and 2 beds per room online) and mentions 'Solo Room Savings'. No terms are given."
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Trip header price; Dates & Prices booking widget"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The per-person basis is explicit. The occupancy basis behind the from-price (for example twin share) is not stated. The currency is shown only as '$' and is not named. Single-occupancy pricing and Solo Room Savings terms are not published on the page. The template label 'Unite Name' is assumed to mean 'Unit Name'."
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Partially found",
+      "value": {
+        "startLocation": "La Gomera Island",
+        "country": "Spain",
+        "region": "Canary Islands",
+        "suggestedArrivalAirport": "La Gomera Airport (GMZ)",
+        "meetingVenue": null,
+        "streetAddress": null,
+        "firstNightProperty": "Parador de La Gomera, San Sebastián de La Gomera, La Gomera"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Start/End block; Airports & Travel details; Nights 1-2 accommodation"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The supplier gives only 'Start La Gomera Island'. No meeting venue, time or street address is published. The supplier says start and end locations may vary by departure and that a departure-specific Travel Planner is issued at booking. The first-night hotel is listed for context only and is not confirmed as the meeting point."
+    },
+    {
+      "fieldId": "SET-00",
+      "fieldName": "Settings",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading. No partner data is required."
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No maximum group size is published on the product page. The About page says only that group sizes are 'small enough to deliver the personalized support you need'. The general FAQ page returned no content. Leave blank, as the specification requires."
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "value": null,
+      "sources": [],
+      "confidence": "Low",
+      "notes": "No minimum operating size or departure guarantee was found. Leave blank, as the specification requires."
+    },
+    {
+      "fieldId": "SET-03",
+      "fieldName": "What to Carry",
+      "status": "Found",
+      "value": "Day Pack",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included: 'All luggage transfers and porterage during your trip'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "This is an analyst classification. Luggage transfers and porterage are included and support vans are used, so guests carry only day items while riding. The bike page says bikes come with a rear rack and trunk bag."
+    },
+    {
+      "fieldId": "SET-04",
+      "fieldName": "Trip Style",
+      "status": "Found",
+      "value": "Guided",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included: 'Expertise and services of Backroads Trip Leaders'; Terrain & Shuttles; Commercial Ferry Crossing"
+        },
+        {
+          "url": "https://www.backroads.com/about",
+          "location": "The Joy of Exploring Actively: 'Our multiple leaders and vans give you flexibility every day'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "This is an analyst classification. The trip is a small-group departure led by Backroads Trip Leaders, with van shuttles and additional local guides."
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Partially found",
+      "value": {
+        "supplierGrade": "Activity Levels 2-5 (Backroads scale 1-5)",
+        "analystClassification": [
+          "Moderate to Challenging"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Trip header 'Activity Levels 2-5'; Activity Options & Terrain table; Route & Terrain Notes; Straight Talk - Terrain & Shuttles"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The analyst mapped the supplier grade to the template vocabulary. Evidence: daily options of 12-50 miles with 1,000-5,500 ft of gain; terrain 'hilly, with very little level riding'; sustained climbs, steep grades inland, and a climb of Mount Teide. Level 2 options use shuttles to shorten climbs, which may suit Moderate riders. Backroads' definitions of each level could not be retrieved (activity-level pages returned 404). The Dates & Prices modal contains generic text that conflicts with the trip page ('one of our more challenging hiking trips... activity level range of 3-5'). This appears to be boilerplate and is not treated as authoritative."
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "value": {
+        "supplierCategories": [
+          "Deluxe Hotel",
+          "Luxury Hotel"
+        ],
+        "properties": [
+          {
+            "nights": "1-2",
+            "name": "Parador de La Gomera",
+            "location": "San Sebastián de La Gomera, La Gomera",
+            "supplierCategory": "Deluxe Hotel",
+            "style": "Colonial property on a cliff overlooking the harbor (pool)"
+          },
+          {
+            "nights": "3",
+            "name": "La Laguna Gran Hotel",
+            "location": "San Cristóbal de La Laguna, Tenerife",
+            "supplierCategory": "Deluxe Hotel",
+            "style": "Former colonial manor; rooftop terrace, courtyard (pool, open mid-May through late October)"
+          },
+          {
+            "nights": "4-5",
+            "name": "Hacienda Del Conde",
+            "location": "Buenavista del Norte, Tenerife",
+            "supplierCategory": "Luxury Hotel",
+            "style": "Adults-only retreat, Small Luxury Hotels of the World property (pool, spa)"
+          }
+        ],
+        "templateTaxonomyValues": null
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Trip header 'Deluxe & Luxury Hotels'; accommodation panels for Nights 1-2, Night 3 and Nights 4-5; Days 4-6 narrative"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The property details are found. The template taxonomy for Accommodation Type was not included in the extraction specification, so no controlled value is output. No official star ratings are published. The supplier says hotels may vary on select departures."
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "value": {
+        "evidencedThemes": [
+          "Road cycling",
+          "Volcanic and island landscapes",
+          "National parks (Garajonay; Teide area)",
+          "Food and wine (volcanic wines, winery lunch, Malvasia)",
+          "Culture and history (colonial towns, UNESCO-recognized La Laguna, whistled language, pottery, cooking)",
+          "Coast and beaches"
+        ],
+        "templateTaxonomyValues": null
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Overview; Highlights; Itinerary"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The themes are evidenced in the source. The template's controlled Interest vocabulary was not included in the specification, so the themes are listed as evidence only and are not controlled values."
+    },
+    {
+      "fieldId": "SELL-01",
+      "fieldName": "Trip highlights",
+      "status": "Found",
+      "value": [
+        "Spin switchbacks and straightaways overlooking the ocean beneath bluebird skies: the Canaries average 300 sunny days annually",
+        "Ascend the Mount Teide volcano—at 12,188 feet, Spain's tallest peak—via a legendary route that pros use to train",
+        "Explore two islands with distinct vibes: lively, popular Tenerife and tranquil, traditional La Gomera, both home to laurel forests, sea-carved pools and unique national parks",
+        "Sample red volcanic wines and traditional dishes shaped by Spanish, African and Indigenous peoples",
+        "Connect with culture and nature, from colonial towns and a lesson on the local whistled language to black-sand beaches and a spectacular gorge",
+        "Dinner at a historic clifftop parador with views over the Atlantic to Tenerife",
+        "Guided walking tour of UNESCO-recognized San Cristóbal de La Laguna",
+        "Stay at Hacienda Del Conde, a Small Luxury Hotels of the World property"
+      ],
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Highlights list (items 1-5, verbatim); Itinerary Days 1-2, Day 3, Days 4-6 (items 6-8, summarised)"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Items 1-5 are verbatim supplier highlights. Items 6-8 are summarised from the itinerary. The page gives two heights for Mount Teide: 12,188 feet in Highlights and 12,198 feet in the Days 4-6 narrative. The difference needs resolving before the figure is used in copy."
+    },
+    {
+      "fieldId": "INC-01",
+      "fieldName": "WHAT'S INCLUDED",
+      "status": "Found",
+      "value": {
+        "included": [
+          "All breakfasts, 5 lunches, 4 dinners",
+          "All accommodations on your Backroads trip",
+          "All gratuities at hotels and restaurants",
+          "Expertise and services of Backroads Trip Leaders",
+          "Fully equipped Backroads titanium bike, Wahoo GPS device, helmet and accessories",
+          "Bike fitting and equipment support throughout your trip",
+          "Backroads On Trip App with route maps, elevation profiles, daily snapshots and more",
+          "Additional local guides and experts, plus equipment for included activities as detailed in your itinerary",
+          "Exclusive activities, tours and cultural experiences, as detailed in your itinerary",
+          "All luggage transfers and porterage during your trip",
+          "Snacks and beverages between meals",
+          "Private cocktail and wine receptions on the first and last nights of your trip",
+          "Choice of Backroads cycling jersey, t-shirt or hat, plus water bottle and luggage tag",
+          "Detailed Travel Planner with destination tips and pre-trip information"
+        ],
+        "notIncluded": [
+          "Leader gratuities",
+          "Transportation to and from your Backroads trip start & end locations",
+          "On-your-own meals & activities"
+        ],
+        "optionalOrAdditionalCost": [
+          "Bike upgrades such as e-bikes are subject to availability and may carry a rental fee (the Backroads Performance E-bike is $400). Availability on this trip is not confirmed; see MORE-04."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included"
+        },
+        {
+          "url": "https://www.backroads.com/bikes",
+          "location": "Backroads Performance E-bike: '$400 rental fee'"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The included and not-included lists are verbatim. The page does not state that the Day 3 commercial ferry is included. It falls under the exclusive activities and itinerary inclusions only by implication, so it is not listed here as a confirmed inclusion."
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Partially found",
+      "value": {
+        "durationDays": 6,
+        "durationNights": 5,
+        "publishedNarrativeBlocks": [
+          "Days 1-2",
+          "Day 3",
+          "Days 4-6"
+        ],
+        "dailyActivityRecords": 6,
+        "startIsland": "La Gomera",
+        "endIsland": "Tenerife"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Trip header (6 days, 5 nights); Itinerary; Activity Options & Terrain"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The day count (6) matches the duration and the six daily activity tables. The narrative is published in grouped blocks (Days 1-2 and Days 4-6), so individual day narratives, titles and meals cannot be fully separated. The supplier offers a Detailed Itinerary through a request form, which was not submitted."
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Partially found",
+      "value": "Day 1: Arrive La Gomera – first ride on La Gomera",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 1-2'; Activity Options Day 1"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "This title is inferred. The supplier gives no Day 1 title and publishes Days 1-2 as one block, so a neutral title was generated."
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": {
+        "optionCount": 2,
+        "options": [
+          {
+            "level": "Level 2",
+            "distance": "17 miles (27.4 km)",
+            "elevationGain": "1300 ft (396 m)"
+          },
+          {
+            "level": "Level 3",
+            "distance": "21 miles (33.8 km)",
+            "elevationGain": "2300 ft (701 m)"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Activity Options & Terrain – Day 1"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Miles and feet are as published. Metric values are calculated conversions. Activity time and elevation loss are not published."
+    },
+    {
+      "fieldId": "ITI-1-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "No walking alternative is published for Day 1 of this bike tour."
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "value": {
+        "days1to2CombinedFacts": [
+          "Start the trip on La Gomera, one of the archipelago's oldest islands; Garajonay National Park and a rugged interior",
+          "Ride rolling blacktop from central Alajeró to the port capital San Sebastián, passing volcanic ravines, terraced fields and palms, pausing for an island lunch",
+          "Lessons on the local whistled language, pottery practices and cooking",
+          "Ride to viewpoints and through an ancient laurel forest with giant ferns and birds such as the Island Canary",
+          "Dinner at a historic clifftop parador with views over the Atlantic to Tenerife",
+          "Private cocktail and wine reception on the first night"
+        ],
+        "assignedToDay1": [
+          "Trip start on La Gomera",
+          "Private cocktail and wine reception (first night)"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 1-2'; What's Included"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The supplier publishes Days 1 and 2 as one block. Only the trip start and the first-night reception can be assigned to Day 1. The other facts are listed for the block and are not split by day. No start time is published."
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Parador de La Gomera, San Sebastián de La Gomera, La Gomera (Deluxe Hotel)",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Nights 1-2 accommodation panel"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Hotels may vary on select departures."
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "value": {
+        "breakfast": "Not confirmed",
+        "lunch": "Not confirmed",
+        "dinner": "Not confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included (meal totals); Itinerary 'Days 1-2'"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "The trip includes 'All breakfasts, 5 lunches, 4 dinners' in total, but meals are not assigned by day. The Days 1-2 block mentions one island lunch and one parador dinner without saying which day each falls on."
+    },
+    {
+      "fieldId": "ITI-2-01",
+      "fieldName": "DAY 2 title",
+      "status": "Partially found",
+      "value": "Day 2: Cycling on La Gomera",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 1-2'; Activity Options Day 2"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "This title is inferred. The supplier gives no Day 2 title, so a neutral title was generated."
+    },
+    {
+      "fieldId": "ITI-2-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": {
+        "optionCount": 4,
+        "options": [
+          {
+            "level": "Level 2",
+            "distance": "15 miles (24.1 km)",
+            "elevationGain": "2100 ft (640 m)"
+          },
+          {
+            "level": "Level 3",
+            "distance": "23 miles (37.0 km)",
+            "elevationGain": "3200 ft (975 m)"
+          },
+          {
+            "level": "Level 4",
+            "distance": "32 miles (51.5 km)",
+            "elevationGain": "4400 ft (1341 m)"
+          },
+          {
+            "level": "Level 5",
+            "distance": "43 miles (69.2 km)",
+            "elevationGain": "5200 ft (1585 m)"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Activity Options & Terrain – Day 2"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Miles and feet are as published. Metric values are calculated conversions. Activity time and elevation loss are not published."
+    },
+    {
+      "fieldId": "ITI-2-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "No walking alternative is published for Day 2 of this bike tour."
+    },
+    {
+      "fieldId": "ITI-2-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "value": {
+        "days1to2CombinedFacts": "See ITI-1-04. The Days 1-2 block covers the Alajeró to San Sebastián ride, the whistled-language, pottery and cooking lessons, the laurel forest and viewpoints, and dinner at the parador.",
+        "assignedToDay2": []
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 1-2'"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "No fact in the combined Days 1-2 block can be assigned specifically to Day 2 without inference."
+    },
+    {
+      "fieldId": "ITI-2-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Parador de La Gomera, San Sebastián de La Gomera, La Gomera (Deluxe Hotel)",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Nights 1-2 accommodation panel"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Hotels may vary on select departures."
+    },
+    {
+      "fieldId": "ITI-2-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "value": {
+        "breakfast": "Included (derived)",
+        "lunch": "Not confirmed",
+        "dinner": "Not confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included: 'All breakfasts'; Itinerary 'Days 1-2'"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "The Day 2 breakfast is derived from 'All breakfasts' following the night 1 hotel stay. Lunch and dinner allocation between Days 1 and 2 is not published."
+    },
+    {
+      "fieldId": "ITI-3-01",
+      "fieldName": "DAY 3 title",
+      "status": "Partially found",
+      "value": "Day 3: Ferry from La Gomera to Tenerife – ride and guided walk in San Cristóbal de La Laguna",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Day 3'"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The title is inferred from the Day 3 narrative because the supplier gives no title."
+    },
+    {
+      "fieldId": "ITI-3-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": {
+        "optionCount": 3,
+        "options": [
+          {
+            "level": "Level 2",
+            "distance": "29 miles (46.7 km)",
+            "elevationGain": "1300 ft (396 m)"
+          },
+          {
+            "level": "Level 3",
+            "distance": "39 miles (62.8 km)",
+            "elevationGain": "2500 ft (762 m)"
+          },
+          {
+            "level": "Level 4",
+            "distance": "46 miles (74.0 km)",
+            "elevationGain": "3800 ft (1158 m)"
+          }
+        ],
+        "otherActivities": [
+          "Guided Tour of San Cristóbal de La Laguna (45 Minutes)"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Activity Options & Terrain – Day 3"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Miles and feet are as published. Metric values are calculated conversions. Activity time and elevation loss are not published for the rides."
+    },
+    {
+      "fieldId": "ITI-3-03",
+      "fieldName": "Walking summary",
+      "status": "Partially found",
+      "value": {
+        "activity": "Guided walking tour of San Cristóbal de La Laguna",
+        "duration": "45 minutes",
+        "distance": null,
+        "elevation": null
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Day 3'; Activity Options & Terrain – Day 3"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "This is an included guided walk, not an alternative to cycling. No distance or elevation is published."
+    },
+    {
+      "fieldId": "ITI-3-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Commercial ferry east from La Gomera to Tenerife, the Canaries' largest island",
+        "Routes skirt the slopes of Mount Teide",
+        "Leisurely lunch at a winery; may include artisanal cheeses, charcuterie and island fruit such as dwarf bananas",
+        "Ride through pine forests and almond groves",
+        "Guided walking tour (45 minutes) of San Cristóbal de La Laguna, a UNESCO-recognized city with colonial mansions and the islands' first university",
+        "Operational note: ferry schedules can change with little notice, which may require activities that day to be adjusted"
+      ],
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Day 3'; Straight Talk – Commercial Ferry Crossing"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The lunch menu is described by the supplier as 'might include', so it is not a confirmed menu. Ferry and lunch times are not published."
+    },
+    {
+      "fieldId": "ITI-3-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Laguna Gran Hotel, San Cristóbal de La Laguna, Tenerife (Deluxe Hotel)",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Night 3 accommodation panel"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Hotels may vary on select departures. The pool is open only from mid-May through late October."
+    },
+    {
+      "fieldId": "ITI-3-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "value": {
+        "breakfast": "Included (derived)",
+        "lunch": "Included (winery lunch)",
+        "dinner": "Not confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Day 3'; What's Included"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Breakfast is derived from 'All breakfasts'. The winery lunch is described in the itinerary and is consistent with the 5 included lunches. Dinner status is not published."
+    },
+    {
+      "fieldId": "ITI-4-01",
+      "fieldName": "DAY 4 title",
+      "status": "Partially found",
+      "value": "Day 4: Cycling across Tenerife to Buenavista del Norte",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 4-6'; Night 3 and Nights 4-5 accommodation"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "This title is inferred. The move from La Laguna (night 3) to Buenavista del Norte (night 4) is derived from the accommodation listing. The day of the Mount Teide climb is not specified."
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": {
+        "optionCount": 4,
+        "options": [
+          {
+            "level": "Level 2",
+            "distance": "15 miles (24.1 km)",
+            "elevationGain": "1600 ft (488 m)"
+          },
+          {
+            "level": "Level 3",
+            "distance": "40 miles (64.4 km)",
+            "elevationGain": "2700 ft (823 m)"
+          },
+          {
+            "level": "Level 4",
+            "distance": "42 miles (67.6 km)",
+            "elevationGain": "4500 ft (1372 m)"
+          },
+          {
+            "level": "Level 5",
+            "distance": "50 miles (80.5 km)",
+            "elevationGain": "5500 ft (1676 m)"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Activity Options & Terrain – Day 4"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Miles and feet are as published. Metric values are calculated conversions. Activity time and elevation loss are not published."
+    },
+    {
+      "fieldId": "ITI-4-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "No walking alternative is published for Day 4 of this bike tour."
+    },
+    {
+      "fieldId": "ITI-4-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "value": {
+        "days4to6CombinedFacts": [
+          "Hill climb up the north side of Mount Teide (stated as 12,198 ft in this block), a route favored by pro cyclists, through a national park, with lunch near the top",
+          "Diverse landscapes and flora: native violets, rock formations, black-sand gullies",
+          "Explore Icod de los Vinos, known for its 800-year-old dragon tree and Malvasia dessert wine",
+          "Ride the switchbacks of northwestern Masca, with views over a valley",
+          "R&R or golf at the home base, a Small Luxury Hotels of the World property",
+          "Final ride along Tenerife's northwestern coast"
+        ],
+        "assignedToDay4": [
+          "Transfer of base from San Cristóbal de La Laguna to Hacienda Del Conde, Buenavista del Norte (derived from accommodation)"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 4-6'; accommodation panels"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "The supplier publishes Days 4-6 as one block, so the Teide climb, Icod de los Vinos and Masca cannot be assigned to specific days. The Mount Teide height is given as 12,198 ft here and 12,188 ft in Highlights."
+    },
+    {
+      "fieldId": "ITI-4-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Hacienda Del Conde, Buenavista del Norte, Tenerife (Luxury Hotel)",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Nights 4-5 accommodation panel"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The property is adults-only. Hotels may vary on select departures."
+    },
+    {
+      "fieldId": "ITI-4-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "value": {
+        "breakfast": "Included (derived)",
+        "lunch": "Not confirmed",
+        "dinner": "Not confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included; Itinerary 'Days 4-6'"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "Breakfast is derived from 'All breakfasts'. The Days 4-6 block mentions lunch near the top of Mount Teide without assigning a day."
+    },
+    {
+      "fieldId": "ITI-5-01",
+      "fieldName": "DAY 5 title",
+      "status": "Partially found",
+      "value": "Day 5: Cycling in northwestern Tenerife from Buenavista del Norte",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 4-6'; Activity Options Day 5"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "This title is inferred. The supplier gives no Day 5 title."
+    },
+    {
+      "fieldId": "ITI-5-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": {
+        "optionCount": 4,
+        "options": [
+          {
+            "level": "Level 2",
+            "distance": "15 miles (24.1 km)",
+            "elevationGain": "1800 ft (549 m)"
+          },
+          {
+            "level": "Level 3",
+            "distance": "18 miles (29.0 km)",
+            "elevationGain": "3100 ft (945 m)"
+          },
+          {
+            "level": "Level 4",
+            "distance": "20 miles (32.2 km)",
+            "elevationGain": "3500 ft (1067 m)"
+          },
+          {
+            "level": "Level 5",
+            "distance": "35 miles (56.3 km)",
+            "elevationGain": "4900 ft (1494 m)"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Activity Options & Terrain – Day 5"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Miles and feet are as published. Metric values are calculated conversions. Activity time and elevation loss are not published."
+    },
+    {
+      "fieldId": "ITI-5-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "No walking alternative is published for Day 5 of this bike tour."
+    },
+    {
+      "fieldId": "ITI-5-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "value": {
+        "days4to6CombinedFacts": "See ITI-4-04. The block covers the Mount Teide climb, Icod de los Vinos, Masca and R&R or golf at Hacienda Del Conde.",
+        "assignedToDay5": [
+          "Based at Hacienda Del Conde, Buenavista del Norte (night 5)"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 4-6'; Nights 4-5 accommodation"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "No activity in the combined block can be assigned specifically to Day 5 without inference."
+    },
+    {
+      "fieldId": "ITI-5-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Hacienda Del Conde, Buenavista del Norte, Tenerife (Luxury Hotel)",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Nights 4-5 accommodation panel"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Hotels may vary on select departures."
+    },
+    {
+      "fieldId": "ITI-5-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "value": {
+        "breakfast": "Included (derived)",
+        "lunch": "Not confirmed",
+        "dinner": "Not confirmed"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "Breakfast is derived from 'All breakfasts'. A private cocktail and wine reception is included on the last night (night 5), but no dinner is confirmed for this day."
+    },
+    {
+      "fieldId": "ITI-6-01",
+      "fieldName": "DAY 6 title",
+      "status": "Partially found",
+      "value": "Day 6: Final ride along Tenerife's northwestern coast – trip ends",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 4-6'; Activity Options Day 6"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "This title is inferred. Day 6 has a single Level 2 option and is the last trip day, so the supplier's 'final ride' is assigned to Day 6."
+    },
+    {
+      "fieldId": "ITI-6-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": {
+        "optionCount": 1,
+        "options": [
+          {
+            "level": "Level 2",
+            "distance": "12 miles (19.3 km)",
+            "elevationGain": "1000 ft (305 m)"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Activity Options & Terrain – Day 6"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Miles and feet are as published. Metric values are calculated conversions. Activity time and elevation loss are not published."
+    },
+    {
+      "fieldId": "ITI-6-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "No walking alternative is published for Day 6 of this bike tour."
+    },
+    {
+      "fieldId": "ITI-6-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "value": {
+        "assignedToDay6": [
+          "Final ride along Tenerife's wild, windswept northwestern coast",
+          "Trip ends on Tenerife"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Itinerary 'Days 4-6'; Start/End block"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The end time, end point and any transfer to an airport are not published. Transport to the trip end location is listed as not included."
+    },
+    {
+      "fieldId": "ITI-6-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "None (trip ends on Day 6; 5 nights total)",
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Trip header '6 days, 5 nights'; accommodation panels covering Nights 1-5"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "No overnight on Day 6 is verified by the 5-night duration and the listing of nights 1-5."
+    },
+    {
+      "fieldId": "ITI-6-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "value": {
+        "breakfast": "Included (derived)",
+        "lunch": "Not confirmed",
+        "dinner": "Not included (trip ends; not confirmed)"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "Breakfast is derived from 'All breakfasts' following night 5. The supplier does not say whether lunch is included on the final day."
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Partially found",
+      "value": {
+        "supplierWordingVerbatim": "We're always seeking opportunities to enhance our itineraries; published trip details including routes and activities, as well as trips start and end locations, are subject to change and can vary by departure. Please do not use this itinerary to schedule your flights or any other travel. A Travel Planner, complete with the trip details specific to your chosen date, will be sent to you at the time of booking or soon after.",
+        "additionalSupplierWording": [
+          "Hotels may vary on select departures. Click View Dates and choose a departure to see any variations.",
+          "Please note that schedules can change with little advance warning, which may require us to adjust our activities on that day."
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Request a Sample Itinerary panel; accommodation panels; Straight Talk – Commercial Ferry Crossing"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The supplier wording is captured verbatim. Whether it is approved internal legal copy for the brochure needs internal confirmation."
+    },
+    {
+      "fieldId": "META-00",
+      "fieldName": "Meta info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading. No partner data is required."
+    },
+    {
+      "fieldId": "META-01",
+      "fieldName": "Meta Title",
+      "status": "Found",
+      "value": {
+        "duration": "6 days / 5 nights",
+        "destinations": [
+          "Canary Islands",
+          "Spain",
+          "Tenerife",
+          "La Gomera"
+        ],
+        "activity": "Biking (road cycling)",
+        "guidanceStyle": "Guided",
+        "searchTerms": [
+          "Canary Islands bike tour",
+          "Tenerife cycling",
+          "La Gomera",
+          "Mount Teide"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Page title; trip header; Highlights"
+        }
+      ],
+      "confidence": "High",
+      "notes": "These are derived facts for the SEO title. The search terms are analyst-selected from verified product attributes. The PROD-01 occupancy basis is still unconfirmed."
+    },
+    {
+      "fieldId": "META-02",
+      "fieldName": "Meta Description",
+      "status": "Found",
+      "value": {
+        "destination": "Tenerife and La Gomera, Spain's Canary Islands",
+        "activity": "Guided road-cycling tour with daily options at Activity Levels 2-5",
+        "duration": "6 days / 5 nights",
+        "differentiators": [
+          "Climb of Mount Teide, Spain's tallest peak",
+          "Two contrasting islands linked by ferry",
+          "Deluxe and luxury hotels, including a clifftop parador and a Small Luxury Hotels of the World property",
+          "Volcanic wines and island cuisine",
+          "Whistled-language lesson and a guided walk in UNESCO-recognized La Laguna"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Overview; Highlights; Itinerary; accommodation panels"
+        }
+      ],
+      "confidence": "High",
+      "notes": "These are derived facts for the SEO summary. All are supported by the product page."
+    },
+    {
+      "fieldId": "MORE-00",
+      "fieldName": "more info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading. No partner data is required."
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "value": {
+        "start": "La Gomera Island",
+        "end": "Tenerife Island",
+        "suggestedArrivalAirport": "La Gomera Airport (GMZ)",
+        "suggestedDepartureAirports": [
+          "Tenerife North Airport (TFN)",
+          "Tenerife South Airport (TFS)"
+        ],
+        "supplierCautions": [
+          "Do not book flights until your trip details are confirmed.",
+          "La Gomera is only an inter-island airport; flights from Europe will likely connect through Tenerife or Gran Canaria.",
+          "Trip start and end locations are subject to change and can vary by departure; a Travel Planner with departure-specific details is sent at or soon after booking."
+        ],
+        "transportToFromTrip": "Not included",
+        "startTime": null,
+        "endTime": null,
+        "meetingPoint": null
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Airports & Travel details; Start/End block; What's Included – Not Included"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The airport suggestions are supplier recommendations, not confirmed transfers. Meeting points, start and end times, and any pickup or drop-off arrangements are not published and are deferred to the Travel Planner."
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Partially found",
+      "value": {
+        "tourSeason": "2027: Feb-May, Sep-Dec",
+        "supplierClimateNotes": [
+          "The Canaries average 300 sunny days annually.",
+          "The Canaries are Europe's premiere winter sun destination.",
+          "With elevations ranging from sea level to over 10,000 feet, the islands are known for wildly variable microclimates.",
+          "Inland and upward routes are substantially colder than sea level; bring warm layers and waterproof gear."
+        ],
+        "typicalTemperatures": null,
+        "typicalPrecipitation": null
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Trip header season; Highlights; Straight Talk – Climate"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The supplier gives no temperature or precipitation figures. Adding them would require an approved external source."
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Partially found",
+      "value": {
+        "overallLevels": "2-5 (Backroads scale 1-5)",
+        "levels": [
+          {
+            "level": "Level 2",
+            "days": "1-6",
+            "dailyDistance": "12-29 miles (19.3-46.7 km)",
+            "dailyElevationGain": "1000-2100 ft (305-640 m)"
+          },
+          {
+            "level": "Level 3",
+            "days": "1-5",
+            "dailyDistance": "18-40 miles (29.0-64.4 km)",
+            "dailyElevationGain": "2300-3200 ft (701-975 m)"
+          },
+          {
+            "level": "Level 4",
+            "days": "2-5",
+            "dailyDistance": "20-46 miles (32.2-74.0 km)",
+            "dailyElevationGain": "3500-4500 ft (1067-1372 m)"
+          },
+          {
+            "level": "Level 5",
+            "days": "2, 4, 5",
+            "dailyDistance": "35-50 miles (56.3-80.5 km)",
+            "dailyElevationGain": "4900-5500 ft (1494-1676 m)"
+          }
+        ],
+        "terrain": "Smooth, well-paved roads through tropical forests and volcanic landscapes; hilly with very little level riding; sustained climbs and long descents; some steep grades inland; shorter options use morning shuttles to skip bigger climbs; some busier sections near towns.",
+        "dailyDuration": null,
+        "maximumRouteElevation": null
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Activity Options & Terrain; Route & Terrain Notes; Straight Talk – Terrain & Shuttles"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The ranges are compiled from the daily tables. Metric values are calculated conversions. Daily ride durations and the maximum route elevation are not published. The Teide summit height is not the route's high point; the supplier says only 'lunching near the top'."
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Partially found",
+      "value": {
+        "includedPerTripPage": "Fully equipped Backroads titanium bike, Wahoo GPS device, helmet and accessories; bike fitting and equipment support",
+        "fleetOptionsGeneral": [
+          {
+            "bike": "Backroads Performance Bike",
+            "handlebars": "Drop handlebars only",
+            "specs": "Titanium frame; wireless SRAM Force eTap AXS shifting; TRP Spyre SLC disc brakes; Mavic carbon wheels; rear rack and trunk bag; flat pedals",
+            "cost": "Included in your trip price",
+            "availability": "Biking Trips in Europe and North America (supplier says to see the trip page for specific bikes)"
+          },
+          {
+            "bike": "Backroads Performance E-bike",
+            "handlebars": "Drop handlebars only",
+            "specs": "Titanium frame; removable down-tube battery; Bosch motor; rear rack and trunk bag; flat pedals",
+            "cost": "$400 rental fee",
+            "minimumAge": "16",
+            "availability": "Biking Trips in Europe and North America beginning June 1, 2026; subject to availability"
+          },
+          {
+            "bike": "Backroads Hybrid E-bike",
+            "handlebars": "Upright handlebars only",
+            "specs": "Titanium frame; lower top tube; rear rack and trunk bag; flat pedals",
+            "cost": null,
+            "minimumAge": "16",
+            "availability": "Most Biking and Multi-Adventure Trips; subject to availability; advance reservation required"
+          }
+        ],
+        "departureSpecific": "Some departures are 'Unplugged' (acoustic bikes). On those dates, a limited number of e-bikes are available for travel companions by request only and are not guaranteed.",
+        "tripMinimumAge": "Couples, Friends & Solos: Adults 18+"
+      },
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "What's Included; Dates & Prices ('This Departure is Unplugged'); trip-type selector"
+        },
+        {
+          "url": "https://www.backroads.com/bikes",
+          "location": "Performance E-bike; Performance Bike; Hybrid E-bike"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The product page does not say which fleet bike models are available on this trip. Fleet details come from the general bikes page and apply to this trip only by region (Europe). The Hybrid E-bike fee was not shown on the bikes page. Which departures are Unplugged was not determinable from the static page."
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Partially found",
+      "value": [
+        {
+          "topic": "Terrain & fitness",
+          "detail": "Very little flat riding. Morning shuttles skip the steepest climbs out of coastal hotels. Shorter options use longer shuttles but still involve extended downhill riding rather than level terrain."
+        },
+        {
+          "topic": "Ferry",
+          "detail": "A commercial ferry crossing on Day 3. Schedule changes may require activities that day to be adjusted."
+        },
+        {
+          "topic": "Climate & clothing",
+          "detail": "Variable microclimates. Inland and higher routes are much colder than sea level; bring warm layers and waterproof gear."
+        },
+        {
+          "topic": "Trip type & age",
+          "detail": "Couples, Friends & Solos departures are for adults 18+. Other trip types (Women's Adventures, 30s & 40s, family trips) appear in the trip-type selector with their own age rules."
+        },
+        {
+          "topic": "Accommodation notes",
+          "detail": "Hacienda Del Conde is adults-only. The La Laguna Gran Hotel pool is open mid-May through late October. Hotels may vary on select departures."
+        },
+        {
+          "topic": "Departures",
+          "detail": "2027 season Feb-May and Sep-Dec. Departures run Sunday to Friday, starting Feb 21, Mar 7, Mar 21, Apr 4, Apr 18, May 2, May 16, May 30, Sep 12, Sep 26, Oct 10, Oct 24, Nov 7, Nov 21 and Dec 5."
+        },
+        {
+          "topic": "Unplugged departures",
+          "detail": "Some dates are for acoustic bikes only. E-bikes are available to travel companions by request only and are not guaranteed."
+        },
+        {
+          "topic": "Single travellers",
+          "detail": "'Solo Room Savings' is mentioned without terms."
+        },
+        {
+          "topic": "Not included",
+          "detail": "Leader gratuities, transport to and from the trip start and end, and on-your-own meals and activities."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+          "location": "Straight Talk; trip-type selector; accommodation panels; Dates & Prices; What's Included"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Departure pairs were interpreted from the Sunday/Friday date list. The end date for the Dec 5 departure is not shown. Dietary handling, cultural etiquette and single-supplement terms are not published. The Dates & Prices panel contains generic text that does not match this product: 'more challenging hiking trips', 'activity level range of 3-5', and 'hotel stays and ship accommodations' with online booking unavailable. These are flagged and not treated as product facts."
+    }
+  ],
+  "issues": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Partially found",
+      "issue": "The per-person basis is found, but the occupancy and sharing basis behind the price, the currency and the single-occupancy terms are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Partially found",
+      "issue": "Only 'La Gomera Island' is given as the start. There is no meeting venue or address, and the start may vary by departure.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Not found",
+      "issue": "No maximum group size is published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+        "https://www.backroads.com/faq",
+        "https://www.backroads.com/about",
+        "https://www.backroads.com/about/faq",
+        "https://www.backroads.com/why-backroads",
+        "https://www.backroads.com/the-backroads-difference"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "issue": "No minimum operating size or departure guarantee is published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+        "https://www.backroads.com/faq",
+        "https://www.backroads.com/about",
+        "https://www.backroads.com/book-with-confidence"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Partially found",
+      "issue": "The supplier grade (2-5) is found, but the Backroads level definitions could not be retrieved. The mapping to the template vocabulary is an analyst classification. Generic modal text states '3-5'.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+        "https://www.backroads.com/activity-levels",
+        "https://www.backroads.com/trips/activity-levels"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "issue": "The properties and supplier categories are found, but the template's controlled taxonomy was not supplied, so no controlled value could be selected.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "issue": "The themes are evidenced, but the template's controlled Interest vocabulary was not supplied.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Partially found",
+      "issue": "The narrative is published in grouped blocks (Days 1-2, Day 3, Days 4-6) rather than per day. The Detailed Itinerary is only available through a request form.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Partially found",
+      "issue": "No supplier title is given; the title was inferred.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Activity time and elevation loss are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "issue": "The Days 1-2 narrative is combined; most facts cannot be assigned to Day 1.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "issue": "Meals are not allocated by day; Day 1 meals are unconfirmed.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-2-01",
+      "fieldName": "DAY 2 title",
+      "status": "Partially found",
+      "issue": "No supplier title is given; the title was inferred.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-2-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Activity time and elevation loss are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-2-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "issue": "The Days 1-2 narrative is combined; no fact can be assigned specifically to Day 2.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-2-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "issue": "Only breakfast is derivable; lunch and dinner are unconfirmed.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-3-01",
+      "fieldName": "DAY 3 title",
+      "status": "Partially found",
+      "issue": "No supplier title is given; the title was inferred from the narrative.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-3-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Ride times and elevation loss are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-3-03",
+      "fieldName": "Walking summary",
+      "status": "Partially found",
+      "issue": "The guided La Laguna walk has a duration (45 minutes) but no distance or elevation.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-3-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "issue": "Dinner status for Day 3 is not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-4-01",
+      "fieldName": "DAY 4 title",
+      "status": "Partially found",
+      "issue": "No supplier title is given; the title was inferred. The day of the Teide climb is unknown.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Activity time and elevation loss are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-4-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "issue": "The Days 4-6 narrative is combined. The Mount Teide height is inconsistent on the page (12,198 ft in the itinerary, 12,188 ft in Highlights).",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Conflict resolution"
+    },
+    {
+      "fieldId": "ITI-4-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "issue": "Only breakfast is derivable; lunch and dinner are unconfirmed.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-01",
+      "fieldName": "DAY 5 title",
+      "status": "Partially found",
+      "issue": "No supplier title is given; the title was inferred.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Activity time and elevation loss are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "issue": "The Days 4-6 narrative is combined; no activity can be assigned specifically to Day 5.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "issue": "Only breakfast is derivable; lunch and dinner are unconfirmed.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-6-01",
+      "fieldName": "DAY 6 title",
+      "status": "Partially found",
+      "issue": "No supplier title is given; the title was inferred.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-6-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "issue": "Activity time and elevation loss are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-6-04",
+      "fieldName": "Daily narrative",
+      "status": "Partially found",
+      "issue": "The end time, end point and logistics for Day 6 are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-6-06",
+      "fieldName": "Meals",
+      "status": "Partially found",
+      "issue": "Lunch on the final day is unconfirmed.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Partially found",
+      "issue": "The supplier disclaimer is captured verbatim, but its approval as internal legal copy is unconfirmed.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "issue": "No meeting point, start or end times, or transfer details are published; these are deferred to the departure-specific Travel Planner.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Partially found",
+      "issue": "No temperature or precipitation data is published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "An authorised external source"
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Partially found",
+      "issue": "Daily ride durations and the maximum route elevation are not published.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Partially found",
+      "issue": "The trip page does not specify which bike models or e-bike upgrades are available. The Hybrid E-bike fee and the Unplugged departure dates are not determinable.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+        "https://www.backroads.com/bikes"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Partially found",
+      "issue": "Dietary handling, cultural etiquette and single-supplement terms are missing. The booking panel contains boilerplate that conflicts with this product.",
+      "sourcesChecked": [
+        "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+        "https://www.backroads.com/faq"
+      ],
+      "requiredAction": "Supplier clarification"
+    }
+  ],
+  "sources": [
+    {
+      "pageTitle": "Spain's Canary Islands Bike Tour | Backroads Adventure Travel",
+      "url": "https://www.backroads.com/trips/BCSI/spains-canary-islands-bike-tour",
+      "informationExtracted": "PROD-01, PROD-02, SET-03 to SET-07, SELL-01, INC-01, ITI-00, all ITI day fields, ITI-99, META-01, META-02, MORE-01 to MORE-05",
+      "accessNotes": "The itinerary narrative is grouped (Days 1-2, Day 3, Days 4-6). The Detailed Itinerary requires submitting a request form, which was not done. Departure-specific details (hotel variations, Unplugged dates) are in a dynamic booking widget that was not fully rendered. The booking modal contains generic text inconsistent with this product (hiking, activity levels 3-5, ship accommodations)."
+    },
+    {
+      "pageTitle": "Best Touring Bikes: Titanium & Carbon Bikes | Backroads Adventure Travel",
+      "url": "https://www.backroads.com/bikes",
+      "informationExtracted": "MORE-04, plus the optional e-bike fee in INC-01",
+      "accessNotes": "This is a fleet-wide page and is not specific to this trip. The linked geometry and specification documents were not retrieved."
+    },
+    {
+      "pageTitle": "About The Company | Backroads Adventure Travel",
+      "url": "https://www.backroads.com/about",
+      "informationExtracted": "SET-04 (multiple leaders and vans); SET-01 checked (group size described only as small)",
+      "accessNotes": ""
+    },
+    {
+      "pageTitle": "How Can We Help You? | Backroads Adventure Travel",
+      "url": "https://www.backroads.com/faq",
+      "informationExtracted": "None",
+      "accessNotes": "The FAQ content did not render; it is likely loaded dynamically. Only contact details were returned."
+    },
+    {
+      "pageTitle": "Not found",
+      "url": "https://www.backroads.com/activity-levels",
+      "informationExtracted": "None",
+      "accessNotes": "HTTP 404"
+    },
+    {
+      "pageTitle": "Not found",
+      "url": "https://www.backroads.com/trips/activity-levels",
+      "informationExtracted": "None",
+      "accessNotes": "HTTP 404"
+    },
+    {
+      "pageTitle": "Not found",
+      "url": "https://www.backroads.com/about/faq",
+      "informationExtracted": "None",
+      "accessNotes": "HTTP 404"
+    },
+    {
+      "pageTitle": "Not found",
+      "url": "https://www.backroads.com/why-backroads",
+      "informationExtracted": "None",
+      "accessNotes": "HTTP 404"
+    },
+    {
+      "pageTitle": "Not found",
+      "url": "https://www.backroads.com/the-backroads-difference",
+      "informationExtracted": "None",
+      "accessNotes": "HTTP 404"
+    },
+    {
+      "pageTitle": "Not found",
+      "url": "https://www.backroads.com/book-with-confidence",
+      "informationExtracted": "None",
+      "accessNotes": "HTTP 404"
+    }
+  ],
+  "confidence": {
+    "score": 61,
+    "rating": "Medium",
+    "pointsEarned": 31,
+    "maximumPoints": 51,
+    "supportingFactors": "The product page is authoritative and detailed. It gives a verbatim inclusions list, all five nights of accommodation with supplier categories, per-day route options with distances and elevation gain for all six days, supplier highlights, route and terrain notes, a climate note, and airport guidance. Trip style and luggage handling are clearly supported.",
+    "missingOrConflicting": "Group size (maximum and minimum) is not published. Because the itinerary narrative is grouped, day titles, per-day narratives and per-day meal allocation cannot be confirmed. There is no meeting point, start or end times, or pricing occupancy basis. The template taxonomies for Accommodation Type and Interest were not supplied. No temperature or precipitation data is published. The Mount Teide height differs within the page (12,188 ft vs 12,198 ft). Generic booking-modal text conflicts with the product (hiking, Levels 3-5, ship accommodations).",
+    "accessLimitations": "The Backroads FAQ content did not render, and several candidate policy and activity-level URLs returned 404. The Detailed Itinerary and departure-specific Travel Planner require a form submission or a booking. The departure-specific booking widget is dynamic. Bike information comes from a fleet-wide page rather than trip-specific content."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "sku": "ABCDEFG2222",
+  "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+  "heading": "AT A GLANCE",
+  "atAGlance": [
+    "Discover Premium Sri Lanka, a nine-day journey through the pearl of the Indian Ocean, where ancient kingdoms, wild elephants and emerald tea country wait for you.",
+    "Begin in Negombo with complimentary cocktails and a welcome dinner of bold, spice-laden Sri Lankan cuisine. Travel inland to the Ridi Vihara cave temple, which dates to the second century BC, where palm leaf writing and carving traditions come alive, before reaching Dambulla. Rise early to climb Sigiriya's Lion Rock, Sri Lanka's famed UNESCO World Heritage site, for far-reaching views across the plains, then try your hand at pottery in Muriya Kadawala village. Cycle among the temples, tombs and stupas of ancient Polonnaruwa, learn to make dhal curry and pol sambol in a local grandmother's kitchen, and watch wild elephants gather at the watering hole in Minneriya National Park. On the road to Kandy, breathe in the fragrance of a Matale spice garden before visiting the revered Temple of the Sacred Tooth Relic. Next, wander the tea plantations of Ambagasthenna and toast the sunset from one of the island's finest viewpoints. Rise into the cool highlands of Nuwara Eliya for high tea at the 1891 Grand Hotel, your Feature Stay, then visit a Labukelle tea factory on the way to Colombo for a farewell dinner that celebrates Sri Lankan spices.",
+    "This trip includes 8 nights' accommodation: 7 nights in hotels and 1 night at the Feature Stay, with a single supplement available if you would prefer your own room. You will enjoy 15 meals (8 breakfasts, 5 lunches and 2 dinners), 17 included activities, a complimentary arrival transfer and private vehicle transport. A scenic train ride to Nuwara Eliya is planned where the lines are running, with vehicle transport arranged if they are not. You will travel in a small group of no more than 12, guided by an expert local leader, with free afternoons and evenings to rest, explore or join an optional cultural dance show in Kandy.",
+    "Let the warmth of Sri Lanka's sunshine, the scent of its spices and the quiet beauty of its tea-draped hills draw you in. Your journey to the teardrop isle begins here."
+  ],
+  "report": {
+    "brandVoice": {
+      "followed": true,
+      "elegance": "The copy uses polished phrasing and long sentences with several clauses that flow smoothly, while keeping the vocabulary clear and natural rather than overly ornate.",
+      "imagination": "Sensory details bring each place to life: the smell of spices, cool highland air, elephants at a watering hole, emerald tea country and sunset views.",
+      "invitation": "The copy speaks to the reader directly throughout ('Begin', 'Rise early', 'try your hand', 'Let ... draw you in') and ends with a call to action.",
+      "evidence": [
+        "ancient kingdoms, wild elephants and emerald tea country wait for you",
+        "breathe in the fragrance of a Matale spice garden",
+        "Let the warmth of Sri Lanka's sunshine, the scent of its spices and the quiet beauty of its tea-draped hills draw you in"
+      ]
+    },
+    "dataAccuracy": "All facts come from the product page: the 9-day length, starting in Negombo and ending in Colombo, the Ridi Vihara temple (second century BC), Sigiriya as a UNESCO World Heritage site, the pottery in Muriya Kadawala, the Polonnaruwa bicycle tour and cooking lunch, Minneriya National Park, the Matale spice garden, the Temple of the Tooth, the Ambagasthenna tea and farm tour with a sunset viewpoint, high tea at the 1891 Grand Hotel Feature Stay, the Labukelle tea factory, and the Colombo farewell dinner. Inclusions also match the page: 7 hotel nights plus 1 Feature Stay night, 15 meals (8 breakfasts, 5 lunches, 2 dinners), 17 activities, a complimentary arrival transfer, private vehicle and scenic train transport, a group size of 1 to 12, a local leader, and the optional USD7 dance show. Gaps: the page never says twin-share, so the copy only mentions the single supplement. The train is described as conditional because the page says cyclone Ditwah has made the lines likely unavailable until 2027. The copy does not name the Day 1 to 3 hotels, does not mention that the Amaya Lake and Kingsbury hotels may be swapped for similar ones, and leaves out the note that the park may change to Kaudulla National Park or Hurulu Eco Park. 'One of the island's finest viewpoints' paraphrases the page's 'one of the best viewpoints in Sri Lanka'. 'Wild elephants gather at the watering hole' reflects the page's 'likely to spot', not a guarantee. The main copy is about 300 words, within the 200 to 350 word target.",
+    "rulesFollowed": [
+      {
+        "rule": "Brand Voice",
+        "howApplied": "Every paragraph uses rich sensory language and smooth, polished sentences, speaks directly to the reader, and stays clear and natural for answer and generative engine optimisation (AEO/GEO)."
+      },
+      {
+        "rule": "Heading AT A GLANCE",
+        "howApplied": "The heading is set to 'AT A GLANCE'."
+      },
+      {
+        "rule": "Explore the given website",
+        "howApplied": "All content comes from the configured product URL, fetched during this run."
+      },
+      {
+        "rule": "Approximately 200-350 words",
+        "howApplied": "The four paragraphs total about 300 words."
+      },
+      {
+        "rule": "Bold, enticing hook with SEO keywords",
+        "howApplied": "The opening sentence uses the keywords 'Premium Sri Lanka', 'nine-day journey' and 'pearl of the Indian Ocean'."
+      },
+      {
+        "rule": "Vivid, sensory language",
+        "howApplied": "Uses images such as 'spice-laden cuisine', 'emerald tea country', 'cool highlands' and 'tea-draped hills'."
+      },
+      {
+        "rule": "Concise day-by-day summary balancing practical detail and storytelling",
+        "howApplied": "The second paragraph follows the route in order from Negombo to Colombo, mixing named places and activities with evocative description."
+      },
+      {
+        "rule": "Highlight unique, high-value experiences",
+        "howApplied": "Features the UNESCO-listed Sigiriya, the Temple of the Tooth, the Minneriya elephant safari, a grandmother's cooking lesson, pottery, and high tea at the 1891 heritage Feature Stay."
+      },
+      {
+        "rule": "Reassure with logistical details",
+        "howApplied": "The inclusions paragraph lists accommodation, meal counts, activities, transfers, transport, the train backup plan, group size, the local leader and free time."
+      },
+      {
+        "rule": "Emotional, inspiring call to action",
+        "howApplied": "Closes with an invitation to the 'teardrop isle', a phrase taken from the product page."
+      }
+    ]
+  }
+}

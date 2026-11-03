@@ -1,0 +1,69 @@
+{
+  "sku": "ABCDEFG1111",
+  "url": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+  "heading": "AT A GLANCE",
+  "atAGlance": [
+    "Cycle the UNESCO-listed vineyards of Champagne in luxury on a self-guided cycling holiday from Épernay, where sun-drenched slopes, Grand Cru villages and centuries of sparkling tradition await you at every turn of the pedal.",
+    "Settle into La Villa Eugène, the beautifully restored 19th-century home of the Mercier family, set in a lush private park on the prestigious Avenue de Champagne. From here, stroll past grand mansion façades that rise above miles of underground galleries, where millions of bottles rest in cool darkness. Ride out through the rolling Marne Valley to Hautvillers, the village where the Benedictine monk Dom Pérignon is said to have discovered sparkling wine and where he now rests in the abbey, learning the secrets of Blanc de Noirs as you pass Fleury-la-Rivière and Oeuilly. Next, follow the Marne River to Aÿ, with its Gothic church and timber-framed houses, then continue to Montebello castle in Mareuil-sur-Aÿ and the old church of Condé-sur-Marne, surrounded by fruity Pinot Meunier vines. On your final ride, glide along the chalky slopes of the Côte des Blancs, home of elegant Chardonnay and Blanc de Blancs, through the Grand Cru villages of Avize, Cramant and Le Mesnil-sur-Oger, tucked between vineyard and forest.",
+    "This package includes 4 nights' 5-star accommodation at a single hotel, all breakfasts, bike hire (a Giant Argento RS4 or equivalent with rear pannier and phone holder), a bike fitting and briefing, and a navigation app to guide your way. Daily loops of 43–47 km follow quiet country lanes, cycle paths and vineyard tracks with some steady climbs, best suited to regular cyclists, and an e-bike upgrade offers a gentler pace. Because the holiday is self-guided, you set the rhythm, whether that means lingering over a long lunch or adding the optional visit package, with champagne house tastings in Hautvillers, at Moët & Chandon in Épernay and at Château de Boursault.",
+    "Raise a glass to golden vineyards, chalk-cut cellars and the quiet luxury of Épernay, and come discover Champagne one sparkling village at a time."
+  ],
+  "report": {
+    "brandVoice": {
+      "followed": true,
+      "elegance": "The copy uses polished but natural wording such as 'quiet luxury', 'refined' heritage details and 'elegant Chardonnay', with long, flowing sentences of several clauses that avoid overly ornate language.",
+      "imagination": "Sensory images of sun-drenched slopes, bottles resting in cool darkness, chalky slopes and villages tucked between vineyard and forest give the reader a clear sense of place and atmosphere.",
+      "invitation": "The copy speaks to the reader directly ('Settle into', 'Ride out', 'you set the rhythm') and ends with a direct call to 'come discover Champagne'.",
+      "evidence": [
+        "sun-drenched slopes, Grand Cru villages and centuries of sparkling tradition",
+        "millions of bottles rest in cool darkness",
+        "glide along the chalky slopes of the Côte des Blancs",
+        "Raise a glass to golden vineyards, chalk-cut cellars and the quiet luxury of Épernay",
+        "come discover Champagne one sparkling village at a time"
+      ]
+    },
+    "dataAccuracy": "All facts come from the product page: trip code C04CH, a self-guided single-centre stay of 4 nights in the 5-star La Villa Eugène on the Avenue de Champagne, bed and breakfast, the inclusions (bike hire with a Giant Argento RS4 or equivalent, bike fitting and briefing, navigation app), the terrain and e-bike upgrade, the day loops (Hautvillers 43 km, Marne Valley 47 km, Côte des Blancs 43 km) with their named villages and sights, and the optional visit package. The page does not list support staff or guides, so none are claimed. Tastings appear only as part of the optional visit package. Lunches and dinners are not included, and the copy does not suggest they are. Gaps: the page has no day-by-day entry for a departure day, so the copy gives no total day count. Price (from £1599 per person, excluding flights) and flight options were left out to keep within the word limit. One interpretation: the page's 'roman church of Conde' is described neutrally as the 'old church'. The page says Dom Pérignon 'was said to have' invented sparkling wine, so the copy keeps that hedge.",
+    "rulesFollowed": [
+      {
+        "rule": "Brand Voice",
+        "howApplied": "Every paragraph uses elegant, sensory, inviting language in flowing sentences, addresses the reader directly, and stays clear and natural for answer and generative engines."
+      },
+      {
+        "rule": "Heading AT A GLANCE",
+        "howApplied": "The heading is set to 'AT A GLANCE'."
+      },
+      {
+        "rule": "Explore the given website",
+        "howApplied": "The configured Headwater URL was fetched, and all facts come from that page."
+      },
+      {
+        "rule": "Approximately 200-350 words",
+        "howApplied": "The four paragraphs total roughly 330 words."
+      },
+      {
+        "rule": "Bold, enticing hook with SEO keywords",
+        "howApplied": "The opening sentence combines the keywords 'UNESCO-listed vineyards', 'Champagne', 'luxury', 'self-guided cycling holiday' and 'Épernay'."
+      },
+      {
+        "rule": "Vivid, sensory destination language",
+        "howApplied": "It uses imagery such as sun-drenched slopes, cool dark cellars, chalky slopes, and villages between vineyard and forest."
+      },
+      {
+        "rule": "Concise day-by-day summary balancing practical detail and storytelling",
+        "howApplied": "The second paragraph follows the order of arrival, the Hautvillers loop, the Marne Valley loop and the Côte des Blancs loop, combining route facts with heritage stories."
+      },
+      {
+        "rule": "Highlight unique, high-value experiences",
+        "howApplied": "It features the UNESCO Champagne area, the Avenue de Champagne, Dom Pérignon's Hautvillers, the Grand Cru villages and the optional Moët & Chandon tastings."
+      },
+      {
+        "rule": "Reassure with logistical details",
+        "howApplied": "The inclusions paragraph covers the 5-star accommodation, breakfasts, bike hire, fitting and briefing, the navigation app, terrain, the e-bike option and self-guided flexibility."
+      },
+      {
+        "rule": "Emotional, inspiring call to action",
+        "howApplied": "The closing sentence invites the reader to raise a glass and come discover Champagne."
+      }
+    ]
+  }
+}

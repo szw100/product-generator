@@ -1,0 +1,1488 @@
+{
+  "product": {
+    "sku": "ABCDEFG2222",
+    "travelPartner": "Intrepid Travel",
+    "primaryProductUrl": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+    "researchDate": "2026-10-11",
+    "overallStatus": "Complete with gaps"
+  },
+  "summary": {
+    "found": 42,
+    "partiallyFound": 7,
+    "notFound": 6,
+    "conflicting": 0,
+    "notApplicable": 22,
+    "total": 77
+  },
+  "fields": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Partially found",
+      "value": {
+        "occupancyBasis": "Shared room by default. Solo travellers on Intrepid group trips share with a passenger of the same gender as per passport information.",
+        "singleOccupancy": "A single supplement is available if you'd prefer not to share a room on this trip. The single supplement applies to all nights of your trip and is subject to availability.",
+        "pricingUnit": null
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Important notes, item 3"
+        },
+        {
+          "url": "https://www.intrepidtravel.com/au/sri-lanka",
+          "location": "Sri Lanka travel FAQs - Is Sri Lanka safe for LGBTQIA+ travellers?"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Field name interpreted as 'Unit Name' (pricing basis). The product page does not render departure prices; the Sri Lanka listing page shows 'AUD $4,260 / AUD $3,408 Lowest price 19 Nov 2026' (trip code HPPC) without stating per person or per room. Shared-room rule comes from a destination-level FAQ, not product-specific terms. Per-person basis not explicitly confirmed."
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Found",
+      "value": {
+        "startVenue": "Jetwing Blue Hotel",
+        "streetAddress": "Porutota Road, Ethukala",
+        "city": "Negombo",
+        "postcode": "11500",
+        "country": "Sri Lanka",
+        "phone": "+94 312 279 000",
+        "startTime": "Welcome meeting at 6 pm on Day 1"
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Joining point; Day 1"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Agrees with Day 1 accommodation (Jetwing Blue Hotel or similar) and Start: Negombo, Sri Lanka."
+    },
+    {
+      "fieldId": "SET-00",
+      "fieldName": "Settings",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading; no partner data."
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Found",
+      "value": 12,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Trip summary - Group size: 1 to 12"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Interpreted as maximum guests; source does not state whether the leader is counted, but group size conventionally refers to travellers."
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Partially found",
+      "value": 1,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Trip summary - Group size: 1 to 12"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Lower bound of published group size is 1. Source does not state whether departures are guaranteed to operate at this minimum."
+    },
+    {
+      "fieldId": "SET-03",
+      "fieldName": "What to Carry",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Transport; Itinerary"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Template comment limits this field to walking or biking tours. This is a vehicle-based cultural tour (private vehicle and scenic train) with one short bicycle excursion on Day 4; no luggage-carrying arrangements published."
+    },
+    {
+      "fieldId": "SET-04",
+      "fieldName": "Trip Style",
+      "status": "Found",
+      "value": "Guided",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Day 1 (welcome meeting with local leader); Why you'll love this trip; Day 3, Day 8"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Analyst classification: a local leader accompanies the group from the Day 1 welcome meeting, with local guides at specific experiences."
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Not found",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Trip summary - Physical rating (label shown, value not rendered)"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "The 'Physical rating' label appears but its value (likely a graphic) was not readable. Qualitative evidence: steep Sigiriya climb on rough, narrow steps; Polonnaruwa bicycle tour; travel days up to 5 hours. No distances, elevation or supplier grade published, so no controlled value assigned."
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "value": {
+        "supplierCategories": [
+          "Hotels (7 nights)",
+          "Feature Stay (1 night)"
+        ],
+        "properties": [
+          "Jetwing Blue Hotel or similar (Negombo)",
+          "Amaya Lake or similar (Dambulla)",
+          "Thilanka Kandy Hotel or similar (Kandy)",
+          "Grand Hotel (Feature Stay) or similar (Nuwara Eliya) - National Heritage Property, established 1891",
+          "The Kingsbury Hotel or similar (Colombo)"
+        ],
+        "templateTaxonomyValues": null
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Accommodation section; Your feature stay; Daily itinerary"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Supplier categories and properties confirmed. The template's controlled accommodation taxonomy was not included in the supplied specification, so no controlled value was assigned. No star ratings are published. All properties are 'or similar'."
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "value": {
+        "supplierTheme": "Explorer",
+        "supplierStyle": "Premium",
+        "supportedThemesFromSource": [
+          "Ancient ruins and UNESCO World Heritage sites (Sigiriya, Polonnaruwa)",
+          "Buddhist temples (Ridi Vihara, Temple of the Tooth)",
+          "Traditional crafts (pottery, palm leaf writing, wood and stone carving)",
+          "Food (cooking demo, home-cooked meals, spice garden, high tea)",
+          "Wildlife safari (Minneriya National Park)",
+          "Tea plantations and sustainable farming",
+          "Scenic train journey"
+        ],
+        "templateTaxonomyValues": null
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Trip summary (Style, Theme); Why you'll love this trip; Itinerary"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "The template's controlled interest categories were not included in the supplied specification, so only supplier themes and evidence-backed topics are listed for later mapping."
+    },
+    {
+      "fieldId": "SELL-01",
+      "fieldName": "Trip highlights",
+      "status": "Found",
+      "value": [
+        "Feature Stay at the Grand Hotel, Nuwara Eliya - established in 1891, a National Heritage Property with a modern approach to sustainability (single-use plastic eliminated), including high tea",
+        "Hands-on Sri Lankan craft traditions: palm leaf writing and wood and stone carving at Ridi Vihara, and pottery making at Muriya Kadawala village",
+        "Exclusive look at rural life in Ambagasthenna with tea plantation owner Mr Thilina: tea plantation, sustainable farming and a home-cooked lunch",
+        "Safari in Minneriya National Park to see wild Sri Lankan elephants, macaques and spot-billed pelicans",
+        "Cultural triangle with a local leader: Sigiriya (Lion Rock) climb, Polonnaruwa by bicycle, and Kandy's Temple of the Sacred Tooth Relic",
+        "Cooking demonstration and lunch at a local grandmother's house in Polonnaruwa (dhal curry and pol sambol)",
+        "Scenic train ride from Kandy towards Nuwara Eliya (subject to rail availability)",
+        "Welcome dinner with complimentary cocktails and a farewell dinner at a modern Sri Lankan spice-focused restaurant in Colombo"
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Why you'll love this trip; Your feature stay; Itinerary Days 1-8"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The highlights page mentions brass making, but no brass-making activity appears in the itinerary, so it is left out. The train ride may be swapped for a vehicle transfer (see Day 7)."
+    },
+    {
+      "fieldId": "INC-01",
+      "fieldName": "WHAT'S INCLUDED",
+      "status": "Found",
+      "value": {
+        "accommodation": "8 nights: Hotels (7 nights), Feature Stay (1 night)",
+        "meals": "15 meals: 8 breakfasts, 5 lunches, 2 dinners",
+        "transport": [
+          "Private vehicle",
+          "Scenic train (subject to availability; vehicle substitution if unavailable)"
+        ],
+        "leader": "Local leader throughout",
+        "transfers": "Complimentary airport arrival transfer - valid if arriving on Day 1 or with pre-tour accommodation booked through Intrepid; flight details required at least 14 days prior to travel",
+        "includedActivities": [
+          "Complimentary arrival transfer",
+          "Negombo - Welcome dinner",
+          "Ridigama - Ridi Viharaya shrine visit and cultural experience",
+          "Muriya Kadawala Village - Pottery making experience",
+          "Sigiriya - Lion Rock Fortress visit",
+          "Minneriya National Park - Entrance fee",
+          "Polonnaruwa - Bicycle tour",
+          "Polonnaruwa - Cooking demo and lunch",
+          "Matale - Spice Garden visit",
+          "Kandy - City tour with the Temple of the Tooth",
+          "Ambagasthenna - Tea plantation and sustainable farm tour",
+          "Nuwara Eliya - High tea",
+          "Nanu Oya - Scenic train ride",
+          "Nuwara Eliya - Orientation tour",
+          "Colombo - Farewell dinner",
+          "Colombo - Orientation tour",
+          "Labukelle - Tea plantation and factory visit"
+        ],
+        "optionalExtras": [
+          "Kandy - Cultural Dance Show - USD7"
+        ],
+        "notIncluded": [
+          "International flights (booked separately; Intrepid can quote)",
+          "Single supplement (optional, all nights, subject to availability)"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Accommodation, Activities, Meals, Transport, Complimentary arrival transfer, Flights to and from trip, Important notes 2-3"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Meal totals (8B/5L/2D) do not match the daily meal lists, which add up to only 5B/4L/2D because Days 5-7 have no meal list (see ITI-5-06 to ITI-7-06). Gratuities and a departure transfer are not stated as included. Visa services via Sherpa are third-party and cost extra."
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Found",
+      "value": {
+        "durationDays": 9,
+        "nights": 8,
+        "start": "Negombo",
+        "end": "Colombo",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Trip summary; Itinerary Days 1-9"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Nine ordered day records match the 9-day duration and 8 accommodation nights."
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Found",
+      "value": "Day 1 • Negombo",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 1"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No biking or route activity on this day."
+    },
+    {
+      "fieldId": "ITI-1-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No guided walking activity; only optional free time."
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Arrive at Bandaranaike International Airport (Colombo); met by an Intrepid representative and transferred to the hotel in Negombo (complimentary arrival transfer, conditions apply).",
+        "Optional free time on arrival: relax on the beach or walk around the area.",
+        "Welcome meeting at 6 pm to meet the local leader and group; attendance is very important because insurance and emergency contact details are collected.",
+        "Complimentary cocktails and a welcome dinner of traditional Sri Lankan cuisine.",
+        "Advisory: avoid unauthorised local guides offering excursions near Intrepid hotels."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 1; Special information"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Jetwing Blue Hotel or similar, Negombo (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 1 - Accommodation"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 1 - Meals"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-2-01",
+      "fieldName": "DAY 2 title",
+      "status": "Found",
+      "value": "Day 2 • Negombo to Kurunegala to Dambulla",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 2"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-2-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No biking or route activity on this day."
+    },
+    {
+      "fieldId": "ITI-2-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking activity described."
+    },
+    {
+      "fieldId": "ITI-2-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Travel inland towards Dambulla; travel time about 4.5 hours.",
+        "Visit the Ridi Vihara shrine, a Buddhist cave temple dating to the 2nd century BC, with a cultural experience on palm leaf writing and wood and stone carving (included).",
+        "Lunch at a local restaurant.",
+        "Continue to Dambulla (base for three nights); free afternoon."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 2; Special information"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-2-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Amaya Lake or similar, Dambulla (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 2 - Accommodation"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-2-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 2 - Meals"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-3-01",
+      "fieldName": "DAY 3 title",
+      "status": "Found",
+      "value": "Day 3 • Dambulla",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 3"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-3-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No biking or route options on this day."
+    },
+    {
+      "fieldId": "ITI-3-03",
+      "fieldName": "Walking summary",
+      "status": "Not found",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 3; Is this trip right for you?"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "The Sigiriya climb is described as a steep hike on rough, narrow steps and tight walkways, but no distance, time or elevation is published."
+    },
+    {
+      "fieldId": "ITI-3-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Early-morning climb of Sigiriya (Lion Rock Fortress), led by the leader; steep hike with wide views. Travellers with a fear of heights may sit it out.",
+        "Return to the hotel for breakfast and a relaxing morning.",
+        "Lunch at a local house.",
+        "Pottery-making experience in Muriya Kadawala village, with a local herbal drink and halapa (a sweet wrapped in kenda leaves).",
+        "Free afternoon; total travel time about 3 hours."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 3; Special information; Is this trip right for you?"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-3-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Amaya Lake or similar, Dambulla (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 3 - Accommodation"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-3-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 3 - Meals"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-4-01",
+      "fieldName": "DAY 4 title",
+      "status": "Found",
+      "value": "Day 4 • Dambulla",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 4"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The day's activities take place in Polonnaruwa and Minneriya, with the overnight in Dambulla."
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 4 - Polonnaruwa Bicycle tour"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "An included Polonnaruwa bicycle tour of the Quadrangle complex is confirmed, but no level, distance, duration or elevation is published."
+    },
+    {
+      "fieldId": "ITI-4-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking activity described."
+    },
+    {
+      "fieldId": "ITI-4-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "After breakfast, travel to Polonnaruwa; bicycle tour of the ancient Quadrangle complex: temples, tombs and stupas, the remains of a seven-storey royal palace, Gal Vihara rock temple and the statue of 12th-century king Parakrama I.",
+        "Cooking demonstration and lunch at a local grandmother's house (dhal curry and pol sambol, with coconut shredded on a traditional scraper).",
+        "Afternoon safari in Minneriya National Park (entrance fee included) to see wild elephants, macaques and spot-billed pelicans.",
+        "Travel time about 4 hours.",
+        "Variation: depending on the time of year, Kaudulla National Park or Hurulu Eco Park may be visited instead of Minneriya."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 4; Special information"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-4-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Amaya Lake or similar, Dambulla (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 4"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-4-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 4"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-5-01",
+      "fieldName": "DAY 5 title",
+      "status": "Found",
+      "value": "Day 5 • Kandy",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 5"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-5-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No biking or route activity on this day."
+    },
+    {
+      "fieldId": "ITI-5-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No walking activity described."
+    },
+    {
+      "fieldId": "ITI-5-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Travel to Kandy, stopping in Matale at a spice garden (included).",
+        "Guided city tour of Kandy, including Sri Dalada Maligawa (Temple of the Sacred Tooth Relic) (included).",
+        "Free evening; optional Kandy cultural dance show at an extra cost of USD7."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 5; optional activities"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Travel time not stated for this day."
+    },
+    {
+      "fieldId": "ITI-5-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Thilanka Kandy Hotel or similar, Kandy (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 5"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-5-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 5; Meals summary"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "No meal list shown for Day 5. The trip total of 8 breakfasts suggests breakfast is included on Days 5-7, but this is not confirmed in the daily record."
+    },
+    {
+      "fieldId": "ITI-6-01",
+      "fieldName": "DAY 6 title",
+      "status": "Found",
+      "value": "Day 6 • Kandy",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 6"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Activities are in Ambagasthenna village, with the overnight in Kandy."
+    },
+    {
+      "fieldId": "ITI-6-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No biking or route activity on this day."
+    },
+    {
+      "fieldId": "ITI-6-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "The highlights mention walking through tea plantations and paddy fields, but this is a guided farm tour, not a walking route; no metrics published."
+    },
+    {
+      "fieldId": "ITI-6-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Leisurely morning, then drive to Ambagasthenna village.",
+        "Guided neighbourhood, tea plantation and sustainable farm tour with hotel and tea plantation owner Mr Thilina (included); learn about tea cultivation, local crops and ancient landscaping traditions, and taste tea served the Sri Lankan way.",
+        "Home-cooked lunch made by Mr Thilina's mother.",
+        "End the day watching the sunset with a beer from a viewpoint."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 6; Why you'll love this trip"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The source does not say whether the sunset beer is included."
+    },
+    {
+      "fieldId": "ITI-6-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Thilanka Kandy Hotel or similar, Kandy (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 6"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-6-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 6; Meals summary"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "No meal list shown. The narrative describes a home-cooked lunch, and the trip total of 5 lunches suggests it is included, but the daily record does not confirm this. Breakfast is also unconfirmed."
+    },
+    {
+      "fieldId": "ITI-7-01",
+      "fieldName": "DAY 7 title",
+      "status": "Found",
+      "value": "Day 7 • Nuwara Eliya",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 7"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-7-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No biking or route activity on this day."
+    },
+    {
+      "fieldId": "ITI-7-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "Only an incidental orientation walk; no metrics."
+    },
+    {
+      "fieldId": "ITI-7-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Depart Kandy on a morning scenic train (Nanu Oya) towards Nuwara Eliya, in tea country at an elevation of 1800 m.",
+        "Orientation walk of Nuwara Eliya along Gregory Lake (included).",
+        "Check into the Grand Hotel Feature Stay (National Heritage Property, sustainability focus); high tea on arrival (included).",
+        "Variation: because of cyclone Ditwah, train lines are expected to be unavailable until 2027; vehicle transport will be arranged if the train cannot run.",
+        "Full passport details are needed at least 45 days before departure to reserve train seats; if tickets are unavailable, travel continues by private vehicle.",
+        "The Feature Stay rooms have no air-conditioning."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 7; Special information; Important notes 4"
+        }
+      ],
+      "confidence": "High",
+      "notes": "The included scenic train ride is currently subject to the published cyclone-related substitution."
+    },
+    {
+      "fieldId": "ITI-7-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "Grand Hotel (Feature Stay) or similar, Nuwara Eliya (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 7; Your feature stay"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-7-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 7; Meals summary"
+        }
+      ],
+      "confidence": "Low",
+      "notes": "No meal list shown. High tea is an included activity but is not classed as a meal. Breakfast is unconfirmed."
+    },
+    {
+      "fieldId": "ITI-8-01",
+      "fieldName": "DAY 8 title",
+      "status": "Found",
+      "value": "Day 8 • Colombo",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 8"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-8-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "No biking or route activity on this day."
+    },
+    {
+      "fieldId": "ITI-8-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "Medium",
+      "notes": "Only an incidental orientation walk; no metrics."
+    },
+    {
+      "fieldId": "ITI-8-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Travel from Nuwara Eliya to Colombo; travel time about 5 hours.",
+        "Tea plantation and factory visit near Labukelle (included); lunch at a local restaurant.",
+        "Orientation walk in Colombo with the leader: old parliament building, National Museum and fair-trade souvenir shopping spots.",
+        "Farewell dinner at a modern restaurant celebrating Sri Lankan spices."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 8; Special information"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-8-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "The Kingsbury Hotel or similar, Colombo (1 night)",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 8"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-8-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 8"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-9-01",
+      "fieldName": "DAY 9 title",
+      "status": "Found",
+      "value": "Day 9 • Colombo",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 9"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-9-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Departure day."
+    },
+    {
+      "fieldId": "ITI-9-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Departure day."
+    },
+    {
+      "fieldId": "ITI-9-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "The trip ends after breakfast in Colombo.",
+        "Extra accommodation can be arranged in advance through the booking agent."
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 9"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-9-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "None",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 9; Accommodation summary (8 nights total)"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Trip ends after breakfast. No Day 9 accommodation is listed, and the 8-night total is accounted for by Days 1-8."
+    },
+    {
+      "fieldId": "ITI-9-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Itinerary Day 9 - Meals"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Partially found",
+      "value": "The style of accommodation indicated in the day-to-day itinerary is a guideline only and may change. On some occasions, alternative arrangements may need to be made due to the lack of availability of rooms in our preferred accommodation. In these cases, we will use a similar standard of accommodation.",
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Accommodation section"
+        },
+        {
+          "url": "https://www.intrepidtravel.com/au/booking-terms-conditions",
+          "location": "Booking terms index"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Verbatim supplier wording, but it covers accommodation only. Departure-specific variations exist (Day 4 park substitution, Day 7 train substitution). No general itinerary-change disclaimer was found; the Standard Booking Conditions documents are linked from the index but were not retrieved. Approved legal copy is required."
+    },
+    {
+      "fieldId": "META-00",
+      "fieldName": "Meta info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading."
+    },
+    {
+      "fieldId": "META-01",
+      "fieldName": "Meta Title",
+      "status": "Found",
+      "value": {
+        "productName": "Premium Sri Lanka",
+        "durationDays": 9,
+        "destinations": [
+          "Sri Lanka",
+          "Negombo",
+          "Dambulla",
+          "Sigiriya",
+          "Polonnaruwa",
+          "Kandy",
+          "Nuwara Eliya",
+          "Colombo"
+        ],
+        "activity": "Small-group cultural tour",
+        "guidanceStyle": "Guided (local leader)",
+        "style": "Premium",
+        "priorityTerms": [
+          "Premium Sri Lanka tour",
+          "9-day Sri Lanka tour",
+          "Sigiriya",
+          "Cultural triangle",
+          "Tea country",
+          "Small group"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Title; Trip summary; Destinations"
+        }
+      ],
+      "confidence": "High",
+      "notes": "Facts for the SEO title only; 'small group' is based on the maximum of 12 travellers."
+    },
+    {
+      "fieldId": "META-02",
+      "fieldName": "Meta Description",
+      "status": "Found",
+      "value": {
+        "destination": "Sri Lanka - Negombo to Colombo via the cultural triangle, Kandy and Nuwara Eliya",
+        "duration": "9 days",
+        "differentiators": [
+          "1891 Grand Hotel Feature Stay with high tea",
+          "Sigiriya Lion Rock climb",
+          "Polonnaruwa by bicycle",
+          "Minneriya elephant safari",
+          "Ambagasthenna tea and sustainable farm experience",
+          "Hands-on pottery and craft traditions",
+          "Home-cooked meals and cooking demonstration",
+          "Maximum group size 12"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Overview; Why you'll love this trip; Itinerary"
+        }
+      ],
+      "confidence": "High",
+      "notes": ""
+    },
+    {
+      "fieldId": "MORE-00",
+      "fieldName": "more info",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [],
+      "confidence": "High",
+      "notes": "Structural heading."
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "value": {
+        "start": "Jetwing Blue Hotel, Porutota Road, Ethukala, Negombo 11500, Sri Lanka; welcome meeting at 6 pm on Day 1",
+        "nearestAirport": "Bandaranaike International Airport, in a suburb of Negombo, about 35 km north of Colombo",
+        "arrivalTransfer": "Complimentary arrival transfer to the joining hotel if arriving on Day 1 or with pre-tour accommodation booked through Intrepid; flight details required at least 14 days before travel. The driver waits at the travel counters in the arrivals hall with an Intrepid signboard; if you can't find them, wait near the Dialog mobile counter at the rear of the arrivals hall. Transfer operator: +94 (0) 76 831 6000.",
+        "taxiAlternative": "Taxi from the airport takes about 15 minutes and costs about LKR 5,000 (USD 15); from Colombo about 30 km and about LKR 10,000 (USD 30).",
+        "end": "Colombo, Day 9 after breakfast; last night at The Kingsbury Hotel or similar",
+        "bookingCautions": [
+          "Flights are booked separately",
+          "Passport details are required for train tickets (45-day deadline)",
+          "Avoid unauthorised local guides"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Joining point - Instructions; Important notes 2 and 4; Day 1; Day 9; Flights to and from trip"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Consistent with PROD-02 and Day 1. Taxi costs are supplier approximations. There is no exact finish-point address, no departure transfer information and no recommended departure flight timing."
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Partially found",
+      "value": {
+        "general": "Tropical climate, with temperatures in the high 20s throughout most of the year.",
+        "drySeasons": "June-August and December-March",
+        "wetSeason": "Monsoon season the rest of the time; expect rain.",
+        "highlands": "Nuwara Eliya sits at 1800 m with some of the coolest temperatures in Sri Lanka; the Feature Stay has no air-conditioning because it is not needed there.",
+        "packing": "Light, breathable clothing, except in the hill country."
+      },
+      "sources": [
+        {
+          "url": "https://www.intrepidtravel.com/au/sri-lanka",
+          "location": "Country overview climate paragraph; FAQ 'What should I pack'"
+        },
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Day 7 narrative and Special information"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Destination-level supplier content, not trip-specific. The source does not say which monsoon affects which region, gives no rainfall figures, and does not link climate to specific departure months."
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Trip summary; Day 4"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Not a cycling or walking tour; there is a single bicycle excursion at Polonnaruwa with no published levels or metrics."
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Not applicable",
+      "value": null,
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Day 4"
+        }
+      ],
+      "confidence": "Medium",
+      "notes": "Not a cycling product. Bikes are presumably supplied for the included Polonnaruwa tour, but no equipment, upgrade or age details are published. The trip's minimum age is 15."
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Found",
+      "value": [
+        {
+          "topic": "Minimum age",
+          "detail": "15 years old"
+        },
+        {
+          "topic": "Fitness and terrain",
+          "detail": "The Sigiriya climb involves many rough, narrow steps and tight walkways; travellers with a fear of heights may sit it out."
+        },
+        {
+          "topic": "Travel days",
+          "detail": "A couple of long travel days, with journeys of up to five hours."
+        },
+        {
+          "topic": "Cultural etiquette",
+          "detail": "Some temples require heads to be uncovered; travellers can opt out of temple visits. Clothing depicting the Buddha must not be worn (destination FAQ)."
+        },
+        {
+          "topic": "Transport",
+          "detail": "Private vehicle and scenic train. Because of cyclone Ditwah, trains are expected to be unavailable until 2027 and vehicle transport will be used."
+        },
+        {
+          "topic": "Passport details",
+          "detail": "Full name and passport number exactly as on the passport, provided at booking. Late changes within 45 days may incur fees or the cost of a new ticket."
+        },
+        {
+          "topic": "Single occupancy",
+          "detail": "Optional single supplement covering all nights, subject to availability."
+        },
+        {
+          "topic": "Accommodation",
+          "detail": "Properties are 'or similar'. Early check-in is not guaranteed. The Nuwara Eliya Feature Stay has no air-conditioning."
+        },
+        {
+          "topic": "Welcome meeting",
+          "detail": "Attendance is essential; insurance and emergency contact details are collected."
+        },
+        {
+          "topic": "Travel insurance",
+          "detail": "Mandatory for all Intrepid travellers (destination FAQ)."
+        },
+        {
+          "topic": "Safety",
+          "detail": "Avoid unauthorised local guides offering excursions near hotels."
+        },
+        {
+          "topic": "Wildlife park variation",
+          "detail": "Kaudulla National Park or Hurulu Eco Park may replace Minneriya depending on the season."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+          "location": "Trip summary; Is this trip right for you?; Important notes; Accommodation; Day 4 and Day 7 Special information"
+        },
+        {
+          "url": "https://www.intrepidtravel.com/au/sri-lanka",
+          "location": "Sri Lanka travel FAQs"
+        }
+      ],
+      "confidence": "High",
+      "notes": "No dietary-handling information found. Visa information on the product page is provided by Sherpa, a third party, and is excluded."
+    }
+  ],
+  "issues": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Partially found",
+      "issue": "Shared-room default and single supplement confirmed; the pricing unit (per person, twin share) is not explicitly stated and departure prices are not shown on the product page.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/sri-lanka"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Partially found",
+      "issue": "Group size '1 to 12' implies a minimum of 1, but there is no statement on guaranteed departure or minimum numbers needed to operate.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/booking-terms-conditions"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Not found",
+      "issue": "The physical rating value was not readable (graphic only) and no activity metrics are published.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/physical-ratings"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "issue": "Supplier categories (Hotels, Feature Stay) and properties found, but the template's controlled accommodation taxonomy was not supplied, so no controlled value could be assigned. No star ratings are published.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "issue": "Supplier theme (Explorer) and supported topics found, but the template's controlled interest categories were not supplied for mapping.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "ITI-3-03",
+      "fieldName": "Walking summary",
+      "status": "Not found",
+      "issue": "Sigiriya climb confirmed, but there is no distance, walking time or elevation.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not found",
+      "issue": "Polonnaruwa bicycle tour confirmed, but there is no level, distance, duration or elevation.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-5-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "issue": "No daily meal list for Day 5. The trip totals (8B/5L/2D) exceed the sum of the daily lists (5B/4L/2D), which suggests meals on Days 5-7 are not shown.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-6-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "issue": "No daily meal list for Day 6. The narrative describes a home-cooked lunch, but inclusion is not confirmed in the meal record; breakfast is unconfirmed.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-7-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "issue": "No daily meal list for Day 7; breakfast is unconfirmed, and high tea is an activity, not a listed meal.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Supplier clarification"
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Partially found",
+      "issue": "Only accommodation-variation wording was found. No general itinerary-change disclaimer or approved legal copy was found, and the Standard Booking Conditions documents were not retrieved.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/booking-terms-conditions",
+        "https://www.intrepidtravel.com/au/booking-conditions",
+        "https://www.intrepidtravel.com/au/booking-conditions-international"
+      ],
+      "requiredAction": "Internal confirmation"
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "issue": "Start logistics are complete. The finish-point address, departure transfer arrangements and recommended departure timing are missing.",
+      "sourcesChecked": [
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+        "https://www.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "Additional partner research"
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Partially found",
+      "issue": "Only general destination-level climate is available (high 20s, dry seasons June-August and December-March, monsoon otherwise); there are no regional or monthly temperature and rainfall figures for the tour route.",
+      "sourcesChecked": [
+        "https://www.intrepidtravel.com/au/sri-lanka",
+        "https://www.intrepidtravel.com/au/sri-lanka/weather",
+        "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677"
+      ],
+      "requiredAction": "An authorised external source"
+    }
+  ],
+  "sources": [
+    {
+      "pageTitle": "Premium Sri Lanka | Intrepid Travel AU (agents site)",
+      "url": "https://agents.intrepidtravel.com/au/aud/sri-lanka/premium-sri-lanka-166677",
+      "informationExtracted": "PROD-01, PROD-02, SET-01 to SET-07, SELL-01, INC-01, ITI-00, ITI-1 to ITI-9 (all sub-fields), ITI-99, META-01, META-02, MORE-01, MORE-02 (Nuwara Eliya), MORE-03, MORE-04, MORE-05",
+      "accessNotes": "Physical rating value not rendered (likely graphic). Dates and prices section is dynamic and showed no departures or prices. No meal lists rendered for Days 5-7, and some section headings missing for Days 4-8. Visa content is from a third party (Sherpa) and was excluded."
+    },
+    {
+      "pageTitle": "Premium Sri Lanka | Intrepid Travel AU (consumer site)",
+      "url": "https://www.intrepidtravel.com/au/sri-lanka/premium-sri-lanka-166677",
+      "informationExtracted": "Cross-check of all product fields; content identical to the agents page",
+      "accessNotes": "Same limitations as the agents page: physical rating value and dynamic pricing not rendered."
+    },
+    {
+      "pageTitle": "Best Sri Lanka Tours & Holidays 2026/2027 | Intrepid Travel AU",
+      "url": "https://www.intrepidtravel.com/au/sri-lanka",
+      "informationExtracted": "PROD-01 (shared-room rule, listed prices, trip code HPPC), MORE-02 (climate, packing), MORE-05 (travel insurance, etiquette)",
+      "accessNotes": "Destination-level content, not specific to this product."
+    },
+    {
+      "pageTitle": "Booking terms & conditions | Intrepid Travel AU",
+      "url": "https://www.intrepidtravel.com/au/booking-terms-conditions",
+      "informationExtracted": "ITI-99 (index of applicable booking conditions only)",
+      "accessNotes": "Index page only; the linked Standard Booking Conditions documents were not retrieved."
+    },
+    {
+      "pageTitle": "Sri Lanka weather (attempted)",
+      "url": "https://www.intrepidtravel.com/au/sri-lanka/weather",
+      "informationExtracted": "None",
+      "accessNotes": "404 Not Found"
+    },
+    {
+      "pageTitle": "Booking conditions (attempted)",
+      "url": "https://www.intrepidtravel.com/au/booking-conditions",
+      "informationExtracted": "None",
+      "accessNotes": "404 Not Found"
+    },
+    {
+      "pageTitle": "Booking conditions international (attempted)",
+      "url": "https://www.intrepidtravel.com/au/booking-conditions-international",
+      "informationExtracted": "None",
+      "accessNotes": "404 Not Found"
+    },
+    {
+      "pageTitle": "Physical ratings (attempted)",
+      "url": "https://www.intrepidtravel.com/au/physical-ratings",
+      "informationExtracted": "None",
+      "accessNotes": "404 Not Found"
+    }
+  ],
+  "confidence": {
+    "score": 83,
+    "rating": "Medium",
+    "pointsEarned": 45.5,
+    "maximumPoints": 55,
+    "supportingFactors": "The authoritative supplier product page gives a complete 9-day itinerary with day headings, narratives, nightly accommodation, an explicit inclusions list (17 activities, meal totals, transport), a clearly marked optional extra (USD7 dance show), a full joining-point address with arrival instructions, and published group size and minimum age. Departure-specific variations (park substitution, train disruption) are stated explicitly.",
+    "missingOrConflicting": "Daily meal lists are missing for Days 5-7, and the trip meal totals (8B/5L) exceed the daily lists (5B/4L). The physical rating/grading value is unavailable. There are no metrics for the Sigiriya climb or the Polonnaruwa bicycle tour. The pricing unit is not explicit. Controlled taxonomies for Accommodation Type and Interest were not supplied. There is no general itinerary-variation legal wording, no finish-point address or departure logistics, and climate data is only destination-level.",
+    "accessLimitations": "The physical rating graphic and the dynamic dates-and-prices section did not render. Several guessed Intrepid URLs (weather, booking conditions, physical ratings) returned 404, and the Standard Booking Conditions documents and Essential Trip Information were not retrieved. Third-party Sherpa visa content was excluded."
+  }
+}
