@@ -17,9 +17,9 @@ Use only that page, other pages on the same travel partner’s website, and same
 
 Many partner sites load dates and prices with JavaScript. A plain HTML fetch often shows zero departures even when the live page has many.
 
-1. Fetch the product URL first.
-2. If the HTML does not contain a usable departure list, inspect the HTML and embedded scripts for same-origin endpoints that return departures, availability, calendars, or dates-and-prices JSON.
-3. Call those APIs with `webFetch` or shell `curl` against the product host only. Reuse locale and currency from the product URL or page when the API requires them.
+1. Call `browse_url` on the product URL first so the page's own JavaScript runs. `browse_url` does not run JavaScript you supply.
+2. If that result does not contain a usable departure list, inspect the rendered text, same-host JSON, and embedded scripts for same-origin endpoints that return departures, availability, calendars, or dates-and-prices JSON.
+3. Call those APIs with `fetch_url` against the product host only. Reuse locale and currency from the product URL or page when the API requires them.
 4. Request a page size large enough for every published departure, or page until `totalRecords` / equivalent is covered. Also open season tabs or next-season product links when the site splits seasons.
 5. Map every returned departure once. Do not invent rows that the API or page does not publish.
 6. If only a season window or single price is published, return one departure and explain that individual dates were not listed.

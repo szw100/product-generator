@@ -6,7 +6,6 @@ import { loadConfig } from "../config/loadConfig.js";
 import { assertInsideDirectory, formatResearchDate } from "../output/fileName.js";
 import { collectDepartureSources } from "../product/collectDepartureSources.js";
 import { invokeDepartureInventory } from "../product/invokeDepartureInventory.js";
-import { mapIntrepidDepartures } from "../product/mapIntrepidDepartures.js";
 import {
   parseDepartureInventoryDocument,
   type DepartureInventoryDocument,
@@ -39,15 +38,6 @@ async function resolveDepartureInventory(
   partner: PartnerSource,
 ): Promise<DepartureInventoryDocument> {
   const sources = await collectDepartureSources(partner, config.browser.timeoutMs);
-  if (sources.apiText && sources.apiUrl) {
-    try {
-      return mapIntrepidDepartures(sources.apiText, partner.SKU, partner.url, sources.apiUrl);
-    } catch (error) {
-      const detail = error instanceof Error ? error.message : "mapping failed";
-      console.warn(`Direct departure API mapping failed; falling back to agent: ${detail}`);
-    }
-  }
-
   const prompt = readFileSync(resolve(config.prompts.departure_inventory_prompt), "utf8");
   const generated = await invokeDepartureInventory(config, prompt, partner, sources);
   return parseDepartureInventoryDocument(generated, partner.SKU, partner.url);

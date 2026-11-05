@@ -1,0 +1,538 @@
+{
+  "product": {
+    "sku": "ABCDEFG1111",
+    "travelPartner": "Headwater",
+    "primaryProductUrl": "https://www.headwater.com/holidays/cycling/france/C04CH.htm",
+    "researchDate": "2026-11-04",
+    "overallStatus": "Complete with gaps"
+  },
+  "summary": {
+    "found": 23,
+    "partiallyFound": 11,
+    "notFound": 4,
+    "conflicting": 1,
+    "notApplicable": 8,
+    "total": 47
+  },
+  "fields": [
+    {
+      "fieldId": "PROD-01",
+      "fieldName": "Unite Name",
+      "status": "Found",
+      "value": {
+        "pricingBasis": "Per person",
+        "occupancyBasis": "Based on two people sharing",
+        "fromPrice": "£1679 per person, excluding flights",
+        "singleOccupancy": "Single supplement from £487",
+        "supplierWording": "These prices are per person, based on two people sharing, excluding flights. Single supplement from £487."
+      }
+    },
+    {
+      "fieldId": "PROD-02",
+      "fieldName": "Address",
+      "status": "Partially found",
+      "value": {
+        "startVenue": "La Villa Eugene",
+        "locality": "Avenue de Champagne, Epernay",
+        "region": "Champagne",
+        "country": "France",
+        "streetAddress": null
+      }
+    },
+    {
+      "fieldId": "AT-A-GLANCE",
+      "fieldName": "At a Glance",
+      "status": "Found",
+      "value": 
+        [
+          "Cycle the UNESCO-listed vineyards of Champagne in luxury on a self-guided cycling holiday from Épernay, where sun-drenched slopes, Grand Cru villages and centuries of sparkling tradition await you at every turn of the pedal.",
+          "Settle into La Villa Eugène, the beautifully restored 19th-century home of the Mercier family, set in a lush private park on the prestigious Avenue de Champagne. From here, stroll past grand mansion façades that rise above miles of underground galleries, where millions of bottles rest in cool darkness. Ride out through the rolling Marne Valley to Hautvillers, the village where the Benedictine monk Dom Pérignon is said to have discovered sparkling wine and where he now rests in the abbey, learning the secrets of Blanc de Noirs as you pass Fleury-la-Rivière and Oeuilly. Next, follow the Marne River to Aÿ, with its Gothic church and timber-framed houses, then continue to Montebello castle in Mareuil-sur-Aÿ and the old church of Condé-sur-Marne, surrounded by fruity Pinot Meunier vines. On your final ride, glide along the chalky slopes of the Côte des Blancs, home of elegant Chardonnay and Blanc de Blancs, through the Grand Cru villages of Avize, Cramant and Le Mesnil-sur-Oger, tucked between vineyard and forest.",
+          "This package includes 4 nights' 5-star accommodation at a single hotel, all breakfasts, bike hire (a Giant Argento RS4 or equivalent with rear pannier and phone holder), a bike fitting and briefing, and a navigation app to guide your way. Daily loops of 43–47 km follow quiet country lanes, cycle paths and vineyard tracks with some steady climbs, best suited to regular cyclists, and an e-bike upgrade offers a gentler pace. Because the holiday is self-guided, you set the rhythm, whether that means lingering over a long lunch or adding the optional visit package, with champagne house tastings in Hautvillers, at Moët & Chandon in Épernay and at Château de Boursault.",
+          "Raise a glass to golden vineyards, chalk-cut cellars and the quiet luxury of Épernay, and come discover Champagne one sparkling village at a time."
+        ]      
+    },  
+    {
+      "fieldId": "SET-00",
+      "fieldName": "Settings",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "SET-01",
+      "fieldName": "Maximum Number of People",
+      "status": "Not found",
+      "value": null
+    },
+    {
+      "fieldId": "SET-02",
+      "fieldName": "Minimum Number of People",
+      "status": "Not found",
+      "value": null
+    },
+    {
+      "fieldId": "SET-03",
+      "fieldName": "What to Carry",
+      "status": "Found",
+      "value": "Day Pack"
+    },
+    {
+      "fieldId": "SET-04",
+      "fieldName": "Trip Style",
+      "status": "Found",
+      "value": "Self Guided (with Support)"
+    },
+    {
+      "fieldId": "SET-05",
+      "fieldName": "Grading",
+      "status": "Found",
+      "value": [
+        "Moderate to Challenging"
+      ]
+    },
+    {
+      "fieldId": "SET-06",
+      "fieldName": "Accommodation Type",
+      "status": "Partially found",
+      "value": {
+        "properties": [
+          {
+            "name": "La Villa Eugene",
+            "location": "Avenue de Champagne, Epernay",
+            "nights": "Nights 1–4",
+            "supplierCategory": "5-star / 5*",
+            "style": "Restored 19th-century former Mercier family residence; luxury hotel in a private park"
+          }
+        ],
+        "selectedTaxonomyValues": []
+      }
+    },
+    {
+      "fieldId": "SET-07",
+      "fieldName": "Interest",
+      "status": "Partially found",
+      "value": {
+        "supportedThemes": [
+          "Cycling",
+          "Wine and champagne (vineyards, Champagne houses, cellars)",
+          "Food and wine",
+          "Culture and history (Hautvillers abbey, Gothic church at Ay, Montebello castle)",
+          "Luxury accommodation",
+          "UNESCO-listed wine-growing landscape"
+        ],
+        "selectedTaxonomyValues": []
+      }
+    },
+    {
+      "fieldId": "SELL-01",
+      "fieldName": "Trip highlights",
+      "status": "Found",
+      "value": [
+        "Explore Epernay, capital of Champagne, including the Avenue de Champagne lined with Champagne house mansions",
+        "Cycle through the UNESCO-listed Champagne wine-growing area and its quaint wine villages",
+        "Stay all four nights at La Villa Eugene, a 5* hotel in the former 19th-century Mercier family residence on the Avenue de Champagne",
+        "Visit Hautvillers, Dom Perignon's village and burial place, on the Blanc de Noirs loop",
+        "Ride along the Marne River to Ay (Gothic-style church, wood-frame houses) and Mareuil-sur-Ay (Montebello castle)",
+        "Ride through Grand Cru Chardonnay villages of the Cote des Blancs: Avize, Cramant, Mesnil-sur-Oger",
+        "Single-centre base with daily loop rides; bike hire and navigation app included"
+      ]
+    },
+    {
+      "fieldId": "INC-01",
+      "fieldName": "WHAT'S INCLUDED",
+      "status": "Found",
+      "value": {
+        "included": [
+          "4 nights in 5-star accommodation",
+          "All breakfasts",
+          "Bike fitting and briefing at the start of your holiday",
+          "Navigation app",
+          "Bike hire included (Giant Argento RS4 or equivalent, with relevant essentials, rear pannier and phone holder)"
+        ],
+        "excluded": [
+          "Flights",
+          "Travel insurance"
+        ],
+        "optionalExtras": [
+          "Visit package (visit of a champagne house in Hautvillers and tasting; visit of Moet et Chandon in Epernay and tasting; champagne tasting at Chateau de Boursault)",
+          "Flights from London or any available regional airport",
+          "Airport parking and airport hotels",
+          "Priority at Security and Fast Track",
+          "Airport lounge access",
+          "Priority boarding and extra leg-room seats",
+          "Business/club/first class fares",
+          "E-bike upgrade (cost not published)",
+          "Extra hotel nights at La Villa Eugene"
+        ]
+      }
+    },
+    {
+      "fieldId": "ITI-00",
+      "fieldName": "ITINERARY",
+      "status": "Partially found",
+      "value": {
+        "duration": "4 nights",
+        "publishedDayRecords": 4,
+        "days": [
+          "Day 1: Arrival in Epernay",
+          "Day 2: Loop to Hautvillers",
+          "Day 3: Loop to Marne Valley",
+          "Day 4: Loop to Cote de Blanc Vineyards"
+        ]
+      }
+    },
+    {
+      "fieldId": "ITI-1-01",
+      "fieldName": "DAY 1 title",
+      "status": "Found",
+      "value": "Day 1: Arrival in Epernay"
+    },
+    {
+      "fieldId": "ITI-1-02",
+      "fieldName": "Biking/activity options",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "ITI-1-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "ITI-1-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Arrive in Epernay, a town entirely surrounded by vines that competes for the title of 'Capital of Champagne'.",
+        "Walk down the Avenue de Champagne, with mansion facades and homes occupied by famous Champagne Houses.",
+        "Epernay has miles of underground galleries storing millions of bottles of champagne.",
+        "Cellar visits to the largest Champagne houses are mentioned; these are available through the optional Visit package and are not included.",
+        "Overnight at La Villa Eugene."
+      ]
+    },
+    {
+      "fieldId": "ITI-1-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5*)"
+    },
+    {
+      "fieldId": "ITI-1-06",
+      "fieldName": "Meals",
+      "status": "Not found",
+      "value": null
+    },
+    {
+      "fieldId": "ITI-2-01",
+      "fieldName": "DAY 2 title",
+      "status": "Found",
+      "value": "Day 2: Loop to Hautvillers (43km/26.7mi)"
+    },
+    {
+      "fieldId": "ITI-2-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": [
+        {
+          "option": "Loop to Hautvillers",
+          "level": null,
+          "distance": "43km / 26.7mi",
+          "activityTime": null,
+          "elevationGain": null,
+          "elevationLoss": null
+        }
+      ]
+    },
+    {
+      "fieldId": "ITI-2-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "ITI-2-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Loop ride from Epernay themed on 'Blanc de Noirs' champagne, made only from black grapes (Pinot Noir and/or Pinot Meunier).",
+        "Cycle routes bordered with vineyards, with views over the undulating Marne Valley, to Hautvillers.",
+        "Hautvillers is where Benedictine monk Dom Perignon is said to have accidentally invented effervescent wine at the end of the 17th century; he is buried in the abbey of Hautvillers.",
+        "Continue through wine villages such as Fleury la Riviere and Oeuilly.",
+        "The optional Visit package includes a champagne house visit and tasting in Hautvillers (not included)."
+      ]
+    },
+    {
+      "fieldId": "ITI-2-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5*)"
+    },
+    {
+      "fieldId": "ITI-2-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ]
+    },
+    {
+      "fieldId": "ITI-3-01",
+      "fieldName": "DAY 3 title",
+      "status": "Found",
+      "value": "Day 3: Loop to Marne Valley (47km/29.2mi)"
+    },
+    {
+      "fieldId": "ITI-3-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": [
+        {
+          "option": "Loop to Marne Valley",
+          "level": null,
+          "distance": "47km / 29.2mi",
+          "activityTime": null,
+          "elevationGain": null,
+          "elevationLoss": null
+        }
+      ]
+    },
+    {
+      "fieldId": "ITI-3-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "ITI-3-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Loop ride themed on Pinot Meunier, grown in the Marne Valley, which gives rosé champagnes their fruity flavour.",
+        "The route follows the Marne River to Ay, with a high Gothic-style church and wood-frame houses, including one reputed to have served as Henri IV's fermenting room.",
+        "Continue to Conde sur Marne (Roman church of Conde) and pass the Montebello castle in Mareuil sur Ay, with panoramic views."
+      ]
+    },
+    {
+      "fieldId": "ITI-3-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5*)"
+    },
+    {
+      "fieldId": "ITI-3-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ]
+    },
+    {
+      "fieldId": "ITI-4-01",
+      "fieldName": "DAY 4 title",
+      "status": "Found",
+      "value": "Day 4: Loop to Cote de Blanc Vineyards (43km/26.7mi)"
+    },
+    {
+      "fieldId": "ITI-4-02",
+      "fieldName": "Biking/activity options",
+      "status": "Partially found",
+      "value": [
+        {
+          "option": "Loop to Cote de Blanc Vineyards",
+          "level": null,
+          "distance": "43km / 26.7mi",
+          "activityTime": null,
+          "elevationGain": null,
+          "elevationLoss": null
+        }
+      ]
+    },
+    {
+      "fieldId": "ITI-4-03",
+      "fieldName": "Walking summary",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "ITI-4-04",
+      "fieldName": "Daily narrative",
+      "status": "Found",
+      "value": [
+        "Loop ride themed on 'Blanc de Blancs' champagne, made only from Chardonnay.",
+        "Ride through the Cote des Blancs, whose chalky soil suits Chardonnay, passing classified Grand Cru villages and Chardonnay slopes.",
+        "Wine villages between vineyard and forest: Avize, Cramant, Mesnil-sur-Oger."
+      ]
+    },
+    {
+      "fieldId": "ITI-4-05",
+      "fieldName": "Accommodation",
+      "status": "Found",
+      "value": "La Villa Eugene, Epernay (5*)"
+    },
+    {
+      "fieldId": "ITI-4-06",
+      "fieldName": "Meals",
+      "status": "Found",
+      "value": [
+        "Breakfast"
+      ]
+    },
+    {
+      "fieldId": "ITI-99",
+      "fieldName": "Itinerary variation note",
+      "status": "Not found",
+      "value": null
+    },
+    {
+      "fieldId": "META-00",
+      "fieldName": "Meta info",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "META-01",
+      "fieldName": "Meta Title",
+      "status": "Found",
+      "value": {
+        "supplierPageTitle": "Cycling Champagne in Luxury | Headwater",
+        "verifiedAttributes": {
+          "duration": "4 nights",
+          "destination": "Epernay, Champagne, France",
+          "activity": "Cycling",
+          "guidanceStyle": "Self-guided",
+          "format": "Single centre",
+          "accommodation": "5-star hotel",
+          "searchTerms": [
+            "self-guided cycling Champagne",
+            "luxury cycling holiday France",
+            "Epernay cycling",
+            "Champagne vineyards by bike"
+          ]
+        }
+      }
+    },
+    {
+      "fieldId": "META-02",
+      "fieldName": "Meta Description",
+      "status": "Found",
+      "value": {
+        "destination": "Epernay and the UNESCO-listed Champagne wine-growing area, France",
+        "activity": "Self-guided cycling on daily loop routes (43–47 km)",
+        "duration": "4 nights, single centre",
+        "differentiators": [
+          "5* La Villa Eugene on the Avenue de Champagne",
+          "Grand Cru villages of the Cote des Blancs",
+          "Hautvillers, birthplace of the Champagne legend",
+          "Marne Valley vineyards",
+          "Bike hire and navigation app included"
+        ]
+      }
+    },
+    {
+      "fieldId": "MORE-00",
+      "fieldName": "more info",
+      "status": "Not applicable",
+      "value": null
+    },
+    {
+      "fieldId": "MORE-01",
+      "fieldName": "Getting There",
+      "status": "Partially found",
+      "value": {
+        "startPoint": "Epernay – La Villa Eugene (Day 1 arrival)",
+        "endPoint": "Not published; no departure-day record",
+        "startEndTimes": null,
+        "nearestHubs": null,
+        "transfers": "With a flight-inclusive package booked through Headwater: 'you will fly into your destination, with onward rail included.'",
+        "flightsAndExtras": "Headwater can book flights (ATOL/ABTA protected), Eurostar, European trains and ferries; flights are excluded from the base price.",
+        "bookingCautions": "Flight prices fluctuate significantly and can change rapidly."
+      }
+    },
+    {
+      "fieldId": "MORE-02",
+      "fieldName": "Weather & Climate",
+      "status": "Partially found",
+      "value": {
+        "season": "Headwater's France holidays run from mid-May to the end of September or early October (France-wide statement).",
+        "conditions": "Weather is described as suitable for cycling in France for the whole period. To avoid summer heat, May/early June and after mid-September are recommended (statement mentions the Loire and Brittany).",
+        "packingNote": "Even in summer, France can see its fair share of rain; a light waterproof is advised.",
+        "temperatures": null,
+        "precipitation": null
+      }
+    },
+    {
+      "fieldId": "MORE-03",
+      "fieldName": "Biking Level",
+      "status": "Partially found",
+      "value": {
+        "supplierLevel": "Activity level 4 (Headwater scale 1–4; 4 = toughest; based primarily on distance and ascent)",
+        "dailyDistanceRange": "43–47 km / 26.7–29.2 mi",
+        "dailyDurationRange": null,
+        "maximumElevation": null,
+        "terrain": "Predominantly quiet country lanes, well-marked cycle paths and vineyard tracks linking small villages; some longer days in the saddle with steady climbs; best suited to cyclists with a good level of fitness and experience of regular cycling."
+      }
+    },
+    {
+      "fieldId": "MORE-04",
+      "fieldName": "Bike Options",
+      "status": "Partially found",
+      "value": [
+        {
+          "type": "Hybrid touring bike – Giant Argento RS4 or equivalent",
+          "basis": "Included",
+          "specification": "Equipped with relevant essentials, rear pannier and phone holder; gears and tyres matched to the terrain",
+          "handlebars": null
+        },
+        {
+          "type": "E-bike",
+          "basis": "Upgrade (price not published)",
+          "specification": null,
+          "handlebars": null
+        }
+      ]
+    },
+    {
+      "fieldId": "MORE-05",
+      "fieldName": "Other Important Information",
+      "status": "Conflicting",
+      "value": [
+        {
+          "topic": "Fitness and terrain",
+          "detail": "Activity level 4; longer days with steady climbs; best suited to fit, regular cyclists; e-bike upgrade available for a more leisurely experience."
+        },
+        {
+          "topic": "Helmets",
+          "detail": "TRIP DETAILS: 'Cycling helmets are a legal requirement in France for children under 12.' TERRAIN: 'cycling helmets are a legal requirement in France.' (conflicting)"
+        },
+        {
+          "topic": "Visibility",
+          "detail": "Riders of all bicycles and e-bikes must wear a high-visibility vest when cycling outside built-up areas at night or in poor visibility."
+        },
+        {
+          "topic": "Navigation",
+          "detail": "Navigation app included; a smartphone is needed (France FAQ)."
+        },
+        {
+          "topic": "Support",
+          "detail": "Self-guided; bike fitting and briefing at the start; France-wide 24/7 support from Headwater reps, local partners and hoteliers."
+        },
+        {
+          "topic": "Single occupancy",
+          "detail": "Single supplement from £487."
+        },
+        {
+          "topic": "Meals",
+          "detail": "Bed and breakfast only; lunches and dinners are not included."
+        },
+        {
+          "topic": "Financial protection",
+          "detail": "Headwater holds an ATOL licence and is ABTA bonded for flight-inclusive packages."
+        },
+        {
+          "topic": "Sustainability",
+          "detail": "8.0 kg CO2e per person, per night (covers accommodation, in-trip transport, meals and activities; excludes travel to/from the trip)."
+        }
+      ]
+    }
+  ]
+}

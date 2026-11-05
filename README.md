@@ -26,7 +26,7 @@ Generate AT A GLANCE copy from the live partner URL for a SKU. The prompt is `pr
 npm run gen-at-a-glance -- ABCDEFG1111
 ```
 
-Extract departure inventory from the live partner URL for a SKU. The run first fetches the product page and, when a same-origin departure API is available (for example Intrepid), maps that JSON directly. Otherwise it uses `prompts.departure_inventory_prompt` with `webFetch` and `shell` so the agent can call dynamic dates-and-prices APIs. It does not read local partner-data or previously generated departure files. The CSV is saved under `output.partner_product_path` as `[SKU]-[YYYY-MM-DD]-departure.csv` with columns `SKU`, `Disable Days`, `Start Date`, `End Date`, `Status`, `Quantity`, `Price`, and `Promo`.
+Extract departure inventory from the live partner URL for a SKU. The run prefetches the product page and, when it can discover one, the same-origin departure API. It then sends `prompts.departure_inventory_prompt` to OpenAI (`openai.modelId`) and writes the departure JSON the model returns. The model may call `browse_url` to run the page's JavaScript and `fetch_url` for https URLs on the product host. Install the browser once with `npx playwright install chromium`. It does not read local partner-data or previously generated departure files. The CSV is saved under `output.partner_product_path` as `[SKU]-[YYYY-MM-DD]-departure.csv` with columns `SKU`, `Disable Days`, `Start Date`, `End Date`, `Status`, `Quantity`, `Price`, and `Promo`. Set `OPENAI_API_KEY` in the environment. The key is not part of the config file.
 
 ```bash
 npm run gen-departure -- ABCDEFG2222

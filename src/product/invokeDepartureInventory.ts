@@ -1,6 +1,51 @@
-import { Agent, CursorAgentError } from "@cursor/sdk";
+import OpenAI, { APIError } from "openai";
 import type { AppConfig, PartnerSource } from "../types.js";
 import type { DepartureSourceBundle } from "./collectDepartureSources.js";
+import { browseDepartureUrl } from "./departureBrowse.js";
+import { fetchDepartureUrl } from "./departureFetch.js";
+
+const MAX_TOOL_ROUNDS = 8;
+const MAX_OUTPUT_TOKENS = 100_000;
+const PREFETCHED_API_CHAR_LIMIT = 500_000;
+const PREFETCHED_PAGE_CHAR_LIMIT = 40_000;
+
+const BROWSE_URL_TOOL: OpenAI.Responses.FunctionTool = {
+  type: "function",
+  name: "browse_url",
+  description:
+    "Open an https URL on the product host in a browser so the page's own JavaScript runs. Returns rendered text and same-host JSON responses. Does not run JavaScript supplied by the caller.",
+  strict: true,
+  parameters: {
+    type: "object",
+    additionalProperties: false,
+    properties: {
+      url: {
+        type: "string",
+        description: "Absolute https URL on the product host.",
+      },
+    },
+    required: ["url"],
+  },
+};
+
+const FETCH_URL_TOOL: OpenAI.Responses.FunctionTool = {
+  type: "function",
+  name: "fetch_url",
+  description:
+    "Fetch an https URL on the product page host. Use this for the product page and same-host departure, availability, or dates-and-prices APIs. Every other host is refused.",
+  strict: true,
+  parameters: {
+    type: "object",
+    additionalProperties: false,
+    properties: {
+      url: {
+        type: "string",
+        description: "Absolute https URL on the product host.",
+      },
+    },
+    required: ["url"],
+  },
+};
 
 export async function invokeDepartureInventory(
   config: AppConfig,
@@ -8,49 +53,144 @@ export async function invokeDepartureInventory(
   partner: PartnerSource,
   sources?: DepartureSourceBundle,
 ): Promise<string> {
-  const apiKey = process.env.CURSOR_API_KEY?.trim();
+  const apiKey = process.env.OPENAI_API_KEY?.trim();
   if (!apiKey) {
-    throw new Error("CURSOR_API_KEY is required");
+    throw new Error("OPENAI_API_KEY is required");
   }
 
+  const client = new OpenAI({ apiKey });
+  let input: OpenAI.Responses.ResponseInput = [
+    { role: "user", content: buildUserMessage(prompt, partner, sources) },
+  ];
+
   try {
-    const result = await Agent.prompt(buildUserMessage(prompt, partner, sources), {
-      apiKey,
-      model: { id: config.cursor.modelId },
-      tools: ["webFetch", "shell"],
-      local: { cwd: process.cwd(), settingSources: [] },
-    });
+    for (let round = 1; round <= MAX_TOOL_ROUNDS; round += 1) {
+      const response = await client.responses.create({
+        model: config.openai.modelId,
+        store: false,
+        max_output_tokens: MAX_OUTPUT_TOKENS,
+        include: ["reasoning.encrypted_content"],
+        tools: [FETCH_URL_TOOL, BROWSE_URL_TOOL],
+        input,
+      });
 
-    if (result.status === "error") {
-      const detail = result.error?.message ?? result.id;
-      throw new Error(
-        `Cursor agent run failed for departure inventory SKU ${partner.SKU}: ${detail}`,
+      const functionCalls = response.output.filter((item) => item.type === "function_call");
+      if (functionCalls.length === 0) {
+        return requireFinalText(response, partner.SKU);
+      }
+
+      if (round === MAX_TOOL_ROUNDS) {
+        throw new Error(
+          `OpenAI departure inventory exceeded ${MAX_TOOL_ROUNDS} tool rounds for SKU ${partner.SKU}`,
+        );
+      }
+
+      assertContinuable(response, partner.SKU);
+      const toolOutputs = await Promise.all(
+        functionCalls.map((call) => runFetchTool(call, partner, config.browser.timeoutMs)),
       );
+      input = [...input, ...replayOutput(response.output), ...toolOutputs];
     }
-
-    if (result.status !== "finished") {
-      throw new Error(
-        `Cursor agent run ${result.status} for departure inventory SKU ${partner.SKU}`,
-      );
-    }
-
-    const text = result.result?.trim() ?? "";
-    if (text.length === 0) {
-      throw new Error(
-        `Cursor agent returned no text for departure inventory SKU ${partner.SKU}`,
-      );
-    }
-
-    return text;
   } catch (error) {
-    if (error instanceof CursorAgentError) {
+    if (error instanceof APIError) {
       throw new Error(
-        `Cursor agent failed to start for departure inventory SKU ${partner.SKU}: ${error.message}`,
+        `OpenAI departure inventory failed for SKU ${partner.SKU}: ${error.message}`,
       );
     }
 
     throw error;
   }
+
+  throw new Error(
+    `OpenAI departure inventory exceeded ${MAX_TOOL_ROUNDS} tool rounds for SKU ${partner.SKU}`,
+  );
+}
+
+function replayOutput(
+  output: OpenAI.Responses.Response["output"],
+): OpenAI.Responses.ResponseInput {
+  // The Responses API replays output items, including reasoning, as the next input.
+  // The SDK input union rejects an unused computer-call status that this tool never returns.
+  return output as OpenAI.Responses.ResponseInput;
+}
+
+function requireFinalText(response: OpenAI.Responses.Response, sku: string): string {
+  if (response.status === "failed" || response.status === "cancelled" || response.status === "incomplete") {
+    throw new Error(
+      `OpenAI departure inventory ${response.status} for SKU ${sku}: ${failureDetail(response)}`,
+    );
+  }
+
+  const text = response.output_text.trim();
+  if (text.length === 0) {
+    throw new Error(`OpenAI returned no text for departure inventory SKU ${sku}`);
+  }
+
+  return text;
+}
+
+function assertContinuable(response: OpenAI.Responses.Response, sku: string): void {
+  if (
+    response.status === "failed" ||
+    response.status === "cancelled" ||
+    response.status === "incomplete"
+  ) {
+    throw new Error(
+      `OpenAI departure inventory ${response.status} for SKU ${sku}: ${failureDetail(response)}`,
+    );
+  }
+}
+
+function failureDetail(response: OpenAI.Responses.Response): string {
+  return response.error?.message ?? response.incomplete_details?.reason ?? response.status ?? "request failed";
+}
+
+async function runFetchTool(
+  call: Extract<OpenAI.Responses.ResponseOutputItem, { type: "function_call" }>,
+  partner: PartnerSource,
+  timeoutMs: number,
+): Promise<OpenAI.Responses.ResponseInputItem.FunctionCallOutput> {
+  const url = readFetchUrl(call.arguments);
+  const output = await runNamedTool(call.name, url, partner.url, timeoutMs);
+
+  return {
+    type: "function_call_output",
+    call_id: call.call_id,
+    output,
+  };
+}
+
+async function runNamedTool(
+  name: string,
+  url: string,
+  productUrl: string,
+  timeoutMs: number,
+): Promise<string> {
+  if (name === "fetch_url") {
+    return fetchDepartureUrl(url, productUrl, timeoutMs);
+  }
+
+  if (name === "browse_url") {
+    return browseDepartureUrl(url, productUrl, timeoutMs);
+  }
+
+  return "Tool rejected: unsupported tool";
+}
+
+function readFetchUrl(argumentsText: string): string {
+  try {
+    const value: unknown = JSON.parse(argumentsText);
+    if (value !== null && typeof value === "object" && !Array.isArray(value)) {
+      const url = (value as { url?: unknown }).url;
+      if (typeof url === "string") {
+        return url;
+      }
+    }
+  } catch {
+    return "";
+  }
+
+  return "";
 }
 
 function buildUserMessage(
@@ -70,8 +210,10 @@ function buildUserMessage(
   const parts = [
     prompt,
     "",
-    "Explore the product URL in Configuration using webFetch and shell.",
-    "If departure rows are missing from HTML, find same-origin departure, availability, or dates-and-prices JSON APIs in the page or scripts, then call them with shell curl against the product host.",
+    "If departure rows are missing because the page renders them with JavaScript, call browse_url on the product URL.",
+    "browse_url runs the page's own scripts and returns rendered text plus same-host JSON. It does not run JavaScript you supply.",
+    "If departure rows are still missing, find same-origin departure APIs and call them with fetch_url against the product host.",
+    "fetch_url and browse_url accept only https URLs on the product host.",
     "Page through or raise page size until every published departure is included.",
     "Do not read local files, previously generated departure CSV, or partner-data JSON.",
     "Return one JSON object as your final answer and nothing else.",
@@ -98,26 +240,43 @@ function buildUserMessage(
     if (sources.notes.length > 0) {
       parts.push(`Notes: ${sources.notes.join(" ")}`);
     }
-    if (sources.apiUrl && sources.apiText) {
+    if (sources.apiUrl) {
       parts.push(`Departure API URL: ${sources.apiUrl}`);
+    }
+    if (sources.apiUrl && sources.apiText) {
+      const apiText = truncate(sources.apiText, PREFETCHED_API_CHAR_LIMIT);
       parts.push("Departure API JSON:");
-      parts.push(truncate(sources.apiText, 120_000));
+      parts.push(apiText.text);
+      if (apiText.truncated) {
+        parts.push(
+          "The departure API JSON was truncated. Call fetch_url on the Departure API URL and include every published departure.",
+        );
+      }
     } else {
+      const pageText = truncate(sources.pageText, PREFETCHED_PAGE_CHAR_LIMIT);
       parts.push(`Product page URL: ${sources.pageUrl}`);
       parts.push("Product page HTML excerpt:");
-      parts.push(truncate(sources.pageText, 40_000));
+      parts.push(pageText.text);
+      if (pageText.truncated) {
+        parts.push(
+          "The product page HTML was truncated or may omit departures rendered by JavaScript. Call browse_url on the product page URL.",
+        );
+      }
     }
   }
 
   return parts.join("\n");
 }
 
-function truncate(text: string, maxChars: number): string {
+function truncate(text: string, maxChars: number): { text: string; truncated: boolean } {
   if (text.length <= maxChars) {
-    return text;
+    return { text, truncated: false };
   }
 
-  return `${text.slice(0, maxChars)}\n...[truncated]`;
+  return {
+    text: `${text.slice(0, maxChars)}\n...[truncated]`,
+    truncated: true,
+  };
 }
 
 function outputShape(): Record<string, unknown> {

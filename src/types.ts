@@ -8,6 +8,9 @@ export interface AppConfig {
   cursor: {
     modelId: string;
   };
+  openai: {
+    modelId: string;
+  };
   browser: {
     timeoutMs: number;
   };

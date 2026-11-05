@@ -11,6 +11,7 @@ export function loadConfig(configPath: string): AppConfig {
 function parseConfig(value: unknown): AppConfig {
   const config = expectRecord(value, "config");
   const cursor = expectRecord(config.cursor, "cursor");
+  const openai = expectRecord(config.openai, "openai");
   const browser = expectRecord(config.browser, "browser");
   const output = expectRecord(config.output, "output");
   const template = expectRecord(config.template, "template");
@@ -20,6 +21,9 @@ function parseConfig(value: unknown): AppConfig {
     partner_url: parsePartnerSources(config.partner_url),
     cursor: {
       modelId: expectNonEmptyString(cursor.modelId, "cursor.modelId"),
+    },
+    openai: {
+      modelId: expectNonEmptyString(openai.modelId, "openai.modelId"),
     },
     browser: {
       timeoutMs: expectPositiveInteger(browser.timeoutMs, "browser.timeoutMs"),

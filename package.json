@@ -10,6 +10,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test src/product/*.test.ts",
     "extract-data": "node dist/index.js --config config/default.json --sku",
     "gen-at-a-glance": "node dist/index.js --config config/default.json --at-a-glance",
     "gen-brochure": "node dist/index.js --config config/default.json --data",
@@ -18,7 +19,9 @@
   "dependencies": {
     "@cursor/sdk": "^1.0.32",
     "@xmldom/xmldom": "^0.9.12",
-    "jszip": "^3.10.2"
+    "jszip": "^3.10.2",
+    "openai": "^7.51.0",
+    "playwright": "^1.64.1"
   },
   "devDependencies": {
     "@types/node": "^22.15.0",
